@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 945 1182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(-1,0,0,1,950.394,7)">
+        <g id="Bone-selection-layers" serif:id="Bone selection layers">
+            <path id="Left-zygomatic-bone" serif:id="Left zygomatic bone" d="M137.805,595.604C137.868,595.436 137.807,595.6 137.807,595.6C142.436,597.685 160.29,601.08 160.583,577.777C161.189,529.562 164.476,495.88 169.286,449.931C170.127,449.121 173.838,434.24 174.612,432.273C169.505,426.75 178.12,389.025 188.01,388.058L214.036,443.652C206.293,452.043 208.299,449.984 202.303,461.433C193.783,485.836 200.817,518.372 232.318,566.788C255.632,576.815 280.865,581.721 303.869,580.438C239.968,623.454 225.092,664.574 249.448,703.178C247.859,703.807 246.269,704.379 244.679,704.895C191.731,712.033 164.133,679.401 156.374,646.625C145.365,639.234 129.185,618.789 137.805,595.604Z" style="fill:rgb(78,166,153);fill-opacity:0.54;"/>
+        </g>
+    </g>
+</svg>

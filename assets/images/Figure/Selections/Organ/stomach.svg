@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(0.373534,0.20735,-0.20735,0.373534,48.2497,45.0383)">
+        <g id="Organ-selection" serif:id="Organ selection">
+            <path id="Stomach---Mavesæk" serif:id="Stomach / Mavesæk" d="M32.368,36.107C33.61,32.246 34.488,31.392 34.634,30.504C34.705,30.069 35.096,29.382 33.678,28.19C28.994,24.251 22.961,7.371 24.273,0.789C24.425,0.025 26.235,0.322 26.296,1.638C26.487,5.789 30.244,21.839 37.542,25.17C38.731,25.712 43.472,23.916 46.308,24.563C56.558,26.899 53.207,44.33 45.22,48.293C39.003,52.047 23.196,51.886 20.73,51.263C18.183,50.619 14.16,56.452 17.098,60.453C17.479,60.972 15.387,62.097 15.28,62.039C9.542,58.937 12.442,46.441 17.493,44.662C21.938,43.096 26.314,42.42 32.368,36.107Z" style="fill:rgb(79,165,153);fill-opacity:0.54;"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,3.46945e-18,-6.93889e-18,1,0.906877,-0.574908)">
+        <g id="Organ-selection" serif:id="Organ selection">
+            <path id="Thyroid---Skjoldbruskkirtel" serif:id="Thyroid / Skjoldbruskkirtel" d="M48.734,32.413C48.46,32.899 48.05,33.25 47.643,33.269C46.718,33.314 45.669,31.6 45.562,30.304C45.455,29.007 46.029,27.513 46.953,27.468C47.683,27.433 47.999,28.409 48.451,29.463C48.565,29.329 48.697,29.253 48.838,29.253C49.01,29.253 49.169,29.367 49.298,29.561C49.774,28.471 50.086,27.431 50.838,27.468C51.763,27.513 52.337,29.007 52.229,30.304C52.122,31.6 51.074,33.314 50.149,33.269C49.731,33.249 49.311,32.881 49.036,32.375C48.973,32.409 48.906,32.427 48.838,32.427C48.803,32.427 48.768,32.422 48.734,32.413Z" style="fill:rgb(78,166,153);fill-opacity:0.537255;"/>
+        </g>
+    </g>
+</svg>

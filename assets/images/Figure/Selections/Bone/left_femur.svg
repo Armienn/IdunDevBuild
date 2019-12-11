@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(-1,0,0,1,99.3685,0)">
+        <g id="Bone-Selections" serif:id="Bone Selections">
+            <path id="Left-Femur" serif:id="Left Femur" d="M35.621,97.538C36.726,97.95 37.237,98.741 37.342,99.79L37.014,101.224L37.669,103.313L37.424,105.566L38.98,116.052L41.683,126.128L43.445,131.248L46.066,134.279C46.583,134.284 46.987,134.468 47.213,134.934C47.154,137.899 46.793,139.542 46.353,140.832C45.923,141.333 45.464,141.666 44.96,141.733C44.671,142.928 36.472,142.704 36.973,141.447C36.395,141.227 36.011,140.633 35.662,139.972L34.925,137.678C34.917,136.774 34.999,135.945 35.253,135.262C35.819,133.974 36.549,132.846 37.342,131.78L37.301,127.234L33.409,104.132L32.713,103.313L32.467,101.019C31.997,100.437 31.58,99.842 31.607,99.135C31.672,98.422 32.086,97.858 32.59,97.333C33.185,96.89 33.867,96.657 34.638,96.637L35.621,97.538Z" style="fill:rgb(78,166,153);fill-opacity:0.54;"/>
+        </g>
+    </g>
+</svg>

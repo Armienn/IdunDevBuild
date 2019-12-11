@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Bone-Selections" serif:id="Bone Selections">
+        <path id="Right-radius-and-ulna" serif:id="Right radius and ulna" d="M25.381,74.395C25.311,72.503 30.252,72.388 29.928,74.518L29.805,76.32L27.634,80.375L21.121,97.865L20.794,99.79L20.097,101.634L20.384,102.166C20.24,102.518 19.991,102.678 19.688,102.74L18.131,101.634C17.98,103.555 13.651,100.91 14.691,99.79L16.001,97.988L16.042,97.538L17.64,94.548L20.63,86.56L22.023,83.857L24.152,77.426L25.258,75.296L25.381,74.395ZM17.728,100.435C17.654,99.054 17.79,97.633 18.342,96.134C19.99,91.968 21.656,87.841 23.667,84.42L25.756,79.75C26.2,77.729 26.645,75.712 27.189,75.736L26.247,79.382L25.96,80.201L24.773,84.625C22.413,90.381 19.405,97.199 17.728,100.435Z" style="fill:rgb(78,166,153);fill-opacity:0.54;"/>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Organ-selection" serif:id="Organ selection">
+        <path id="Trachea" d="M48.695,26.414C48.772,26.139 49.235,25.928 49.794,25.928C50.407,25.928 50.904,26.182 50.904,26.495C50.904,26.539 50.894,26.581 50.876,26.622L50.876,45.705L57.689,50.945L56.379,52.649L49.852,47.629L43.325,52.649L42.015,50.945L48.689,45.811L48.689,26.55C48.686,26.532 48.684,26.513 48.684,26.495C48.684,26.476 48.686,26.457 48.689,26.439L48.689,26.414L48.695,26.414Z" style="fill:rgb(78,166,153);fill-opacity:0.545098;"/>
+    </g>
+</svg>

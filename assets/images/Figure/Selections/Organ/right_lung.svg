@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(-0.435911,0,0,0.435911,55.6601,37.6645)">
+        <g id="Organ-selection" serif:id="Organ selection">
+            <path id="Right-lung---Højre-lunge" serif:id="Right lung / Højre lunge" d="M42.882,63.411C41.011,62.518 31.013,58.285 25.244,56.371C23.412,55.764 20.325,51.013 19.742,49.494C17.2,42.87 19.762,23.052 19.904,20.366C19.995,18.653 17.207,3.994 17.881,2.485C18.14,1.907 18.938,1.373 19.58,1.11C37.231,-6.121 49.723,34.586 48.142,47.957C47.69,51.773 46.025,64.909 42.882,63.411Z" style="fill:rgb(78,166,153);fill-opacity:0.537255;"/>
+        </g>
+    </g>
+</svg>

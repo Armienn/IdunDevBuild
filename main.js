@@ -14843,7 +14843,7 @@ var IdunLayoutComponent = /** @class */ (function (_super) {
     }
     Object.defineProperty(IdunLayoutComponent.prototype, "backgroundImageUrl", {
         get: function () {
-            return "url(" + this.backgroundImage + ")";
+            return "url(" + this.backgroundImage.split("IdunDevBuild/")[1] + ")";
         },
         enumerable: true,
         configurable: true

@@ -745,7 +745,7 @@ var CalendarEntryHorisontalComponent = /** @class */ (function (_super) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div #calendarEventEntry\r\n\tclass=\"calendar-event-entry\"\r\n\t[style.borderColor]=\"borderColor\"\r\n\t[style.opacity]=\"opacity\"\r\n\t[hidden]=\"hidden\"\r\n\t[title]=\"entry.hoverText\">\r\n\t<div *ngIf=\"entry.allowResize\"\r\n\t\tclass=\"time-handle\"\r\n\t\t[style.backgroundColor]=\"borderColor\"\r\n\t\t(mousedown)=\"onMouseDownStartEdge()\">\r\n\t</div>\r\n\t<div class=\"calendar-event-colourthing\"\r\n\t\t[class.clickable]=\"entry.clickable\"\r\n\t\t[style.backgroundColor]=\"boxColor\"\r\n\t\t[style.pointerEvents]=\"pointerEvents\"\r\n\t\t(click)=\"selectEntry.emit(entry)\">\r\n\t\t<img *ngIf=\"showIcon\"\r\n\t\t\tsrc=\"/assets/images/Icons/{{entry.statusIcon}}_icon.png\"\r\n\t\t\tstyle=\"width: 1rem; margin-left: 0.25rem; float: left;\" />\r\n\t\t<div [style.marginLeft]=\"textMargin\">\r\n\t\t\t{{entry.description}}\r\n\t\t</div>\r\n\t</div>\r\n\t<div *ngIf=\"entry.allowResize\"\r\n\t\tclass=\"time-handle\"\r\n\t\t[style.backgroundColor]=\"borderColor\"\r\n\t\t(mousedown)=\"onMouseDownEndEdge()\">\r\n\t</div>\r\n\t<idun-icon *ngIf=\"entry.allowResize && entry.delete\"\r\n\t\ticon=\"Delete\"\r\n\t\t(click)=\"entry.delete()\">\r\n\t</idun-icon>\r\n</div>\r\n<div class=\"mask\"\r\n\t[class.active]=\"dragHandler.dragging\">\r\n</div>\r\n"
+module.exports = "<div #calendarEventEntry\r\n\tclass=\"calendar-event-entry\"\r\n\t[style.borderColor]=\"borderColor\"\r\n\t[style.opacity]=\"opacity\"\r\n\t[hidden]=\"hidden\"\r\n\t[title]=\"entry.hoverText\">\r\n\t<div *ngIf=\"entry.allowResize\"\r\n\t\tclass=\"time-handle\"\r\n\t\t[style.backgroundColor]=\"borderColor\"\r\n\t\t(mousedown)=\"onMouseDownStartEdge()\">\r\n\t</div>\r\n\t<div class=\"calendar-event-colourthing\"\r\n\t\t[class.clickable]=\"entry.clickable\"\r\n\t\t[style.backgroundColor]=\"boxColor\"\r\n\t\t[style.pointerEvents]=\"pointerEvents\"\r\n\t\t(click)=\"selectEntry.emit(entry)\">\r\n\t\t<img *ngIf=\"showIcon\"\r\n\t\t\tsrc=\"/IdunDevBuild/assets/images/Icons/{{entry.statusIcon}}_icon.png\"\r\n\t\t\tstyle=\"width: 1rem; margin-left: 0.25rem; float: left;\" />\r\n\t\t<div [style.marginLeft]=\"textMargin\">\r\n\t\t\t{{entry.description}}\r\n\t\t</div>\r\n\t</div>\r\n\t<div *ngIf=\"entry.allowResize\"\r\n\t\tclass=\"time-handle\"\r\n\t\t[style.backgroundColor]=\"borderColor\"\r\n\t\t(mousedown)=\"onMouseDownEndEdge()\">\r\n\t</div>\r\n\t<idun-icon *ngIf=\"entry.allowResize && entry.delete\"\r\n\t\ticon=\"Delete\"\r\n\t\t(click)=\"entry.delete()\">\r\n\t</idun-icon>\r\n</div>\r\n<div class=\"mask\"\r\n\t[class.active]=\"dragHandler.dragging\">\r\n</div>\r\n"
 
 /***/ }),
 
@@ -10195,10 +10195,10 @@ var FigureComponent = /** @class */ (function () {
         return part || {};
     };
     FigureComponent.prototype.selectionImageFor = function (view) {
-        return "assets/images" + view.selection;
+        return "IdunDevBuild/assets/images" + view.selection;
     };
     FigureComponent.prototype.imageFor = function (view) {
-        return "assets/images" + view.image;
+        return "IdunDevBuild/assets/images" + view.image;
     };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("selectionCanvas"),
@@ -10304,7 +10304,7 @@ var IdunFigureModule = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "figureViews", function() { return figureViews; });
-// image paths are deliberately missing the "assets/images" part. They need to be added programmatically
+// image paths are deliberately missing the "IdunDevBuild/assets/images" part. They need to be added programmatically
 var figureViews = {
     sections: {
         image: "/Figure/Base/Base_area.svg",
@@ -11912,58 +11912,58 @@ var IconComponent = /** @class */ (function () {
     function IconComponent() {
         this.click = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.icons = {
-            ArrowLeft: "/assets/images/VectorIcons/ArrowLeft_icon.svg",
-            ArrowRight: "/assets/images/VectorIcons/ArrowRight_icon.svg",
-            ArrowUp: "/assets/images/VectorIcons/ArrowUp_icon.svg",
-            ArrowDown: "/assets/images/VectorIcons/ArrowDown_icon.svg",
-            Add: "/assets/images/VectorIcons/Add_icon.svg",
-            Substract: "/assets/images/VectorIcons/Substract_icon.svg",
-            Bell: "/assets/images/VectorIcons/Bell_icon.svg",
-            Edit: "/assets/images/VectorIcons/Edit_icon.svg",
-            Help: "/assets/images/VectorIcons/Help_icon.svg",
-            Email: "/assets/images/VectorIcons/Email_icon.svg",
-            EmailOpen: "/assets/images/VectorIcons/EmailOpen3_icon.svg",
-            Resize: "/assets/images/VectorIcons/Resize_icon.svg",
-            ResizeS: "/assets/images/VectorIcons/ResizeS_icon.svg",
-            Return: "/assets/images/VectorIcons/Return_icon.svg",
-            Settings: "/assets/images/VectorIcons/Settings_icon.svg",
-            Time: "/assets/images/VectorIcons/Time_icon.svg",
-            MobileMenu: "/assets/images/VectorIcons/MobileMenu_icon.svg",
-            Calendar: "/assets/images/VectorIcons/Calendar_icon.svg",
-            CalendarBooking: "/assets/images/VectorIcons/CalendarBooking_icon.svg",
-            CalendarDoctor: "/assets/images/VectorIcons/CalendarDoctor_icon.svg",
-            CalendarPatient: "/assets/images/VectorIcons/CalendarPatient_icon.svg",
-            CalendarRoom: "/assets/images/VectorIcons/CalendarRoom_icon.svg",
-            CalendarRound: "/assets/images/VectorIcons/CalendarRound_icon.svg",
-            ClinicRound: "/assets/images/VectorIcons/ClinicRound_icon.svg",
-            DoctorRound: "/assets/images/VectorIcons/DoctorRound_icon.svg",
-            EconomyRound: "/assets/images/VectorIcons/EconomyRound_icon.svg",
-            FundamentalRound: "/assets/images/VectorIcons/FundamentalRound_icon.svg",
-            PatientRound: "/assets/images/VectorIcons/PatientRound_icon.svg",
-            ProductionRound: "/assets/images/VectorIcons/ProductionRound_icon.svg",
-            StatisticsRound: "/assets/images/VectorIcons/StatisticsRound_icon.svg",
-            SettingsRound: "/assets/images/VectorIcons/SettingsRound_icon.svg",
-            Clinic: "/assets/images/VectorIcons/Clinic_icon.svg",
-            ClinicSettings: "/assets/images/VectorIcons/ClinicSettings_icon.svg",
-            Delete: "/assets/images/VectorIcons/Delete_icon.svg",
-            Doctor: "/assets/images/VectorIcons/Doctor_icon.svg",
-            Fundamental: "/assets/images/VectorIcons/Fundamental.svg",
-            SingleBookmark: "/assets/images/VectorIcons/SingleBookmark_icon.svg",
-            SingleBookmarkNF: "/assets/images/VectorIcons/SingleBookmarkNF_icon.svg",
-            DoubleBookmark: "/assets/images/VectorIcons/DoubleBookmark_icon.svg",
-            DoubleBookmarkNF: "/assets/images/VectorIcons/DoubleBookmarkNF_icon.svg",
-            Economy: "/assets/images/VectorIcons/Economy_icon.svg",
-            Statistics: "/assets/images/VectorIcons/Statistics_icon.svg",
-            Patient: "/assets/images/VectorIcons/Patient_icon.svg",
-            PatientAdd: "/assets/images/VectorIcons/PatientAdd_icon.svg",
-            PatientList: "/assets/images/VectorIcons/PatientList_icon.svg",
-            PatientSearch: "/assets/images/VectorIcons/PatientSearch_icon.svg",
-            DropFiles: "/assets/images/VectorIcons/DropFiles_icon.svg",
+            ArrowLeft: "/IdunDevBuild/assets/images/VectorIcons/ArrowLeft_icon.svg",
+            ArrowRight: "/IdunDevBuild/assets/images/VectorIcons/ArrowRight_icon.svg",
+            ArrowUp: "/IdunDevBuild/assets/images/VectorIcons/ArrowUp_icon.svg",
+            ArrowDown: "/IdunDevBuild/assets/images/VectorIcons/ArrowDown_icon.svg",
+            Add: "/IdunDevBuild/assets/images/VectorIcons/Add_icon.svg",
+            Substract: "/IdunDevBuild/assets/images/VectorIcons/Substract_icon.svg",
+            Bell: "/IdunDevBuild/assets/images/VectorIcons/Bell_icon.svg",
+            Edit: "/IdunDevBuild/assets/images/VectorIcons/Edit_icon.svg",
+            Help: "/IdunDevBuild/assets/images/VectorIcons/Help_icon.svg",
+            Email: "/IdunDevBuild/assets/images/VectorIcons/Email_icon.svg",
+            EmailOpen: "/IdunDevBuild/assets/images/VectorIcons/EmailOpen3_icon.svg",
+            Resize: "/IdunDevBuild/assets/images/VectorIcons/Resize_icon.svg",
+            ResizeS: "/IdunDevBuild/assets/images/VectorIcons/ResizeS_icon.svg",
+            Return: "/IdunDevBuild/assets/images/VectorIcons/Return_icon.svg",
+            Settings: "/IdunDevBuild/assets/images/VectorIcons/Settings_icon.svg",
+            Time: "/IdunDevBuild/assets/images/VectorIcons/Time_icon.svg",
+            MobileMenu: "/IdunDevBuild/assets/images/VectorIcons/MobileMenu_icon.svg",
+            Calendar: "/IdunDevBuild/assets/images/VectorIcons/Calendar_icon.svg",
+            CalendarBooking: "/IdunDevBuild/assets/images/VectorIcons/CalendarBooking_icon.svg",
+            CalendarDoctor: "/IdunDevBuild/assets/images/VectorIcons/CalendarDoctor_icon.svg",
+            CalendarPatient: "/IdunDevBuild/assets/images/VectorIcons/CalendarPatient_icon.svg",
+            CalendarRoom: "/IdunDevBuild/assets/images/VectorIcons/CalendarRoom_icon.svg",
+            CalendarRound: "/IdunDevBuild/assets/images/VectorIcons/CalendarRound_icon.svg",
+            ClinicRound: "/IdunDevBuild/assets/images/VectorIcons/ClinicRound_icon.svg",
+            DoctorRound: "/IdunDevBuild/assets/images/VectorIcons/DoctorRound_icon.svg",
+            EconomyRound: "/IdunDevBuild/assets/images/VectorIcons/EconomyRound_icon.svg",
+            FundamentalRound: "/IdunDevBuild/assets/images/VectorIcons/FundamentalRound_icon.svg",
+            PatientRound: "/IdunDevBuild/assets/images/VectorIcons/PatientRound_icon.svg",
+            ProductionRound: "/IdunDevBuild/assets/images/VectorIcons/ProductionRound_icon.svg",
+            StatisticsRound: "/IdunDevBuild/assets/images/VectorIcons/StatisticsRound_icon.svg",
+            SettingsRound: "/IdunDevBuild/assets/images/VectorIcons/SettingsRound_icon.svg",
+            Clinic: "/IdunDevBuild/assets/images/VectorIcons/Clinic_icon.svg",
+            ClinicSettings: "/IdunDevBuild/assets/images/VectorIcons/ClinicSettings_icon.svg",
+            Delete: "/IdunDevBuild/assets/images/VectorIcons/Delete_icon.svg",
+            Doctor: "/IdunDevBuild/assets/images/VectorIcons/Doctor_icon.svg",
+            Fundamental: "/IdunDevBuild/assets/images/VectorIcons/Fundamental.svg",
+            SingleBookmark: "/IdunDevBuild/assets/images/VectorIcons/SingleBookmark_icon.svg",
+            SingleBookmarkNF: "/IdunDevBuild/assets/images/VectorIcons/SingleBookmarkNF_icon.svg",
+            DoubleBookmark: "/IdunDevBuild/assets/images/VectorIcons/DoubleBookmark_icon.svg",
+            DoubleBookmarkNF: "/IdunDevBuild/assets/images/VectorIcons/DoubleBookmarkNF_icon.svg",
+            Economy: "/IdunDevBuild/assets/images/VectorIcons/Economy_icon.svg",
+            Statistics: "/IdunDevBuild/assets/images/VectorIcons/Statistics_icon.svg",
+            Patient: "/IdunDevBuild/assets/images/VectorIcons/Patient_icon.svg",
+            PatientAdd: "/IdunDevBuild/assets/images/VectorIcons/PatientAdd_icon.svg",
+            PatientList: "/IdunDevBuild/assets/images/VectorIcons/PatientList_icon.svg",
+            PatientSearch: "/IdunDevBuild/assets/images/VectorIcons/PatientSearch_icon.svg",
+            DropFiles: "/IdunDevBuild/assets/images/VectorIcons/DropFiles_icon.svg",
             // TODO - temp icons.
-            Medicine: "/assets/images/VectorIcons/todo-replace-medicine-svg.svg",
-            Mailbox: "/assets/images/VectorIcons/todo-replace-mailbox-svg.svg",
-            LabFlask: "/assets/images/VectorIcons/todo-replace-flask-science-svgrepo-com.svg",
-            SendPeople: "/assets/images/VectorIcons/todo-replace-folder-send-svgrepo-com.svg"
+            Medicine: "/IdunDevBuild/assets/images/VectorIcons/todo-replace-medicine-svg.svg",
+            Mailbox: "/IdunDevBuild/assets/images/VectorIcons/todo-replace-mailbox-svg.svg",
+            LabFlask: "/IdunDevBuild/assets/images/VectorIcons/todo-replace-flask-science-svgrepo-com.svg",
+            SendPeople: "/IdunDevBuild/assets/images/VectorIcons/todo-replace-folder-send-svgrepo-com.svg"
         };
     }
     Object.defineProperty(IconComponent.prototype, "hoverShow", {
@@ -14833,7 +14833,7 @@ var IdunLayoutComponent = /** @class */ (function (_super) {
         _this.router = router;
         _this.layoutService = layoutService;
         _this.disableSidebars = false;
-        _this.backgroundImage = "assets/images/Backgrounds/main_background.png";
+        _this.backgroundImage = "IdunDevBuild/assets/images/Backgrounds/main_background.png";
         _this._leftbarOpen = true;
         _this._rightbarOpen = true;
         _this.hideLeft = true;
@@ -18459,7 +18459,7 @@ var EventListBarComponent = /** @class */ (function (_super) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"flex-row\">\r\n\t<button type=\"button\"\r\n\t\t(click)=\"navigater.main('intro/welcome')\"\r\n\t\tclass=\"intro-button\">\r\n\t\t{{l.sidebar.setupIntro}}\r\n\t</button>\r\n\t<button type=\"button\"\r\n\t\t(click)=\"navigater.both('intro/patient-start','patient-overview')\"\r\n\t\tclass=\"intro-button\">\r\n\t\t{{l.sidebar.patientIntro}}\r\n\t</button>\r\n</div>\r\n<div class=\"flex-row\">\r\n\t<button type=\"button\"\r\n\t\t(click)=\"navigater.both('intro/template-start','clinic-overview')\"\r\n\t\tclass=\"intro-button\">\r\n\t\t{{l.sidebar.templateIntro}}\r\n\t</button>\r\n</div>\r\n<div class=\"flex-row\">\r\n\t<idun-switch [options]=\"modeOptions\"\r\n\t\tstyle=\"margin: var(--border-half);\">\r\n\t</idun-switch>\r\n</div>\r\n\r\n<div [style.display]=\"mode == 'general' ? '':'none'\">\r\n\t<div (click)=\"element.clicked = !element.clicked\"\r\n\t\t*ngFor=\"let element of helpbarInfo\"\r\n\t\tstyle=\"border-bottom: 1px solid #32b8e4; width: 19rem; margin-left: 0.5rem; padding-bottom: 0.2rem; cursor: pointer;\">\r\n\t\t<img [style.display]=\"element.clicked ? 'none':''\"\r\n\t\t\tstyle=\"width: 2rem; margin: 0.2rem; float: right;\"\r\n\t\t\tsrc=\"/assets/images/Icons/Arrow_D_icon.png\">\r\n\t\t<img [style.display]=\"element.clicked ? '':'none'\"\r\n\t\t\tstyle=\"width: 2rem; margin: 0.2rem; float: right;\"\r\n\t\t\tsrc=\"/assets/images/Icons/Arrow_U_icon.png\">\r\n\t\t<p style=\"padding: 0.5rem 0; font-weight: bold;\">{{element.question}}</p>\r\n\t\t<div style=\"padding-left: 0.5rem;\"\r\n\t\t\t[style.display]=\"element.clicked ? '':'none'\"\r\n\t\t\t[innerHTML]=\"element.answer\"></div>\r\n\t</div>\r\n</div>\r\n\r\n<!--Workflow guides-->\r\n<div [style.display]=\"mode == 'guide' ? '':'none'\">\r\n\t<div (click)=\"element.clicked = !element.clicked\"\r\n\t\t*ngFor=\"let element of guideInfo\"\r\n\t\tstyle=\"border-bottom: 1px solid #32b8e4; width: 19rem; margin-left: 0.5rem; padding-bottom: 0.2rem; cursor: pointer;\">\r\n\t\t<img [style.display]=\"element.clicked ? 'none':''\"\r\n\t\t\tstyle=\"width: 2rem; margin: 0.2rem; float: right;\"\r\n\t\t\tsrc=\"/assets/images/Icons/Arrow_D_icon.png\">\r\n\t\t<img [style.display]=\"element.clicked ? '':'none'\"\r\n\t\t\tstyle=\"width: 2rem; margin: 0.2rem; float: right;\"\r\n\t\t\tsrc=\"/assets/images/Icons/Arrow_U_icon.png\">\r\n\t\t<p style=\"padding: 0.5rem 0; font-weight: bold;\">{{element.title}}</p>\r\n\t\t<div style=\"padding-left: 0.5rem;\"\r\n\t\t\t[style.display]=\"element.clicked ? '':'none'\"\r\n\t\t\t[innerHTML]=\"element.info\"></div>\r\n\t</div>\r\n</div>\r\n"
+module.exports = "<div class=\"flex-row\">\r\n\t<button type=\"button\"\r\n\t\t(click)=\"navigater.main('intro/welcome')\"\r\n\t\tclass=\"intro-button\">\r\n\t\t{{l.sidebar.setupIntro}}\r\n\t</button>\r\n\t<button type=\"button\"\r\n\t\t(click)=\"navigater.both('intro/patient-start','patient-overview')\"\r\n\t\tclass=\"intro-button\">\r\n\t\t{{l.sidebar.patientIntro}}\r\n\t</button>\r\n</div>\r\n<div class=\"flex-row\">\r\n\t<button type=\"button\"\r\n\t\t(click)=\"navigater.both('intro/template-start','clinic-overview')\"\r\n\t\tclass=\"intro-button\">\r\n\t\t{{l.sidebar.templateIntro}}\r\n\t</button>\r\n</div>\r\n<div class=\"flex-row\">\r\n\t<idun-switch [options]=\"modeOptions\"\r\n\t\tstyle=\"margin: var(--border-half);\">\r\n\t</idun-switch>\r\n</div>\r\n\r\n<div [style.display]=\"mode == 'general' ? '':'none'\">\r\n\t<div (click)=\"element.clicked = !element.clicked\"\r\n\t\t*ngFor=\"let element of helpbarInfo\"\r\n\t\tstyle=\"border-bottom: 1px solid #32b8e4; width: 19rem; margin-left: 0.5rem; padding-bottom: 0.2rem; cursor: pointer;\">\r\n\t\t<img [style.display]=\"element.clicked ? 'none':''\"\r\n\t\t\tstyle=\"width: 2rem; margin: 0.2rem; float: right;\"\r\n\t\t\tsrc=\"/IdunDevBuild/assets/images/Icons/Arrow_D_icon.png\">\r\n\t\t<img [style.display]=\"element.clicked ? '':'none'\"\r\n\t\t\tstyle=\"width: 2rem; margin: 0.2rem; float: right;\"\r\n\t\t\tsrc=\"/IdunDevBuild/assets/images/Icons/Arrow_U_icon.png\">\r\n\t\t<p style=\"padding: 0.5rem 0; font-weight: bold;\">{{element.question}}</p>\r\n\t\t<div style=\"padding-left: 0.5rem;\"\r\n\t\t\t[style.display]=\"element.clicked ? '':'none'\"\r\n\t\t\t[innerHTML]=\"element.answer\"></div>\r\n\t</div>\r\n</div>\r\n\r\n<!--Workflow guides-->\r\n<div [style.display]=\"mode == 'guide' ? '':'none'\">\r\n\t<div (click)=\"element.clicked = !element.clicked\"\r\n\t\t*ngFor=\"let element of guideInfo\"\r\n\t\tstyle=\"border-bottom: 1px solid #32b8e4; width: 19rem; margin-left: 0.5rem; padding-bottom: 0.2rem; cursor: pointer;\">\r\n\t\t<img [style.display]=\"element.clicked ? 'none':''\"\r\n\t\t\tstyle=\"width: 2rem; margin: 0.2rem; float: right;\"\r\n\t\t\tsrc=\"/IdunDevBuild/assets/images/Icons/Arrow_D_icon.png\">\r\n\t\t<img [style.display]=\"element.clicked ? '':'none'\"\r\n\t\t\tstyle=\"width: 2rem; margin: 0.2rem; float: right;\"\r\n\t\t\tsrc=\"/IdunDevBuild/assets/images/Icons/Arrow_U_icon.png\">\r\n\t\t<p style=\"padding: 0.5rem 0; font-weight: bold;\">{{element.title}}</p>\r\n\t\t<div style=\"padding-left: 0.5rem;\"\r\n\t\t\t[style.display]=\"element.clicked ? '':'none'\"\r\n\t\t\t[innerHTML]=\"element.info\"></div>\r\n\t</div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -19182,7 +19182,7 @@ var StandardMenuLink = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img id=\"logo-img\"\r\n\tsrc=\"/assets/images/logo/Idun_logo_white_background.svg\"\r\n\t(click)=\"navigater.main('home')\"\r\n\t(mouseover)=\"mouseover('middle')\"\r\n\t(mouseout)=\"mouseout('middle')\">\r\n\r\n<div class=\"nav-section\">\r\n\t<ng-container *ngFor=\"let menu of menus; let i=index;\">\r\n\t\t<idun-menu-bar-entry *ngIf=\"i>0 && !layoutService.showMobileMenu()\"\r\n\t\t\t[menuInfo]=\"menu\">\r\n\t\t</idun-menu-bar-entry>\r\n\t</ng-container>\r\n</div>\r\n\r\n<div *ngIf=\"!layoutService.showMobileMenu()\"\r\n\tclass=\"logout\">\r\n\t{{l.common.logOut}}\r\n\t<a class=\"button-fill\"\r\n\t\thref=\"../api/Authentication/Logout\"></a>\r\n</div>\r\n\r\n<idun-collapsed-menu *ngIf=\"layoutService.showMobileMenu()\"\r\n\t[menuInfoList]=\"menus\">\r\n</idun-collapsed-menu>\r\n"
+module.exports = "<img id=\"logo-img\"\r\n\tsrc=\"/IdunDevBuild/assets/images/logo/Idun_logo_white_background.svg\"\r\n\t(click)=\"navigater.main('home')\"\r\n\t(mouseover)=\"mouseover('middle')\"\r\n\t(mouseout)=\"mouseout('middle')\">\r\n\r\n<div class=\"nav-section\">\r\n\t<ng-container *ngFor=\"let menu of menus; let i=index;\">\r\n\t\t<idun-menu-bar-entry *ngIf=\"i>0 && !layoutService.showMobileMenu()\"\r\n\t\t\t[menuInfo]=\"menu\">\r\n\t\t</idun-menu-bar-entry>\r\n\t</ng-container>\r\n</div>\r\n\r\n<div *ngIf=\"!layoutService.showMobileMenu()\"\r\n\tclass=\"logout\">\r\n\t{{l.common.logOut}}\r\n\t<a class=\"button-fill\"\r\n\t\thref=\"../api/Authentication/Logout\"></a>\r\n</div>\r\n\r\n<idun-collapsed-menu *ngIf=\"layoutService.showMobileMenu()\"\r\n\t[menuInfoList]=\"menus\">\r\n</idun-collapsed-menu>\r\n"
 
 /***/ }),
 
@@ -19339,10 +19339,10 @@ var IdunNavComponent = /** @class */ (function (_super) {
         return new _menu_bar_entry_menu_bar_entry_component__WEBPACK_IMPORTED_MODULE_7__["StandardMenuLink"](function () { return _this_1.l.statistics.namePlural; }, "Statistics", "statistics-overview");
     };
     IdunNavComponent.prototype.hoverNotificationDelete = function (element) {
-        element.setAttribute("src", "./assets/images/Icons/Delete_icon2.png");
+        element.setAttribute("src", "./IdunDevBuild/assets/images/Icons/Delete_icon2.png");
     };
     IdunNavComponent.prototype.unhoverNotificationDelete = function (element) {
-        element.setAttribute("src", "./assets/images/Icons/Delete_icon3.png");
+        element.setAttribute("src", "./IdunDevBuild/assets/images/Icons/Delete_icon3.png");
     };
     IdunNavComponent.prototype.deleteNotification = function (element) {
         this.notificationService.delete(element.DBID);
@@ -19851,7 +19851,7 @@ var routing = _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRo
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"loading-screen\" [class.hidden]=\"finishedLoading\">\r\n\t<div style=\"background-image: url(/assets/images/Backgrounds/2.jpg); width: 100%; height: 100%; background-size:cover; position: fixed;opacity: 0.6;\">\r\n\t\t<div class=\"spinner\" style=\"margin-top: calc(50vh - 3rem);\"></div>\r\n\t</div>\r\n</div>\r\n\r\n<idun-layout #layoutComponent [backgroundImage]=\"backgroundImage\">\r\n\t<idun-nav data-top-bar></idun-nav>\r\n\t<idun-bookmark-bar data-left-bar></idun-bookmark-bar>\r\n\t<idun-info-bar data-right-bar></idun-info-bar>\r\n\t<div data-bottom-bar id=\"bottom-bar-text\">\r\n\t\t<idun-link destination=\"language\" colouring=\"transparent\">{{l.common.languages}}</idun-link>\r\n\t\t<div style=\"flex-grow: 1;\"></div>\r\n\t\t<div class=\"zoom-box-placeholder\" [style.opacity]=\"zoomBoxHover?'0':'1'\"  (mouseenter)=\"zoomBoxMouseEnter()\">\r\n\t\t\t<idun-icon [icon]=\"'Substract'\"></idun-icon>\r\n\t\t\t<a>{{getZoomPercentage()}}</a>\r\n\t\t\t<idun-icon [icon]=\"'Add'\"></idun-icon>\r\n\t\t</div>\r\n\t</div>\r\n\t<div #zoomBox data-zoom-box class=\"zoom-box\" [style.display]=\"'none'\" (mouseleave)=\"zoomBoxMouseLeave()\">\r\n\t\t<idun-icon class=\"zoom-box-icon\" (click)=\"zoomOut()\" [icon]=\"'Substract'\"></idun-icon>\r\n\t\t<a class=\"zoom-box-a hover-show\" (click)=\"resetZoom()\">{{getZoomPercentage()}}</a>\r\n\t\t<idun-icon class=\"zoom-box-icon\" (click)=\"zoomIn()\" [icon]=\"'Add'\"></idun-icon>\r\n\t</div>\r\n</idun-layout>"
+module.exports = "<div id=\"loading-screen\" [class.hidden]=\"finishedLoading\">\r\n\t<div style=\"background-image: url(/IdunDevBuild/assets/images/Backgrounds/2.jpg); width: 100%; height: 100%; background-size:cover; position: fixed;opacity: 0.6;\">\r\n\t\t<div class=\"spinner\" style=\"margin-top: calc(50vh - 3rem);\"></div>\r\n\t</div>\r\n</div>\r\n\r\n<idun-layout #layoutComponent [backgroundImage]=\"backgroundImage\">\r\n\t<idun-nav data-top-bar></idun-nav>\r\n\t<idun-bookmark-bar data-left-bar></idun-bookmark-bar>\r\n\t<idun-info-bar data-right-bar></idun-info-bar>\r\n\t<div data-bottom-bar id=\"bottom-bar-text\">\r\n\t\t<idun-link destination=\"language\" colouring=\"transparent\">{{l.common.languages}}</idun-link>\r\n\t\t<div style=\"flex-grow: 1;\"></div>\r\n\t\t<div class=\"zoom-box-placeholder\" [style.opacity]=\"zoomBoxHover?'0':'1'\"  (mouseenter)=\"zoomBoxMouseEnter()\">\r\n\t\t\t<idun-icon [icon]=\"'Substract'\"></idun-icon>\r\n\t\t\t<a>{{getZoomPercentage()}}</a>\r\n\t\t\t<idun-icon [icon]=\"'Add'\"></idun-icon>\r\n\t\t</div>\r\n\t</div>\r\n\t<div #zoomBox data-zoom-box class=\"zoom-box\" [style.display]=\"'none'\" (mouseleave)=\"zoomBoxMouseLeave()\">\r\n\t\t<idun-icon class=\"zoom-box-icon\" (click)=\"zoomOut()\" [icon]=\"'Substract'\"></idun-icon>\r\n\t\t<a class=\"zoom-box-a hover-show\" (click)=\"resetZoom()\">{{getZoomPercentage()}}</a>\r\n\t\t<idun-icon class=\"zoom-box-icon\" (click)=\"zoomIn()\" [icon]=\"'Add'\"></idun-icon>\r\n\t</div>\r\n</idun-layout>"
 
 /***/ }),
 
@@ -19937,7 +19937,7 @@ var IdunComponent = /** @class */ (function (_super) {
         get: function () {
             if (this.settings && this.settings.backgroundImage)
                 return this.settings.backgroundImage;
-            return "assets/images/Backgrounds/3.jpg";
+            return "IdunDevBuild/assets/images/Backgrounds/3.jpg";
         },
         enumerable: true,
         configurable: true
@@ -29875,7 +29875,7 @@ var StandardIntroPagesComponent = /** @class */ (function (_super) {
                 header: function () { return _this.l.common.setup; },
                 sections: [
                     new TextSection(function () { return _this.l.intro.setupA; }),
-                    new ImageSection("/assets/images/SetupDanish.png"),
+                    new ImageSection("/IdunDevBuild/assets/images/SetupDanish.png"),
                     new TextSection(function () { return _this.l.intro.setupB; }),
                     new NavigateSection(function () { return _this.l.intro.next; }, "intro/resources", "resource/list"),
                 ],
@@ -30042,10 +30042,10 @@ var StandardIntroPagesComponent = /** @class */ (function (_super) {
                 header: function () { return _this.l.intro.theSidebar; },
                 sections: [
                     new TextSection(function () { return _this.l.intro.patientSidebarA; }),
-                    new TextAndImageSection("/assets/images/VectorIcons/Patient_icon.svg", function () { return _this.l.intro.patientSidebarB; }),
-                    new TextAndImageSection("/assets/images/VectorIcons/CalendarBooking_icon.svg", function () { return _this.l.intro.patientSidebarC; }),
-                    new TextAndImageSection("/assets/images/VectorIcons/Calendar_icon.svg", function () { return _this.l.intro.patientSidebarD; }),
-                    new TextAndImageSection("/assets/images/VectorIcons/Help_icon.svg", function () { return _this.l.intro.patientSidebarE; }),
+                    new TextAndImageSection("/IdunDevBuild/assets/images/VectorIcons/Patient_icon.svg", function () { return _this.l.intro.patientSidebarB; }),
+                    new TextAndImageSection("/IdunDevBuild/assets/images/VectorIcons/CalendarBooking_icon.svg", function () { return _this.l.intro.patientSidebarC; }),
+                    new TextAndImageSection("/IdunDevBuild/assets/images/VectorIcons/Calendar_icon.svg", function () { return _this.l.intro.patientSidebarD; }),
+                    new TextAndImageSection("/IdunDevBuild/assets/images/VectorIcons/Help_icon.svg", function () { return _this.l.intro.patientSidebarE; }),
                     new TextSection(function () { return _this.l.intro.patientSidebarF; }),
                     new NavigateSection(function () { return _this.l.intro.end; }, "home"),
                 ],
@@ -30182,7 +30182,7 @@ var AboutComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-content-box showNavigation=\"true\">\r\n\t<header>Choose Language</header>\r\n\r\n\t<div style=\"display: flex; flex-wrap: wrap;\">\r\n\t\t<div *ngFor=\"let language of languages; let i = index;\"\r\n\t\t\tclass=\"language-entry\"\r\n\t\t\t(click)=\"setLanguage(language)\"\r\n\t\t\t[style.marginRight]=\"i%2?'':'1rem'\">\r\n\t\t\t<img src=\"/assets/images/Flags/{{language}}.png\" />\r\n\t\t\t<h3>{{language}}</h3>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<div *ngIf=\"showTranslationPageLink()\"\r\n\t\tclass=\"idun-form-row margin-top\">\r\n\t\t<idun-link class=\"margin-right\"\r\n\t\t\tdestination=\"translation\">\r\n\t\t\tOversættelser\r\n\t\t</idun-link>\r\n\r\n\t\t<button type=\"button\"\r\n\t\t\t(click)=\"clearLocalStorage()\">\r\n\t\t\tClear localStorage and reload\r\n\t\t</button>\r\n\t</div>\r\n\r\n</idun-content-box>\r\n"
+module.exports = "<idun-content-box showNavigation=\"true\">\r\n\t<header>Choose Language</header>\r\n\r\n\t<div style=\"display: flex; flex-wrap: wrap;\">\r\n\t\t<div *ngFor=\"let language of languages; let i = index;\"\r\n\t\t\tclass=\"language-entry\"\r\n\t\t\t(click)=\"setLanguage(language)\"\r\n\t\t\t[style.marginRight]=\"i%2?'':'1rem'\">\r\n\t\t\t<img src=\"/IdunDevBuild/assets/images/Flags/{{language}}.png\" />\r\n\t\t\t<h3>{{language}}</h3>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<div *ngIf=\"showTranslationPageLink()\"\r\n\t\tclass=\"idun-form-row margin-top\">\r\n\t\t<idun-link class=\"margin-right\"\r\n\t\t\tdestination=\"translation\">\r\n\t\t\tOversættelser\r\n\t\t</idun-link>\r\n\r\n\t\t<button type=\"button\"\r\n\t\t\t(click)=\"clearLocalStorage()\">\r\n\t\t\tClear localStorage and reload\r\n\t\t</button>\r\n\t</div>\r\n\r\n</idun-content-box>\r\n"
 
 /***/ }),
 
@@ -31292,30 +31292,30 @@ var SettingsComponent = /** @class */ (function (_super) {
         _this.passwordChangeState = "";
         _this.currentBackground = 0;
         _this.backgrounds = [
-            "assets/images/Backgrounds/main_background.png",
-            "assets/images/Backgrounds/1.jpg",
-            "assets/images/Backgrounds/2.jpg",
-            "assets/images/Backgrounds/3.jpg",
-            "assets/images/Backgrounds/4.jpg",
-            "assets/images/Backgrounds/5.jpg",
-            "assets/images/Backgrounds/6.jpg",
-            "assets/images/Backgrounds/7.jpg",
-            "assets/images/Backgrounds/8.jpg",
-            "assets/images/Backgrounds/9.jpg",
-            "assets/images/Backgrounds/10.jpg",
-            "assets/images/Backgrounds/11.jpg",
-            "assets/images/Backgrounds/12.jpg",
-            "assets/images/Backgrounds/13.jpg",
-            "assets/images/Backgrounds/14.jpg",
-            "assets/images/Backgrounds/15.jpg",
-            "assets/images/Backgrounds/16.jpg",
-            "assets/images/Backgrounds/17.jpg",
-            "assets/images/Backgrounds/18.jpg",
-            "assets/images/Backgrounds/19.jpg",
-            "assets/images/Backgrounds/background_1.png",
-            "assets/images/Backgrounds/background_2.png",
-            "assets/images/Backgrounds/background_3.png",
-            "assets/images/Backgrounds/background_4.png"
+            "IdunDevBuild/assets/images/Backgrounds/main_background.png",
+            "IdunDevBuild/assets/images/Backgrounds/1.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/2.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/3.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/4.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/5.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/6.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/7.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/8.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/9.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/10.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/11.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/12.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/13.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/14.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/15.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/16.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/17.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/18.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/19.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/background_1.png",
+            "IdunDevBuild/assets/images/Backgrounds/background_2.png",
+            "IdunDevBuild/assets/images/Backgrounds/background_3.png",
+            "IdunDevBuild/assets/images/Backgrounds/background_4.png"
         ];
         return _this;
     }
@@ -36542,7 +36542,7 @@ var user = {
         zoomLevel: 14
     }),
     Settings: JSON.stringify({
-        backgroundImage: "assets/images/Backgrounds/2.jpg"
+        backgroundImage: "IdunDevBuild/assets/images/Backgrounds/2.jpg"
     }),
     StaffID: 1
 };

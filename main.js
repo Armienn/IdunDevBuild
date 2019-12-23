@@ -1990,7 +1990,7 @@ var AutoFormInfo = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".row-group {\n  display: flow-root; }\n\n.row-group:first-of-type {\n  padding-top: var(--border-half); }\n\n.model-row:last-of-type {\n  padding-bottom: var(--border-half); }\n\n.form-content {\n  flex: 1;\n  max-width: 100%; }\n\n.group-header-help > pre {\n  font-weight: bold;\n  border-bottom: 1px solid rgba(8, 28, 69, 0.7);\n  margin: 0rem 0.5rem 0.5rem;\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.1); }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9pZHVuLWNvbW1vbi9DOlxcVXNlcnNcXG5pZ2F0XFxQcm9ncmFtbWluZ1xcaWR1blxcSWR1bkhlYWx0aFxcSWR1bkZyb250ZW5kL3NyY1xcaWR1bi1jb21tb25cXGF1dG8tZm9ybS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGtCQUFrQixFQUFBOztBQUduQjtFQUNDLCtCQUErQixFQUFBOztBQUdoQztFQUNDLGtDQUFrQyxFQUFBOztBQUduQztFQUNDLE9BQU87RUFDUCxlQUFlLEVBQUE7O0FBR2hCO0VBQ0MsaUJBQWlCO0VBQ2pCLDZDQUFpRDtFQUNqRCwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLG9DQUFvQyxFQUFBIiwiZmlsZSI6InNyYy9pZHVuLWNvbW1vbi9hdXRvLWZvcm0uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm93LWdyb3VwIHtcclxuXHRkaXNwbGF5OiBmbG93LXJvb3Q7XHJcbn1cclxuXHJcbi5yb3ctZ3JvdXA6Zmlyc3Qtb2YtdHlwZSB7XHJcblx0cGFkZGluZy10b3A6IHZhcigtLWJvcmRlci1oYWxmKTtcclxufVxyXG5cclxuLm1vZGVsLXJvdzpsYXN0LW9mLXR5cGUge1xyXG5cdHBhZGRpbmctYm90dG9tOiB2YXIoLS1ib3JkZXItaGFsZik7XHJcbn1cclxuXHJcbi5mb3JtLWNvbnRlbnQge1xyXG5cdGZsZXg6IDE7XHJcblx0bWF4LXdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4uZ3JvdXAtaGVhZGVyLWhlbHAgPiBwcmUge1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBoc2xhKDIyMCwgODAlLCAxNSUsIDAuNyk7XHJcblx0bWFyZ2luOiAwcmVtIDAuNXJlbSAwLjVyZW07XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwLjEpO1xyXG59Il19 */"
+module.exports = ".row-group {\n  display: flow-root; }\n\n.row-group:first-of-type {\n  padding-top: var(--border-half); }\n\n.model-row:last-of-type {\n  padding-bottom: var(--border-half); }\n\n.form-content {\n  flex: 1;\n  max-width: 100%; }\n\n.hint {\n  box-sizing: border-box;\n  padding: var(--border-full);\n  background-color: var(--color-background);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n  box-shadow: 0 0.5rem 1rem 0.2rem var(--color-shadow);\n  overflow: hidden;\n  position: absolute;\n  font-size: 1.2rem;\n  white-space: pre-wrap;\n  width: 100%;\n  z-index: 5;\n  max-height: 20rem;\n  transition: 0.3s ease; }\n\n.hint.hidden {\n  max-height: 0;\n  padding: 0 var(--border-full);\n  box-shadow: none; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9pZHVuLWNvbW1vbi9DOlxcVXNlcnNcXG5pZ2F0XFxQcm9ncmFtbWluZ1xcaWR1blxcSWR1bkhlYWx0aFxcSWR1bkZyb250ZW5kL3NyY1xcaWR1bi1jb21tb25cXGF1dG8tZm9ybS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGtCQUFrQixFQUFBOztBQUduQjtFQUNDLCtCQUErQixFQUFBOztBQUdoQztFQUNDLGtDQUFrQyxFQUFBOztBQUduQztFQUNDLE9BQU87RUFDUCxlQUFlLEVBQUE7O0FBR2hCO0VBQ0Msc0JBQXNCO0VBQ3RCLDJCQUEyQjtFQUMzQix5Q0FBeUM7RUFDekMsK0NBQStDO0VBQy9DLGdEQUFnRDtFQUNoRCxvREFBb0Q7RUFDcEQsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixpQkFBaUI7RUFDakIscUJBQXFCO0VBQ3JCLFdBQVc7RUFDWCxVQUFVO0VBQ1YsaUJBQWlCO0VBQ2pCLHFCQUFxQixFQUFBOztBQUV0QjtFQUNDLGFBQWE7RUFDYiw2QkFBNkI7RUFDN0IsZ0JBQWdCLEVBQUEiLCJmaWxlIjoic3JjL2lkdW4tY29tbW9uL2F1dG8tZm9ybS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3ctZ3JvdXAge1xyXG5cdGRpc3BsYXk6IGZsb3ctcm9vdDtcclxufVxyXG5cclxuLnJvdy1ncm91cDpmaXJzdC1vZi10eXBlIHtcclxuXHRwYWRkaW5nLXRvcDogdmFyKC0tYm9yZGVyLWhhbGYpO1xyXG59XHJcblxyXG4ubW9kZWwtcm93Omxhc3Qtb2YtdHlwZSB7XHJcblx0cGFkZGluZy1ib3R0b206IHZhcigtLWJvcmRlci1oYWxmKTtcclxufVxyXG5cclxuLmZvcm0tY29udGVudCB7XHJcblx0ZmxleDogMTtcclxuXHRtYXgtd2lkdGg6IDEwMCU7XHJcbn1cclxuXHJcbi5oaW50IHtcdFxyXG5cdGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcblx0cGFkZGluZzogdmFyKC0tYm9yZGVyLWZ1bGwpO1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWJhY2tncm91bmQpO1xyXG5cdGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IHZhcigtLWJvcmRlci1yYWRpdXMpO1xyXG5cdGJvcmRlci1ib3R0b20tcmlnaHQtcmFkaXVzOiB2YXIoLS1ib3JkZXItcmFkaXVzKTtcclxuXHRib3gtc2hhZG93OiAwIDAuNXJlbSAxcmVtIDAuMnJlbSB2YXIoLS1jb2xvci1zaGFkb3cpO1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdGZvbnQtc2l6ZTogMS4ycmVtO1xyXG5cdHdoaXRlLXNwYWNlOiBwcmUtd3JhcDtcclxuXHR3aWR0aDogMTAwJTtcclxuXHR6LWluZGV4OiA1O1xyXG5cdG1heC1oZWlnaHQ6IDIwcmVtO1xyXG5cdHRyYW5zaXRpb246IDAuM3MgZWFzZTtcclxufVxyXG4uaGludC5oaWRkZW4ge1xyXG5cdG1heC1oZWlnaHQ6IDA7XHJcblx0cGFkZGluZzogMCB2YXIoLS1ib3JkZXItZnVsbCk7XHJcblx0Ym94LXNoYWRvdzogbm9uZTtcclxufSJdfQ== */"
 
 /***/ }),
 
@@ -2487,7 +2487,7 @@ var AutoFormComponent = /** @class */ (function (_super) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-content-box *ngIf=\"!model\"\r\n\t[icon]=\"icon\"\r\n\t[color]=\"color\">\r\n\t<header>{{getHeader(model)}}</header>\r\n\t<div class=\"spinner\"></div>\r\n</idun-content-box>\r\n\r\n<idun-popup [show]=\"showPopup\"\r\n\t(close)=\"popup ? popup.onClose(this) : null\">\r\n\t<form *ngIf=\"model && !isDeleting\"\r\n\t\t(ngSubmit)=\"onSubmit(model, this)\"\r\n\t\t#modelForm=\"ngForm\"\r\n\t\tclass=\"margin-bottom\"\r\n\t\t(keydown.enter)=\"$event.preventDefault()\">\r\n\t\t<idun-content-box class=\"row-group-box\"\r\n\t\t\t(headerClick)=\"toggleGroup(0)\"\r\n\t\t\t[showNavigation]=\"showNavigation\"\r\n\t\t\t[noPadding]=\"true\"\r\n\t\t\t[buttons]=\"editButton\"\r\n\t\t\t[icon]=\"icon\"\r\n\t\t\t[color]=\"color\"\r\n\t\t\t(close)=\"onClose ? onClose(this) : ''\"\r\n\t\t\t[hideClose]=\"!onClose\"\r\n\t\t\t[helpText]=\"helpText ? helpText() || '' : ''\"\r\n\t\t\t[showContent]=\"showContent\">\r\n\r\n\t\t\t<header>{{getHeader(model)}}</header>\r\n\t\t\t<div style=\"display: flex;\">\r\n\t\t\t\t<div class=\"form-content\">\r\n\r\n\t\t\t\t\t<div class=\"row-group\"\r\n\t\t\t\t\t\t*ngFor=\"let group of rowGroups; let i = index\">\r\n\r\n\t\t\t\t\t\t<h2 *ngIf=\"group.getHeader && (!group.showHeader || group.showHeader(model))\"\r\n\t\t\t\t\t\t\tclass=\"inner-header\"\r\n\t\t\t\t\t\t\t(click)=\"toggleGroup(i)\"\r\n\t\t\t\t\t\t\tstyle=\"cursor: pointer;\"\r\n\t\t\t\t\t\t\t[style.marginBottom]=\"group.rows[0].cssClasses == 'no-padding' ? '':'0.5rem'\"\r\n\t\t\t\t\t\t\t[style.backgroundColor]=\"headerColor\">\r\n\t\t\t\t\t\t\t{{group.getHeader(model)}}\r\n\t\t\t\t\t\t\t<idun-icon *ngIf=\"!hiddenGroups[i]\"\r\n\t\t\t\t\t\t\t\ticon=\"ArrowUp\"\r\n\t\t\t\t\t\t\t\tstyle=\"float: right; height: 1.3rem;\"\r\n\t\t\t\t\t\t\t\t(click)=\"toggleGroup(i)\"></idun-icon>\r\n\t\t\t\t\t\t\t<idun-icon *ngIf=\"hiddenGroups[i]\"\r\n\t\t\t\t\t\t\t\ticon=\"ArrowDown\"\r\n\t\t\t\t\t\t\t\tstyle=\"float: right; height: 1.3rem;\"\r\n\t\t\t\t\t\t\t\t(click)=\"toggleGroup(i)\"></idun-icon>\r\n\t\t\t\t\t\t\t<idun-icon *ngIf=\"group.headerHelp\"\r\n\t\t\t\t\t\t\t\ticon=\"Help\"\r\n\t\t\t\t\t\t\t\tstyle=\"float: right; height: 1.3rem;\"\r\n\t\t\t\t\t\t\t\t(click)=\"showGroupHelp[i] = !showGroupHelp[i]\"></idun-icon>\r\n\t\t\t\t\t\t</h2>\r\n\r\n\t\t\t\t\t\t<div *ngIf=\"group.headerHelp && showGroupHelp[i]\"\r\n\t\t\t\t\t\t\tclass=\"flex-row group-header-help\">\r\n\t\t\t\t\t\t\t<pre>{{group.headerHelp()}}</pre>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div *ngFor=\"let row of group.rows;\"\r\n\t\t\t\t\t\t\t[hidden]=\"group.getHeader && hiddenGroups[i]\"\r\n\t\t\t\t\t\t\tclass=\"model-row {{row.cssClasses}}\"\r\n\t\t\t\t\t\t\t[style.width]=\"row.getWidth()\">\r\n\t\t\t\t\t\t\t<idun-form-dynamic *ngIf=\"row.show(model, !allowEdit || display)\"\r\n\t\t\t\t\t\t\t\t[ngModel]=\"row.getValue(model)\"\r\n\t\t\t\t\t\t\t\t(ngModelChange)=\"row.setValue(model, $event)\"\r\n\t\t\t\t\t\t\t\t[name]=\"row.name\"\r\n\t\t\t\t\t\t\t\t[display]=\"display\"\r\n\t\t\t\t\t\t\t\t[allowEdit]=\"allowEdit\"\r\n\t\t\t\t\t\t\t\t[row]=\"row\"\r\n\t\t\t\t\t\t\t\t[autoform]=\"this\"\r\n\t\t\t\t\t\t\t\t[model]=\"model\">\r\n\t\t\t\t\t\t\t</idun-form-dynamic>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"flex-row\"\r\n\t\t\t\t\t\t\t*ngIf=\"group.getHeader && hiddenGroups[i]\">\r\n\t\t\t\t\t\t\t<div style=\"position: relative;\"\r\n\t\t\t\t\t\t\t\tclass=\"dotdotdot\">...</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<p *ngIf=\"saveText\"\r\n\t\t\t\t\t\tclass=\"idun-message-label\">{{saveText}}</p>\r\n\r\n\t\t\t\t\t<div class=\"idun-form-row\"\r\n\t\t\t\t\t\t[style.display]=\"!allowEdit || display ? 'none' : ''\"\r\n\t\t\t\t\t\t[style.margin]=\"'0rem 1rem 0.5rem'\"\r\n\t\t\t\t\t\t[style.width]=\"'calc(100% - 2rem)'\">\r\n\t\t\t\t\t\t<idun-submit-cancel-delete (submit)=\"onSubmit(model, this)\"\r\n\t\t\t\t\t\t\t(cancel)=\"onCancel()\"\r\n\t\t\t\t\t\t\t(delete)=\"onDelete()\"\r\n\t\t\t\t\t\t\t[valid]=\"isValid\"\r\n\t\t\t\t\t\t\t[disabled]=\"isSaving\"\r\n\t\t\t\t\t\t\t[showCancel]=\"model.DBID\"\r\n\t\t\t\t\t\t\t[showDelete]=\"model.DBID && allowDelete\">\r\n\t\t\t\t\t\t</idun-submit-cancel-delete>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<ng-content></ng-content>\r\n\r\n\t\t\t\t\t<p *ngIf=\"error\"\r\n\t\t\t\t\t\tclass=\"idun-error-label\">{{error}}</p>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<ng-content *ngIf=\"layoutService.maximised\"\r\n\t\t\t\t\tselect=\"[data-extra-content]\"></ng-content>\r\n\r\n\t\t\t</div>\r\n\t\t</idun-content-box>\r\n\t</form>\r\n\t<idun-content-box *ngIf=\"popup\"\r\n\t\tdata-popup\r\n\t\t(close)=\"popup.onClose(this)\">\r\n\t\t<header *ngIf=\"popup.getHeader\">{{popup.getHeader()}}</header>\r\n\r\n\t\t<div *ngFor=\"let row of popup.rows\"\r\n\t\t\tclass=\"model-row {{row.cssClasses}}\"\r\n\t\t\t[style.width]=\"row.getWidth()\">\r\n\t\t\t<idun-form-dynamic *ngIf=\"row.show(model, !allowEdit || display)\"\r\n\t\t\t\t[ngModel]=\"row.getValue(model)\"\r\n\t\t\t\t(ngModelChange)=\"row.setValue(model, $event)\"\r\n\t\t\t\t[name]=\"row.name\"\r\n\t\t\t\t[display]=\"display\"\r\n\t\t\t\t[allowEdit]=\"allowEdit\"\r\n\t\t\t\t[row]=\"row\"\r\n\t\t\t\t[autoform]=\"this\"\r\n\t\t\t\t[model]=\"model\">\r\n\t\t\t</idun-form-dynamic>\r\n\t\t</div>\r\n\r\n\t</idun-content-box>\r\n</idun-popup>\r\n\r\n<idun-content-box *ngIf=\"isDeleting\"\r\n\t(close)=\"closeDeleteBox()\">\r\n\t<header>{{l.commonForm.itemHasBeenDeleted}}</header>\r\n\t<div style=\"margin-left: calc(50% - 3rem);\">\r\n\t\t<button type=\"button\"\r\n\t\t\t(click)=\"cancelDelete()\">{{l.commonForm.cancelDeletion}}</button>\r\n\t</div>\r\n</idun-content-box>"
+module.exports = "<idun-content-box *ngIf=\"!model\"\r\n\t[icon]=\"icon\"\r\n\t[color]=\"color\">\r\n\t<header>{{getHeader(model)}}</header>\r\n\t<div class=\"spinner\"></div>\r\n</idun-content-box>\r\n\r\n<idun-popup [show]=\"showPopup\"\r\n\t(close)=\"popup ? popup.onClose(this) : null\">\r\n\t<form *ngIf=\"model && !isDeleting\"\r\n\t\t(ngSubmit)=\"onSubmit(model, this)\"\r\n\t\t#modelForm=\"ngForm\"\r\n\t\tclass=\"margin-bottom\"\r\n\t\t(keydown.enter)=\"$event.preventDefault()\">\r\n\t\t<idun-content-box class=\"row-group-box\"\r\n\t\t\t(headerClick)=\"toggleGroup(0)\"\r\n\t\t\t[showNavigation]=\"showNavigation\"\r\n\t\t\t[noPadding]=\"true\"\r\n\t\t\t[buttons]=\"editButton\"\r\n\t\t\t[icon]=\"icon\"\r\n\t\t\t[color]=\"color\"\r\n\t\t\t(close)=\"onClose ? onClose(this) : ''\"\r\n\t\t\t[hideClose]=\"!onClose\"\r\n\t\t\t[helpText]=\"helpText ? helpText() || '' : ''\"\r\n\t\t\t[showContent]=\"showContent\">\r\n\r\n\t\t\t<header>{{getHeader(model)}}</header>\r\n\t\t\t<div style=\"display: flex;\">\r\n\t\t\t\t<div class=\"form-content\">\r\n\r\n\t\t\t\t\t<div class=\"row-group\"\r\n\t\t\t\t\t\t*ngFor=\"let group of rowGroups; let i = index\">\r\n\r\n\t\t\t\t\t\t<h2 *ngIf=\"group.getHeader && (!group.showHeader || group.showHeader(model))\"\r\n\t\t\t\t\t\t\tclass=\"inner-header\"\r\n\t\t\t\t\t\t\t(click)=\"toggleGroup(i)\"\r\n\t\t\t\t\t\t\tstyle=\"cursor: pointer;\"\r\n\t\t\t\t\t\t\t[style.marginBottom]=\"group.rows[0].cssClasses == 'no-padding' ? '':'0.5rem'\"\r\n\t\t\t\t\t\t\t[style.backgroundColor]=\"headerColor\">\r\n\t\t\t\t\t\t\t{{group.getHeader(model)}}\r\n\t\t\t\t\t\t\t<idun-icon *ngIf=\"!hiddenGroups[i]\"\r\n\t\t\t\t\t\t\t\ticon=\"ArrowUp\"\r\n\t\t\t\t\t\t\t\tstyle=\"float: right; height: 1.3rem;\"\r\n\t\t\t\t\t\t\t\t(click)=\"toggleGroup(i)\"></idun-icon>\r\n\t\t\t\t\t\t\t<idun-icon *ngIf=\"hiddenGroups[i]\"\r\n\t\t\t\t\t\t\t\ticon=\"ArrowDown\"\r\n\t\t\t\t\t\t\t\tstyle=\"float: right; height: 1.3rem;\"\r\n\t\t\t\t\t\t\t\t(click)=\"toggleGroup(i)\"></idun-icon>\r\n\t\t\t\t\t\t\t<idun-icon *ngIf=\"group.headerHelp\"\r\n\t\t\t\t\t\t\t\ticon=\"Help\"\r\n\t\t\t\t\t\t\t\tstyle=\"float: right; height: 1.3rem;\"\r\n\t\t\t\t\t\t\t\t(click)=\"showGroupHelp[i] = !showGroupHelp[i]\"></idun-icon>\r\n\t\t\t\t\t\t</h2>\r\n\r\n\t\t\t\t\t\t<div *ngIf=\"group.headerHelp\"\r\n\t\t\t\t\t\t\tclass=\"flex-row hint\"\r\n\t\t\t\t\t\t\t[class.hidden]=\"!showGroupHelp[i]\">{{group.headerHelp()}}</div>\r\n\t\t\t\t\t\t<div *ngFor=\"let row of group.rows;\"\r\n\t\t\t\t\t\t\t[hidden]=\"group.getHeader && hiddenGroups[i]\"\r\n\t\t\t\t\t\t\tclass=\"model-row {{row.cssClasses}}\"\r\n\t\t\t\t\t\t\t[style.width]=\"row.getWidth()\">\r\n\t\t\t\t\t\t\t<idun-form-dynamic *ngIf=\"row.show(model, !allowEdit || display)\"\r\n\t\t\t\t\t\t\t\t[ngModel]=\"row.getValue(model)\"\r\n\t\t\t\t\t\t\t\t(ngModelChange)=\"row.setValue(model, $event)\"\r\n\t\t\t\t\t\t\t\t[name]=\"row.name\"\r\n\t\t\t\t\t\t\t\t[display]=\"display\"\r\n\t\t\t\t\t\t\t\t[allowEdit]=\"allowEdit\"\r\n\t\t\t\t\t\t\t\t[row]=\"row\"\r\n\t\t\t\t\t\t\t\t[autoform]=\"this\"\r\n\t\t\t\t\t\t\t\t[model]=\"model\">\r\n\t\t\t\t\t\t\t</idun-form-dynamic>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"flex-row\"\r\n\t\t\t\t\t\t\t*ngIf=\"group.getHeader && hiddenGroups[i]\">\r\n\t\t\t\t\t\t\t<div style=\"position: relative;\"\r\n\t\t\t\t\t\t\t\tclass=\"dotdotdot\">...</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<p *ngIf=\"saveText\"\r\n\t\t\t\t\t\tclass=\"idun-message-label\">{{saveText}}</p>\r\n\r\n\t\t\t\t\t<div class=\"idun-form-row\"\r\n\t\t\t\t\t\t[style.display]=\"!allowEdit || display ? 'none' : ''\"\r\n\t\t\t\t\t\t[style.margin]=\"'0rem 1rem 0.5rem'\"\r\n\t\t\t\t\t\t[style.width]=\"'calc(100% - 2rem)'\">\r\n\t\t\t\t\t\t<idun-submit-cancel-delete (submit)=\"onSubmit(model, this)\"\r\n\t\t\t\t\t\t\t(cancel)=\"onCancel()\"\r\n\t\t\t\t\t\t\t(delete)=\"onDelete()\"\r\n\t\t\t\t\t\t\t[valid]=\"isValid\"\r\n\t\t\t\t\t\t\t[disabled]=\"isSaving\"\r\n\t\t\t\t\t\t\t[showCancel]=\"model.DBID\"\r\n\t\t\t\t\t\t\t[showDelete]=\"model.DBID && allowDelete\">\r\n\t\t\t\t\t\t</idun-submit-cancel-delete>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<ng-content></ng-content>\r\n\r\n\t\t\t\t\t<p *ngIf=\"error\"\r\n\t\t\t\t\t\tclass=\"idun-error-label\">{{error}}</p>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<ng-content *ngIf=\"layoutService.maximised\"\r\n\t\t\t\t\tselect=\"[data-extra-content]\"></ng-content>\r\n\r\n\t\t\t</div>\r\n\t\t</idun-content-box>\r\n\t</form>\r\n\t<idun-content-box *ngIf=\"popup\"\r\n\t\tdata-popup\r\n\t\t(close)=\"popup.onClose(this)\">\r\n\t\t<header *ngIf=\"popup.getHeader\">{{popup.getHeader()}}</header>\r\n\r\n\t\t<div *ngFor=\"let row of popup.rows\"\r\n\t\t\tclass=\"model-row {{row.cssClasses}}\"\r\n\t\t\t[style.width]=\"row.getWidth()\">\r\n\t\t\t<idun-form-dynamic *ngIf=\"row.show(model, !allowEdit || display)\"\r\n\t\t\t\t[ngModel]=\"row.getValue(model)\"\r\n\t\t\t\t(ngModelChange)=\"row.setValue(model, $event)\"\r\n\t\t\t\t[name]=\"row.name\"\r\n\t\t\t\t[display]=\"display\"\r\n\t\t\t\t[allowEdit]=\"allowEdit\"\r\n\t\t\t\t[row]=\"row\"\r\n\t\t\t\t[autoform]=\"this\"\r\n\t\t\t\t[model]=\"model\">\r\n\t\t\t</idun-form-dynamic>\r\n\t\t</div>\r\n\r\n\t</idun-content-box>\r\n</idun-popup>\r\n\r\n<idun-content-box *ngIf=\"isDeleting\"\r\n\t(close)=\"closeDeleteBox()\">\r\n\t<header>{{l.commonForm.itemHasBeenDeleted}}</header>\r\n\t<div style=\"margin-left: calc(50% - 3rem);\">\r\n\t\t<button type=\"button\"\r\n\t\t\t(click)=\"cancelDelete()\">{{l.commonForm.cancelDeletion}}</button>\r\n\t</div>\r\n</idun-content-box>"
 
 /***/ }),
 
@@ -5294,7 +5294,7 @@ module.exports = "<h2 class=\"inner-header\" style=\"background-color: var(--col
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".procedure-entry {\n  display: flow-root;\n  margin-bottom: var(--border-small); }\n\n.procedure-entry .dark-button {\n  width: 100%;\n  display: flex; }\n\n.procedure-entry span {\n  flex-grow: 1;\n  text-overflow: ellipsis;\n  overflow: hidden; }\n\n.hint {\n  box-sizing: border-box;\n  padding: var(--border-half);\n  background-color: var(--color-background);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n  box-shadow: 0 0.5rem 1rem 0.2rem var(--color-shadow);\n  overflow: hidden;\n  position: absolute;\n  width: 100%;\n  z-index: 5;\n  max-height: 20rem;\n  transition: 0.3s ease; }\n\n.hint.hidden {\n  max-height: 0;\n  padding: 0 var(--border-half);\n  box-shadow: none; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9pZHVuLWNvbW1vbi9mb3JtL0M6XFxVc2Vyc1xcbmlnYXRcXFByb2dyYW1taW5nXFxpZHVuXFxJZHVuSGVhbHRoXFxJZHVuRnJvbnRlbmQvc3JjXFxpZHVuLWNvbW1vblxcZm9ybVxcZm9ybS1wcm9jZWR1cmUtY2hhbmdlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGtCQUFrQjtFQUNsQixrQ0FBa0MsRUFBQTs7QUFFbkM7RUFDQyxXQUFXO0VBQ1gsYUFBYSxFQUFBOztBQUVkO0VBQ0MsWUFBWTtFQUNaLHVCQUF1QjtFQUN2QixnQkFBZ0IsRUFBQTs7QUFHakI7RUFDQyxzQkFBc0I7RUFDdEIsMkJBQTJCO0VBQzNCLHlDQUF5QztFQUN6QywrQ0FBK0M7RUFDL0MsZ0RBQWdEO0VBQ2hELG9EQUFvRDtFQUNwRCxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxVQUFVO0VBQ1YsaUJBQWlCO0VBQ2pCLHFCQUFxQixFQUFBOztBQUV0QjtFQUNDLGFBQWE7RUFDYiw2QkFBNkI7RUFDN0IsZ0JBQWdCLEVBQUEiLCJmaWxlIjoic3JjL2lkdW4tY29tbW9uL2Zvcm0vZm9ybS1wcm9jZWR1cmUtY2hhbmdlcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9jZWR1cmUtZW50cnkge1xyXG5cdGRpc3BsYXk6IGZsb3ctcm9vdDtcclxuXHRtYXJnaW4tYm90dG9tOiB2YXIoLS1ib3JkZXItc21hbGwpO1xyXG59XHJcbi5wcm9jZWR1cmUtZW50cnkgLmRhcmstYnV0dG9uIHtcclxuXHR3aWR0aDogMTAwJTtcclxuXHRkaXNwbGF5OiBmbGV4O1xyXG59XHJcbi5wcm9jZWR1cmUtZW50cnkgc3BhbiB7XHJcblx0ZmxleC1ncm93OiAxO1xyXG5cdHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzO1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcbn1cclxuXHJcbi5oaW50IHtcdFxyXG5cdGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcblx0cGFkZGluZzogdmFyKC0tYm9yZGVyLWhhbGYpO1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWJhY2tncm91bmQpO1xyXG5cdGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IHZhcigtLWJvcmRlci1yYWRpdXMpO1xyXG5cdGJvcmRlci1ib3R0b20tcmlnaHQtcmFkaXVzOiB2YXIoLS1ib3JkZXItcmFkaXVzKTtcclxuXHRib3gtc2hhZG93OiAwIDAuNXJlbSAxcmVtIDAuMnJlbSB2YXIoLS1jb2xvci1zaGFkb3cpO1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdHotaW5kZXg6IDU7XHJcblx0bWF4LWhlaWdodDogMjByZW07XHJcblx0dHJhbnNpdGlvbjogMC4zcyBlYXNlO1xyXG59XHJcbi5oaW50LmhpZGRlbiB7XHJcblx0bWF4LWhlaWdodDogMDtcclxuXHRwYWRkaW5nOiAwIHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRib3gtc2hhZG93OiBub25lO1xyXG59Il19 */"
+module.exports = ".procedure-entry {\n  display: flow-root;\n  margin-bottom: var(--border-small); }\n\n.procedure-entry .dark-button {\n  width: 100%;\n  display: flex; }\n\n.procedure-entry span {\n  flex-grow: 1;\n  text-overflow: ellipsis;\n  overflow: hidden; }\n\n.hint {\n  box-sizing: border-box;\n  padding: var(--border-full);\n  background-color: var(--color-background);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n  box-shadow: 0 0.5rem 1rem 0.2rem var(--color-shadow);\n  overflow: hidden;\n  position: absolute;\n  font-size: 1.2rem;\n  white-space: pre-wrap;\n  width: 100%;\n  z-index: 5;\n  max-height: 20rem;\n  transition: 0.3s ease; }\n\n.hint.hidden {\n  max-height: 0;\n  padding: 0 var(--border-full);\n  box-shadow: none; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9pZHVuLWNvbW1vbi9mb3JtL0M6XFxVc2Vyc1xcbmlnYXRcXFByb2dyYW1taW5nXFxpZHVuXFxJZHVuSGVhbHRoXFxJZHVuRnJvbnRlbmQvc3JjXFxpZHVuLWNvbW1vblxcZm9ybVxcZm9ybS1wcm9jZWR1cmUtY2hhbmdlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGtCQUFrQjtFQUNsQixrQ0FBa0MsRUFBQTs7QUFFbkM7RUFDQyxXQUFXO0VBQ1gsYUFBYSxFQUFBOztBQUVkO0VBQ0MsWUFBWTtFQUNaLHVCQUF1QjtFQUN2QixnQkFBZ0IsRUFBQTs7QUFHakI7RUFDQyxzQkFBc0I7RUFDdEIsMkJBQTJCO0VBQzNCLHlDQUF5QztFQUN6QywrQ0FBK0M7RUFDL0MsZ0RBQWdEO0VBQ2hELG9EQUFvRDtFQUNwRCxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGlCQUFpQjtFQUNqQixxQkFBcUI7RUFDckIsV0FBVztFQUNYLFVBQVU7RUFDVixpQkFBaUI7RUFDakIscUJBQXFCLEVBQUE7O0FBRXRCO0VBQ0MsYUFBYTtFQUNiLDZCQUE2QjtFQUM3QixnQkFBZ0IsRUFBQSIsImZpbGUiOiJzcmMvaWR1bi1jb21tb24vZm9ybS9mb3JtLXByb2NlZHVyZS1jaGFuZ2VzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2NlZHVyZS1lbnRyeSB7XHJcblx0ZGlzcGxheTogZmxvdy1yb290O1xyXG5cdG1hcmdpbi1ib3R0b206IHZhcigtLWJvcmRlci1zbWFsbCk7XHJcbn1cclxuLnByb2NlZHVyZS1lbnRyeSAuZGFyay1idXR0b24ge1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdGRpc3BsYXk6IGZsZXg7XHJcbn1cclxuLnByb2NlZHVyZS1lbnRyeSBzcGFuIHtcclxuXHRmbGV4LWdyb3c6IDE7XHJcblx0dGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XHJcblx0b3ZlcmZsb3c6IGhpZGRlbjtcclxufVxyXG5cclxuLmhpbnQge1x0XHJcblx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcclxuXHRwYWRkaW5nOiB2YXIoLS1ib3JkZXItZnVsbCk7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItYmFja2dyb3VuZCk7XHJcblx0Ym9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogdmFyKC0tYm9yZGVyLXJhZGl1cyk7XHJcblx0Ym9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IHZhcigtLWJvcmRlci1yYWRpdXMpO1xyXG5cdGJveC1zaGFkb3c6IDAgMC41cmVtIDFyZW0gMC4ycmVtIHZhcigtLWNvbG9yLXNoYWRvdyk7XHJcblx0b3ZlcmZsb3c6IGhpZGRlbjtcclxuXHRwb3NpdGlvbjogYWJzb2x1dGU7XHJcblx0Zm9udC1zaXplOiAxLjJyZW07XHJcblx0d2hpdGUtc3BhY2U6IHByZS13cmFwO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdHotaW5kZXg6IDU7XHJcblx0bWF4LWhlaWdodDogMjByZW07XHJcblx0dHJhbnNpdGlvbjogMC4zcyBlYXNlO1xyXG59XHJcbi5oaW50LmhpZGRlbiB7XHJcblx0bWF4LWhlaWdodDogMDtcclxuXHRwYWRkaW5nOiAwIHZhcigtLWJvcmRlci1mdWxsKTtcclxuXHRib3gtc2hhZG93OiBub25lO1xyXG59Il19 */"
 
 /***/ }),
 
@@ -8778,7 +8778,7 @@ var Staff = /** @class */ (function (_super) {
         _this.TelephoneNumbers = [new _patient__WEBPACK_IMPORTED_MODULE_2__["TelephoneNumber"]({ Primary: true })];
         _this.Files = [];
         _this.WorkTimes = [];
-        _this.WorkPeriod = 4;
+        _this.WorkPeriod = 2;
         _this.Competences = new _competence_set__WEBPACK_IMPORTED_MODULE_3__["CompetenceSet"]();
         if (source) {
             for (var prop in source)
@@ -11124,7 +11124,7 @@ module.exports = "<div (mouseenter)=\"showContent && doShowOptions()\"\r\n\t(mou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ":host {\n  box-shadow: var(--standard-shadow);\n  border-radius: var(--border-radius);\n  display: inline-block;\n  width: 100%;\n  margin-bottom: var(--border-full);\n  position: relative;\n  -webkit-transform: translateZ(0); }\n\nheader {\n  overflow: hidden;\n  position: relative;\n  text-align: center;\n  background-color: var(--color-neutral);\n  font-size: var(--header-size);\n  font-weight: bold;\n  cursor: pointer;\n  border-top-left-radius: var(--border-radius);\n  border-top-right-radius: var(--border-radius);\n  z-index: 1;\n  line-height: var(--header-size)0.5rem; }\n\n.header-container {\n  padding: var(--border-half);\n  display: flex; }\n\n.header-container idun-icon {\n  z-index: 2; }\n\n.header-hover {\n  background-color: white;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  display: flex;\n  opacity: 0;\n  transition: 0.3s ease; }\n\nheader:hover .header-hover {\n  opacity: 0.2;\n  transition: 0.3s ease; }\n\n.content-box {\n  padding: var(--border-full);\n  padding-top: var(--border-half);\n  background-color: var(--color-background);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n  width: 100%;\n  box-sizing: border-box; }\n\nidun-expandable-box > *:last-child {\n  margin-bottom: 0.5rem; }\n\n.extra-box {\n  box-sizing: border-box;\n  max-height: -webkit-max-content;\n  max-height: -moz-max-content;\n  max-height: max-content;\n  background-color: var(--color-background);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n  box-shadow: 0 0.5rem 1rem 0.2rem var(--color-shadow);\n  overflow: hidden;\n  position: absolute;\n  width: 100%;\n  z-index: 4;\n  padding: var(--border-half);\n  padding-top: calc(3rem + var(--border-half));\n  max-height: 50rem;\n  transition: 0.3s ease; }\n\n.extra-box.hidden {\n  box-shadow: none;\n  padding: 0 var(--border-half);\n  max-height: 0;\n  transition: 0.3s ease; }\n\npre {\n  font-size: 1.2rem;\n  padding: var(--border-half);\n  padding-bottom: var(--border-half);\n  margin-bottom: var(--border-half);\n  border-bottom: 1px solid var(--color-background-overlay);\n  overflow: hidden;\n  max-height: 10rem;\n  transition: 0.3s ease; }\n\n.options-box {\n  overflow: hidden;\n  position: absolute;\n  box-sizing: border-box;\n  width: 100%;\n  z-index: 6;\n  padding: var(--border-half);\n  display: flex;\n  max-height: 3rem;\n  transition: 0.3s ease; }\n\n.options-box.hidden {\n  padding: 0 var(--border-half);\n  max-height: 0;\n  transition: 0.3s ease; }\n\n.text-button {\n  line-height: 2rem;\n  font-size: 1.2rem;\n  margin: 0 0.5rem;\n  font-weight: bold;\n  cursor: pointer; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9pZHVuLWxheW91dC9jb21wb25lbnRzL0M6XFxVc2Vyc1xcbmlnYXRcXFByb2dyYW1taW5nXFxpZHVuXFxJZHVuSGVhbHRoXFxJZHVuRnJvbnRlbmQvc3JjXFxpZHVuLWxheW91dFxcY29tcG9uZW50c1xcY29udGVudC1ib3guY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUM7RUFDQSxrQ0FBa0M7RUFDbEMsbUNBQW1DO0VBQ25DLHFCQUFxQjtFQUNyQixXQUFXO0VBQ1gsaUNBQWlDO0VBQ2pDLGtCQUFrQjtFQUVsQixnQ0FBZ0MsRUFBQTs7QUFHakM7RUFDQyxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixzQ0FBc0M7RUFDdEMsNkJBQTZCO0VBQzdCLGlCQUFpQjtFQUNqQixlQUFlO0VBQ2YsNENBQTRDO0VBQzVDLDZDQUE2QztFQUM3QyxVQUFVO0VBQ1YscUNBQXdDLEVBQUE7O0FBR3pDO0VBQ0MsMkJBQTJCO0VBQzNCLGFBQWEsRUFBQTs7QUFHZDtFQUNDLFVBQVUsRUFBQTs7QUFHWDtFQUNDLHVCQUF1QjtFQUN2QixXQUFXO0VBQ1gsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQixhQUFhO0VBQ2IsVUFBVTtFQUNWLHFCQUFxQixFQUFBOztBQUV0QjtFQUNDLFlBQVk7RUFDWixxQkFBcUIsRUFBQTs7QUFHdEI7RUFDQywyQkFBMkI7RUFDM0IsK0JBQStCO0VBQy9CLHlDQUF5QztFQUN6QywrQ0FBK0M7RUFDL0MsZ0RBQWdEO0VBQ2hELFdBQVc7RUFDWCxzQkFBc0IsRUFBQTs7QUFHdkI7RUFDQyxxQkFBcUIsRUFBQTs7QUFHdEI7RUFDQyxzQkFBc0I7RUFDdEIsK0JBQXVCO0VBQXZCLDRCQUF1QjtFQUF2Qix1QkFBdUI7RUFDdkIseUNBQXlDO0VBQ3pDLCtDQUErQztFQUMvQyxnREFBZ0Q7RUFDaEQsb0RBQW9EO0VBQ3BELGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFVBQVU7RUFDViwyQkFBMkI7RUFDM0IsNENBQTRDO0VBQzVDLGlCQUFpQjtFQUNqQixxQkFBcUIsRUFBQTs7QUFFdEI7RUFDQyxnQkFBZ0I7RUFDaEIsNkJBQTZCO0VBQzdCLGFBQWE7RUFDYixxQkFBcUIsRUFBQTs7QUFFdEI7RUFDQyxpQkFBaUI7RUFDakIsMkJBQTJCO0VBQzNCLGtDQUFrQztFQUNsQyxpQ0FBaUM7RUFDakMsd0RBQXdEO0VBQ3hELGdCQUFnQjtFQUNoQixpQkFBaUI7RUFDakIscUJBQXFCLEVBQUE7O0FBRXRCO0VBQ0MsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixzQkFBc0I7RUFDdEIsV0FBVztFQUNYLFVBQVU7RUFDViwyQkFBMkI7RUFDM0IsYUFBYTtFQUNiLGdCQUFnQjtFQUNoQixxQkFBcUIsRUFBQTs7QUFFdEI7RUFDQyw2QkFBNkI7RUFDN0IsYUFBYTtFQUNiLHFCQUFxQixFQUFBOztBQUV0QjtFQUNDLGlCQUFpQjtFQUNqQixpQkFBaUI7RUFDakIsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtFQUNqQixlQUFlLEVBQUEiLCJmaWxlIjoic3JjL2lkdW4tbGF5b3V0L2NvbXBvbmVudHMvY29udGVudC1ib3guY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIgOmhvc3R7XHJcblx0Ym94LXNoYWRvdzogdmFyKC0tc3RhbmRhcmQtc2hhZG93KTtcclxuXHRib3JkZXItcmFkaXVzOiB2YXIoLS1ib3JkZXItcmFkaXVzKTtcclxuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0bWFyZ2luLWJvdHRvbTogdmFyKC0tYm9yZGVyLWZ1bGwpO1xyXG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuXHQvLyBiZWxvdyBpcyBhIGZpeCBmb3Igc2hhZG93cyBhY3Rpbmcgd2VpcmQgb24gbXVsdGlwbGUgY29sdW1ucyBpbiBjaHJvbWVcclxuXHQtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlWigwKTtcclxufVxyXG5cclxuaGVhZGVyIHtcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItbmV1dHJhbCk7XHJcblx0Zm9udC1zaXplOiB2YXIoLS1oZWFkZXItc2l6ZSk7XHJcblx0Zm9udC13ZWlnaHQ6IGJvbGQ7XHJcblx0Y3Vyc29yOiBwb2ludGVyO1xyXG5cdGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IHZhcigtLWJvcmRlci1yYWRpdXMpO1xyXG5cdGJvcmRlci10b3AtcmlnaHQtcmFkaXVzOiB2YXIoLS1ib3JkZXItcmFkaXVzKTtcclxuXHR6LWluZGV4OiAxO1xyXG5cdGxpbmUtaGVpZ2h0OiB2YXIoLS1oZWFkZXItc2l6ZSkgKyAwLjVyZW07XHJcbn1cclxuXHJcbi5oZWFkZXItY29udGFpbmVyIHtcclxuXHRwYWRkaW5nOiB2YXIoLS1ib3JkZXItaGFsZik7XHJcblx0ZGlzcGxheTogZmxleDtcclxufVxyXG5cclxuLmhlYWRlci1jb250YWluZXIgaWR1bi1pY29uIHtcclxuXHR6LWluZGV4OiAyO1xyXG59XHJcblxyXG4uaGVhZGVyLWhvdmVyIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuXHR3aWR0aDogMTAwJTtcclxuXHRoZWlnaHQ6IDEwMCU7XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdGRpc3BsYXk6IGZsZXg7XHJcblx0b3BhY2l0eTogMDtcclxuXHR0cmFuc2l0aW9uOiAwLjNzIGVhc2U7XHJcbn1cclxuaGVhZGVyOmhvdmVyIC5oZWFkZXItaG92ZXIge1xyXG5cdG9wYWNpdHk6IDAuMjtcclxuXHR0cmFuc2l0aW9uOiAwLjNzIGVhc2U7XHJcbn1cclxuXHJcbi5jb250ZW50LWJveCB7XHJcblx0cGFkZGluZzogdmFyKC0tYm9yZGVyLWZ1bGwpO1xyXG5cdHBhZGRpbmctdG9wOiB2YXIoLS1ib3JkZXItaGFsZik7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItYmFja2dyb3VuZCk7XHJcblx0Ym9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogdmFyKC0tYm9yZGVyLXJhZGl1cyk7XHJcblx0Ym9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IHZhcigtLWJvcmRlci1yYWRpdXMpO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbn1cclxuXHJcbmlkdW4tZXhwYW5kYWJsZS1ib3ggPiAqOmxhc3QtY2hpbGQge1xyXG5cdG1hcmdpbi1ib3R0b206IDAuNXJlbTtcclxufVxyXG5cclxuLmV4dHJhLWJveCB7XHJcblx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcclxuXHRtYXgtaGVpZ2h0OiBtYXgtY29udGVudDtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1iYWNrZ3JvdW5kKTtcclxuXHRib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiB2YXIoLS1ib3JkZXItcmFkaXVzKTtcclxuXHRib3JkZXItYm90dG9tLXJpZ2h0LXJhZGl1czogdmFyKC0tYm9yZGVyLXJhZGl1cyk7XHJcblx0Ym94LXNoYWRvdzogMCAwLjVyZW0gMXJlbSAwLjJyZW0gdmFyKC0tY29sb3Itc2hhZG93KTtcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHR3aWR0aDogMTAwJTtcclxuXHR6LWluZGV4OiA0O1xyXG5cdHBhZGRpbmc6IHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRwYWRkaW5nLXRvcDogY2FsYygzcmVtICsgdmFyKC0tYm9yZGVyLWhhbGYpKTtcclxuXHRtYXgtaGVpZ2h0OiA1MHJlbTtcclxuXHR0cmFuc2l0aW9uOiAwLjNzIGVhc2U7XHJcbn1cclxuLmV4dHJhLWJveC5oaWRkZW4ge1xyXG5cdGJveC1zaGFkb3c6IG5vbmU7XHJcblx0cGFkZGluZzogMCB2YXIoLS1ib3JkZXItaGFsZik7XHJcblx0bWF4LWhlaWdodDogMDtcclxuXHR0cmFuc2l0aW9uOiAwLjNzIGVhc2U7XHJcbn1cclxucHJlIHtcclxuXHRmb250LXNpemU6IDEuMnJlbTtcclxuXHRwYWRkaW5nOiB2YXIoLS1ib3JkZXItaGFsZik7XHJcblx0cGFkZGluZy1ib3R0b206IHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRtYXJnaW4tYm90dG9tOiB2YXIoLS1ib3JkZXItaGFsZik7XHJcblx0Ym9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHZhcigtLWNvbG9yLWJhY2tncm91bmQtb3ZlcmxheSk7XHJcblx0b3ZlcmZsb3c6IGhpZGRlbjtcclxuXHRtYXgtaGVpZ2h0OiAxMHJlbTtcclxuXHR0cmFuc2l0aW9uOiAwLjNzIGVhc2U7XHJcbn1cclxuLm9wdGlvbnMtYm94IHtcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdHotaW5kZXg6IDY7XHJcblx0cGFkZGluZzogdmFyKC0tYm9yZGVyLWhhbGYpO1xyXG5cdGRpc3BsYXk6IGZsZXg7XHJcblx0bWF4LWhlaWdodDogM3JlbTtcclxuXHR0cmFuc2l0aW9uOiAwLjNzIGVhc2U7XHJcbn1cclxuLm9wdGlvbnMtYm94LmhpZGRlbiB7XHJcblx0cGFkZGluZzogMCB2YXIoLS1ib3JkZXItaGFsZik7XHJcblx0bWF4LWhlaWdodDogMDtcclxuXHR0cmFuc2l0aW9uOiAwLjNzIGVhc2U7XHJcbn1cclxuLnRleHQtYnV0dG9uIHtcclxuXHRsaW5lLWhlaWdodDogMnJlbTtcclxuXHRmb250LXNpemU6IDEuMnJlbTtcclxuXHRtYXJnaW46IDAgMC41cmVtO1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4iXX0= */"
+module.exports = ":host {\n  box-shadow: var(--standard-shadow);\n  border-radius: var(--border-radius);\n  display: inline-block;\n  width: 100%;\n  margin-bottom: var(--border-full);\n  position: relative;\n  -webkit-transform: translateZ(0); }\n\nheader {\n  overflow: hidden;\n  position: relative;\n  text-align: center;\n  background-color: var(--color-neutral);\n  font-size: var(--header-size);\n  font-weight: bold;\n  cursor: pointer;\n  border-top-left-radius: var(--border-radius);\n  border-top-right-radius: var(--border-radius);\n  z-index: 1;\n  line-height: var(--header-size)0.5rem; }\n\n.header-container {\n  padding: var(--border-half);\n  display: flex; }\n\n.header-container idun-icon {\n  z-index: 2; }\n\n.header-hover {\n  background-color: white;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  display: flex;\n  opacity: 0;\n  transition: 0.3s ease; }\n\nheader:hover .header-hover {\n  opacity: 0.2;\n  transition: 0.3s ease; }\n\n.content-box {\n  padding: var(--border-full);\n  padding-top: var(--border-half);\n  background-color: var(--color-background);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n  width: 100%;\n  box-sizing: border-box; }\n\nidun-expandable-box > *:last-child {\n  margin-bottom: 0.5rem; }\n\n.extra-box {\n  box-sizing: border-box;\n  max-height: -webkit-max-content;\n  max-height: -moz-max-content;\n  max-height: max-content;\n  background-color: var(--color-background);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n  box-shadow: 0 0.5rem 1rem 0.2rem var(--color-shadow);\n  overflow: hidden;\n  position: absolute;\n  width: 100%;\n  z-index: 4;\n  padding: var(--border-half);\n  padding-top: calc(3rem + var(--border-half));\n  max-height: 50rem;\n  transition: 0.3s ease; }\n\n.extra-box.hidden {\n  box-shadow: none;\n  padding: 0 var(--border-half);\n  max-height: 0;\n  transition: 0.3s ease; }\n\npre {\n  font-size: 1.2rem;\n  padding: var(--border-half);\n  padding-bottom: var(--border-half);\n  margin-bottom: var(--border-half);\n  border-bottom: 1px solid var(--color-background-overlay);\n  overflow: hidden;\n  transition: 0.3s ease; }\n\n.options-box {\n  overflow: hidden;\n  position: absolute;\n  box-sizing: border-box;\n  width: 100%;\n  z-index: 6;\n  padding: var(--border-half);\n  display: flex;\n  max-height: 3rem;\n  transition: 0.3s ease; }\n\n.options-box.hidden {\n  padding: 0 var(--border-half);\n  max-height: 0;\n  transition: 0.3s ease; }\n\n.text-button {\n  line-height: 2rem;\n  font-size: 1.2rem;\n  margin: 0 0.5rem;\n  font-weight: bold;\n  cursor: pointer; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9pZHVuLWxheW91dC9jb21wb25lbnRzL0M6XFxVc2Vyc1xcbmlnYXRcXFByb2dyYW1taW5nXFxpZHVuXFxJZHVuSGVhbHRoXFxJZHVuRnJvbnRlbmQvc3JjXFxpZHVuLWxheW91dFxcY29tcG9uZW50c1xcY29udGVudC1ib3guY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUM7RUFDQSxrQ0FBa0M7RUFDbEMsbUNBQW1DO0VBQ25DLHFCQUFxQjtFQUNyQixXQUFXO0VBQ1gsaUNBQWlDO0VBQ2pDLGtCQUFrQjtFQUVsQixnQ0FBZ0MsRUFBQTs7QUFHakM7RUFDQyxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixzQ0FBc0M7RUFDdEMsNkJBQTZCO0VBQzdCLGlCQUFpQjtFQUNqQixlQUFlO0VBQ2YsNENBQTRDO0VBQzVDLDZDQUE2QztFQUM3QyxVQUFVO0VBQ1YscUNBQXdDLEVBQUE7O0FBR3pDO0VBQ0MsMkJBQTJCO0VBQzNCLGFBQWEsRUFBQTs7QUFHZDtFQUNDLFVBQVUsRUFBQTs7QUFHWDtFQUNDLHVCQUF1QjtFQUN2QixXQUFXO0VBQ1gsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQixhQUFhO0VBQ2IsVUFBVTtFQUNWLHFCQUFxQixFQUFBOztBQUV0QjtFQUNDLFlBQVk7RUFDWixxQkFBcUIsRUFBQTs7QUFHdEI7RUFDQywyQkFBMkI7RUFDM0IsK0JBQStCO0VBQy9CLHlDQUF5QztFQUN6QywrQ0FBK0M7RUFDL0MsZ0RBQWdEO0VBQ2hELFdBQVc7RUFDWCxzQkFBc0IsRUFBQTs7QUFHdkI7RUFDQyxxQkFBcUIsRUFBQTs7QUFHdEI7RUFDQyxzQkFBc0I7RUFDdEIsK0JBQXVCO0VBQXZCLDRCQUF1QjtFQUF2Qix1QkFBdUI7RUFDdkIseUNBQXlDO0VBQ3pDLCtDQUErQztFQUMvQyxnREFBZ0Q7RUFDaEQsb0RBQW9EO0VBQ3BELGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFVBQVU7RUFDViwyQkFBMkI7RUFDM0IsNENBQTRDO0VBQzVDLGlCQUFpQjtFQUNqQixxQkFBcUIsRUFBQTs7QUFFdEI7RUFDQyxnQkFBZ0I7RUFDaEIsNkJBQTZCO0VBQzdCLGFBQWE7RUFDYixxQkFBcUIsRUFBQTs7QUFFdEI7RUFDQyxpQkFBaUI7RUFDakIsMkJBQTJCO0VBQzNCLGtDQUFrQztFQUNsQyxpQ0FBaUM7RUFDakMsd0RBQXdEO0VBQ3hELGdCQUFnQjtFQUNoQixxQkFBcUIsRUFBQTs7QUFFdEI7RUFDQyxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLHNCQUFzQjtFQUN0QixXQUFXO0VBQ1gsVUFBVTtFQUNWLDJCQUEyQjtFQUMzQixhQUFhO0VBQ2IsZ0JBQWdCO0VBQ2hCLHFCQUFxQixFQUFBOztBQUV0QjtFQUNDLDZCQUE2QjtFQUM3QixhQUFhO0VBQ2IscUJBQXFCLEVBQUE7O0FBRXRCO0VBQ0MsaUJBQWlCO0VBQ2pCLGlCQUFpQjtFQUNqQixnQkFBZ0I7RUFDaEIsaUJBQWlCO0VBQ2pCLGVBQWUsRUFBQSIsImZpbGUiOiJzcmMvaWR1bi1sYXlvdXQvY29tcG9uZW50cy9jb250ZW50LWJveC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiA6aG9zdHtcclxuXHRib3gtc2hhZG93OiB2YXIoLS1zdGFuZGFyZC1zaGFkb3cpO1xyXG5cdGJvcmRlci1yYWRpdXM6IHZhcigtLWJvcmRlci1yYWRpdXMpO1xyXG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuXHR3aWR0aDogMTAwJTtcclxuXHRtYXJnaW4tYm90dG9tOiB2YXIoLS1ib3JkZXItZnVsbCk7XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdC8vIGJlbG93IGlzIGEgZml4IGZvciBzaGFkb3dzIGFjdGluZyB3ZWlyZCBvbiBtdWx0aXBsZSBjb2x1bW5zIGluIGNocm9tZVxyXG5cdC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVaKDApO1xyXG59XHJcblxyXG5oZWFkZXIge1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1uZXV0cmFsKTtcclxuXHRmb250LXNpemU6IHZhcigtLWhlYWRlci1zaXplKTtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxuXHRjdXJzb3I6IHBvaW50ZXI7XHJcblx0Ym9yZGVyLXRvcC1sZWZ0LXJhZGl1czogdmFyKC0tYm9yZGVyLXJhZGl1cyk7XHJcblx0Ym9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IHZhcigtLWJvcmRlci1yYWRpdXMpO1xyXG5cdHotaW5kZXg6IDE7XHJcblx0bGluZS1oZWlnaHQ6IHZhcigtLWhlYWRlci1zaXplKSArIDAuNXJlbTtcclxufVxyXG5cclxuLmhlYWRlci1jb250YWluZXIge1xyXG5cdHBhZGRpbmc6IHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRkaXNwbGF5OiBmbGV4O1xyXG59XHJcblxyXG4uaGVhZGVyLWNvbnRhaW5lciBpZHVuLWljb24ge1xyXG5cdHotaW5kZXg6IDI7XHJcbn1cclxuXHJcbi5oZWFkZXItaG92ZXIge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdGhlaWdodDogMTAwJTtcclxuXHRwb3NpdGlvbjogYWJzb2x1dGU7XHJcblx0ZGlzcGxheTogZmxleDtcclxuXHRvcGFjaXR5OiAwO1xyXG5cdHRyYW5zaXRpb246IDAuM3MgZWFzZTtcclxufVxyXG5oZWFkZXI6aG92ZXIgLmhlYWRlci1ob3ZlciB7XHJcblx0b3BhY2l0eTogMC4yO1xyXG5cdHRyYW5zaXRpb246IDAuM3MgZWFzZTtcclxufVxyXG5cclxuLmNvbnRlbnQtYm94IHtcclxuXHRwYWRkaW5nOiB2YXIoLS1ib3JkZXItZnVsbCk7XHJcblx0cGFkZGluZy10b3A6IHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1iYWNrZ3JvdW5kKTtcclxuXHRib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiB2YXIoLS1ib3JkZXItcmFkaXVzKTtcclxuXHRib3JkZXItYm90dG9tLXJpZ2h0LXJhZGl1czogdmFyKC0tYm9yZGVyLXJhZGl1cyk7XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcclxufVxyXG5cclxuaWR1bi1leHBhbmRhYmxlLWJveCA+ICo6bGFzdC1jaGlsZCB7XHJcblx0bWFyZ2luLWJvdHRvbTogMC41cmVtO1xyXG59XHJcblxyXG4uZXh0cmEtYm94IHtcclxuXHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG5cdG1heC1oZWlnaHQ6IG1heC1jb250ZW50O1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWJhY2tncm91bmQpO1xyXG5cdGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IHZhcigtLWJvcmRlci1yYWRpdXMpO1xyXG5cdGJvcmRlci1ib3R0b20tcmlnaHQtcmFkaXVzOiB2YXIoLS1ib3JkZXItcmFkaXVzKTtcclxuXHRib3gtc2hhZG93OiAwIDAuNXJlbSAxcmVtIDAuMnJlbSB2YXIoLS1jb2xvci1zaGFkb3cpO1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdHotaW5kZXg6IDQ7XHJcblx0cGFkZGluZzogdmFyKC0tYm9yZGVyLWhhbGYpO1xyXG5cdHBhZGRpbmctdG9wOiBjYWxjKDNyZW0gKyB2YXIoLS1ib3JkZXItaGFsZikpO1xyXG5cdG1heC1oZWlnaHQ6IDUwcmVtO1xyXG5cdHRyYW5zaXRpb246IDAuM3MgZWFzZTtcclxufVxyXG4uZXh0cmEtYm94LmhpZGRlbiB7XHJcblx0Ym94LXNoYWRvdzogbm9uZTtcclxuXHRwYWRkaW5nOiAwIHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRtYXgtaGVpZ2h0OiAwO1xyXG5cdHRyYW5zaXRpb246IDAuM3MgZWFzZTtcclxufVxyXG5wcmUge1xyXG5cdGZvbnQtc2l6ZTogMS4ycmVtO1xyXG5cdHBhZGRpbmc6IHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRwYWRkaW5nLWJvdHRvbTogdmFyKC0tYm9yZGVyLWhhbGYpO1xyXG5cdG1hcmdpbi1ib3R0b206IHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRib3JkZXItYm90dG9tOiAxcHggc29saWQgdmFyKC0tY29sb3ItYmFja2dyb3VuZC1vdmVybGF5KTtcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdHRyYW5zaXRpb246IDAuM3MgZWFzZTtcclxufVxyXG4ub3B0aW9ucy1ib3gge1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0ei1pbmRleDogNjtcclxuXHRwYWRkaW5nOiB2YXIoLS1ib3JkZXItaGFsZik7XHJcblx0ZGlzcGxheTogZmxleDtcclxuXHRtYXgtaGVpZ2h0OiAzcmVtO1xyXG5cdHRyYW5zaXRpb246IDAuM3MgZWFzZTtcclxufVxyXG4ub3B0aW9ucy1ib3guaGlkZGVuIHtcclxuXHRwYWRkaW5nOiAwIHZhcigtLWJvcmRlci1oYWxmKTtcclxuXHRtYXgtaGVpZ2h0OiAwO1xyXG5cdHRyYW5zaXRpb246IDAuM3MgZWFzZTtcclxufVxyXG4udGV4dC1idXR0b24ge1xyXG5cdGxpbmUtaGVpZ2h0OiAycmVtO1xyXG5cdGZvbnQtc2l6ZTogMS4ycmVtO1xyXG5cdG1hcmdpbjogMCAwLjVyZW07XHJcblx0Zm9udC13ZWlnaHQ6IGJvbGQ7XHJcblx0Y3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -11643,7 +11643,6 @@ var ExpandableBoxComponent = /** @class */ (function () {
             return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        console.log("doHide");
                         this.state = ShowState.LimitedHeight;
                         return [4 /*yield*/, this.sleep(1)];
                     case 1:
@@ -11659,7 +11658,6 @@ var ExpandableBoxComponent = /** @class */ (function () {
             return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        console.log("doShow");
                         this.state = ShowState.LimitedHeight;
                         return [4 /*yield*/, this.sleep(300)];
                     case 1:
@@ -12886,7 +12884,7 @@ module.exports = "<h2 *ngIf=\"showHeader\"\r\n\tclass=\"inner-header\">\r\n\t{{h
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ":host {\n  display: flow-root;\n  border: 3px solid var(--color-caution);\n  border-radius: var(--border-radius);\n  margin-bottom: var(--border-small);\n  text-align: center; }\n\nh2 {\n  text-align: center;\n  background-color: var(--color-caution);\n  margin-top: 0rem; }\n\n.warning-area {\n  white-space: pre;\n  font-weight: bold;\n  padding: 1rem; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9pZHVuLWxheW91dC9jb21wb25lbnRzL0M6XFxVc2Vyc1xcbmlnYXRcXFByb2dyYW1taW5nXFxpZHVuXFxJZHVuSGVhbHRoXFxJZHVuRnJvbnRlbmQvc3JjXFxpZHVuLWxheW91dFxcY29tcG9uZW50c1xcd2FybmluZy1ib3guY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQyxrQkFBa0I7RUFDbEIsc0NBQXNDO0VBQ3RDLG1DQUFtQztFQUNuQyxrQ0FBa0M7RUFDbEMsa0JBQWtCLEVBQUE7O0FBR25CO0VBQ0Msa0JBQWtCO0VBQ2xCLHNDQUFzQztFQUN0QyxnQkFBZ0IsRUFBQTs7QUFHakI7RUFDQyxnQkFBZ0I7RUFDaEIsaUJBQWlCO0VBQ2pCLGFBQWEsRUFBQSIsImZpbGUiOiJzcmMvaWR1bi1sYXlvdXQvY29tcG9uZW50cy93YXJuaW5nLWJveC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0e1xyXG5cdGRpc3BsYXk6IGZsb3ctcm9vdDtcclxuXHRib3JkZXI6IDNweCBzb2xpZCB2YXIoLS1jb2xvci1jYXV0aW9uKTtcclxuXHRib3JkZXItcmFkaXVzOiB2YXIoLS1ib3JkZXItcmFkaXVzKTtcclxuXHRtYXJnaW4tYm90dG9tOiB2YXIoLS1ib3JkZXItc21hbGwpO1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuaDIge1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1jYXV0aW9uKTtcclxuXHRtYXJnaW4tdG9wOiAwcmVtO1xyXG59XHJcblxyXG4ud2FybmluZy1hcmVhIHtcclxuXHR3aGl0ZS1zcGFjZTogcHJlO1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdHBhZGRpbmc6IDFyZW07XHJcbn1cclxuIl19 */"
+module.exports = ":host {\n  display: flow-root;\n  border: 3px solid var(--color-caution);\n  border-radius: var(--border-radius);\n  margin-bottom: var(--border-small);\n  text-align: center; }\n\nh2 {\n  text-align: center;\n  background-color: var(--color-caution);\n  margin-top: 0rem; }\n\n.warning-area {\n  white-space: pre;\n  font-weight: bold;\n  font-size: 1.1rem;\n  padding: 1rem; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9pZHVuLWxheW91dC9jb21wb25lbnRzL0M6XFxVc2Vyc1xcbmlnYXRcXFByb2dyYW1taW5nXFxpZHVuXFxJZHVuSGVhbHRoXFxJZHVuRnJvbnRlbmQvc3JjXFxpZHVuLWxheW91dFxcY29tcG9uZW50c1xcd2FybmluZy1ib3guY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQyxrQkFBa0I7RUFDbEIsc0NBQXNDO0VBQ3RDLG1DQUFtQztFQUNuQyxrQ0FBa0M7RUFDbEMsa0JBQWtCLEVBQUE7O0FBR25CO0VBQ0Msa0JBQWtCO0VBQ2xCLHNDQUFzQztFQUN0QyxnQkFBZ0IsRUFBQTs7QUFHakI7RUFDQyxnQkFBZ0I7RUFDaEIsaUJBQWlCO0VBQ2pCLGlCQUFpQjtFQUNqQixhQUFhLEVBQUEiLCJmaWxlIjoic3JjL2lkdW4tbGF5b3V0L2NvbXBvbmVudHMvd2FybmluZy1ib3guY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdHtcclxuXHRkaXNwbGF5OiBmbG93LXJvb3Q7XHJcblx0Ym9yZGVyOiAzcHggc29saWQgdmFyKC0tY29sb3ItY2F1dGlvbik7XHJcblx0Ym9yZGVyLXJhZGl1czogdmFyKC0tYm9yZGVyLXJhZGl1cyk7XHJcblx0bWFyZ2luLWJvdHRvbTogdmFyKC0tYm9yZGVyLXNtYWxsKTtcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbmgyIHtcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItY2F1dGlvbik7XHJcblx0bWFyZ2luLXRvcDogMHJlbTtcclxufVxyXG5cclxuLndhcm5pbmctYXJlYSB7XHJcblx0d2hpdGUtc3BhY2U6IHByZTtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxuXHRmb250LXNpemU6IDEuMXJlbTtcclxuXHRwYWRkaW5nOiAxcmVtO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -15711,7 +15709,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BookingTranslations", function() { return BookingTranslations; });
 var BookingTranslations = /** @class */ (function () {
     function BookingTranslations() {
-        this.helpText = "";
+        this.newHelpText = "";
+        this.calendarHelpText = "";
         this.book = "";
         this.editBooking = "";
         this.youMustChoosePatientBeforeBooking = "";
@@ -15721,15 +15720,6 @@ var BookingTranslations = /** @class */ (function () {
         this.bookingHasNotBeenSetUp = "";
         this.proceduresAndOtherDetailsMustBeSetUpBeforeBooking = "";
         this.goToBookingSetup = "";
-        this.procedureHasProblems = "";
-        this.noAvailableStaffWarning = "";
-        this.noAvailableResourcesWarning = "";
-        this.missingStaffWarning = "";
-        this.missingResourceWarning = "";
-        this.missingRightCompetenceWarning = "";
-        this.missingRightResourceWarning = "";
-        this.selectedStaffIsNotAvailableWarning = "";
-        this.selectedResourceIsNotAvailableWarning = "";
     }
     return BookingTranslations;
 }());
@@ -15899,14 +15889,10 @@ var ClinicTranslations = /** @class */ (function () {
         this.currency = "";
         this.updateLocation = "";
         this.helpSetupBasePrices = "";
-        this.helpSetupPartners = "";
-        this.helpSetupTemplates = "";
-        this.helpClinicSettings = "";
         this.hintClinicSettingsCurrency = "";
         this.hintClinicSettingsLocation = "";
         this.hintClinicSettingsTimezone = "";
         this.hintClinicSettingsWebsite = "";
-        this.hintClinicSettingsName = "";
     }
     return ClinicTranslations;
 }());
@@ -16394,7 +16380,6 @@ var JournalEntryTranslations = /** @class */ (function () {
         this.chooseTemplate = "";
         this.chooseATemplate = "";
         this.descriptionHint = "";
-        this.cave = "";
         this.signatures = "";
         this.notSigned = "";
     }
@@ -16604,6 +16589,7 @@ var PartnerTranslations = /** @class */ (function () {
         this.formHelpText = "";
         this.listHelpText = "";
         this.discount = "";
+        this.agreementNotes = "";
         this.relevantPaymentCodes = "";
         this.procedureChanges = "";
         this.changedPrice = "";
@@ -16655,6 +16641,8 @@ var PatientEventTranslations = /** @class */ (function () {
         this.listHelpText = "";
         this.missingProcedure = "";
         this.chooseProcedure = "";
+        this.chooseProcedureHelpText = "";
+        this.procedureEventHelpText = "";
         this.completionStatus = "";
         this.paymentStatus = "";
         this.patientIsPregnant = "";
@@ -16671,6 +16659,15 @@ var PatientEventTranslations = /** @class */ (function () {
         this.paymentStatusNotStarted = "";
         this.paymentStatusSent = "";
         this.paymentStatusPaid = "";
+        this.procedureHasProblems = "";
+        this.noAvailableStaffWarning = "";
+        this.noAvailableResourcesWarning = "";
+        this.missingStaffWarning = "";
+        this.missingResourceWarning = "";
+        this.missingRightCompetenceWarning = "";
+        this.missingRightResourceWarning = "";
+        this.selectedStaffIsNotAvailableWarning = "";
+        this.selectedResourceIsNotAvailableWarning = "";
     }
     return PatientEventTranslations;
 }());
@@ -16977,7 +16974,6 @@ var SettingsTranslations = /** @class */ (function () {
     function SettingsTranslations() {
         this.nameSingular = "";
         this.namePlural = "";
-        this.helpSettings = "";
         this.currentUser = "";
         this.changePassword = "";
         this.oldPassword = "";
@@ -17149,6 +17145,9 @@ var StaffTranslations = /** @class */ (function () {
         this.requests = "";
         this.staffMembersAreAvailableForProcedures = "";
         this.workHours = "";
+        this.acceptChanges = "";
+        this.removeWeek = "";
+        this.addWeek = "";
         this.copyFromPlannedRole = "";
         this.workTimes = "";
         this.workTimesForX = "";
@@ -17174,7 +17173,6 @@ var StaffTranslations = /** @class */ (function () {
         this.idMustBeUnique = "";
         this.nameHint = "";
         this.salaryBankAccount = "";
-        this.salaryBankAccountPlaceholder = "";
         this.salaryBankAccountHint = "";
         this.pensionInfo = "";
         this.pensionInfoPlaceholder = "";
@@ -17307,6 +17305,7 @@ var TreatmentCodeTranslations = /** @class */ (function () {
         this.listHelpText = "";
         this.treatmentCodeType = "";
         this.treatmentCodeTypeHint = "";
+        this.titleHint = "";
         this.codeHint = "";
         this.codeMustBeUniqueForGroup = "";
     }
@@ -21913,7 +21912,7 @@ var StaffNotificationComponent = /** @class */ (function (_super) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-popup [show]=\"autoform && autoform.currentPopup\"\r\n\t(close)=\"closePopup()\">\r\n\t<idun-auto-form [modelType]=\"'staff'\"\r\n\t\t[icon]=\"'Doctor'\"\r\n\t\tcolor=\"var(color-staff)\">\r\n\t</idun-auto-form>\r\n\t<idun-staff-work-hours *ngIf=\"autoform.currentPopup == 'work-hours'\"\r\n\t\t[staff]=\"autoform.model\"\r\n\t\t[display]=\"autoform.display\"\r\n\t\t(close)=\"closePopup()\"\r\n\t\tdata-popup>\r\n\t</idun-staff-work-hours>\r\n\t<idun-staff-competences *ngIf=\"autoform.currentPopup == 'competences'\"\r\n\t\t[staff]=\"autoform.model\"\r\n\t\t[display]=\"autoform.display\"\r\n\t\t(close)=\"closePopup()\"\r\n\t\tdata-popup>\r\n\t</idun-staff-competences>\r\n</idun-popup>"
+module.exports = "<idun-popup [show]=\"autoform && autoform.currentPopup\"\r\n\t(close)=\"closePopup()\">\r\n\t<idun-auto-form [modelType]=\"'staff'\">\r\n\t</idun-auto-form>\r\n\t<idun-staff-work-hours *ngIf=\"autoform.currentPopup == 'work-hours'\"\r\n\t\t[staff]=\"autoform.model\"\r\n\t\t[display]=\"autoform.display\"\r\n\t\t(close)=\"closePopup()\"\r\n\t\tdata-popup>\r\n\t</idun-staff-work-hours>\r\n\t<idun-staff-competences *ngIf=\"autoform.currentPopup == 'competences'\"\r\n\t\t[staff]=\"autoform.model\"\r\n\t\t[display]=\"autoform.display\"\r\n\t\t(close)=\"closePopup()\"\r\n\t\tdata-popup>\r\n\t</idun-staff-competences>\r\n</idun-popup>"
 
 /***/ }),
 
@@ -21966,7 +21965,7 @@ var StaffPageComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-calendar *ngIf=\"staff\"\r\n\tmode=\"week\"\r\n\t[title]=\"l.format(l.staff.workTimesForX, staff.Name || l.common.newStaff.toLowerCase())\"\r\n\t[date]=\"date\"\r\n\t[days]=\"staff.WorkPeriod * 7\"\r\n\t[hourHeight]=\"4\"\r\n\t[entryProviders]=\"entryProviders\"\r\n\t[showNavigation]=\"false\"\r\n\t[showNavigationBar]=\"false\"\r\n\t[showDate]=\"false\"\r\n\t(addEntry)=\"addEntry($event)\"\r\n\t(close)=\"close.emit()\">\r\n\r\n\t<div class=\"week-navigation-panel\">\r\n\t\t<div *ngFor=\"let week of [1, 2, 3, 4]\"\r\n\t\t\tclass=\"week-label\"\r\n\t\t\t[class.selected-week]=\"week === selectedWeek\"\r\n\t\t\t[class.not-selected-week]=\"week !== selectedWeek\"\r\n\t\t\t(click)=\"changeWeek(week)\">\r\n\t\t\t{{l.date.week}} {{week}}\r\n\t\t</div>\r\n\t</div>\r\n\r\n</idun-calendar>\r\n"
+module.exports = "<idun-calendar *ngIf=\"staff\"\r\n\tmode=\"week\"\r\n\t[title]=\"l.format(l.staff.workTimesForX, staff.Name || l.common.newStaff.toLowerCase())\"\r\n\t[date]=\"date\"\r\n\t[days]=\"staff.WorkPeriod * 7\"\r\n\t[hourHeight]=\"4\"\r\n\t[entryProviders]=\"entryProviders\"\r\n\t[showNavigation]=\"false\"\r\n\t[showNavigationBar]=\"false\"\r\n\t[showDate]=\"false\"\r\n\t(addEntry)=\"addEntry($event)\"\r\n\t(close)=\"close.emit()\">\r\n\r\n\t<div *ngIf=\"!display\"\r\n\t\tclass=\"idun-form-row\"\r\n\t\tstyle=\"margin-top: var(--border-small);\">\r\n\t\t<button type=\"button\"\r\n\t\t\tclass=\"margin-left\"\r\n\t\t\tstyle=\"flex: 1;\"\r\n\t\t\t(click)=\"close.emit()\">\r\n\t\t\t{{l.staff.acceptChanges}}\r\n\t\t</button>\r\n\t\t<span style=\"flex: 1;\"></span>\r\n\t\t<button type=\"button\"\r\n\t\t\tstyle=\"flex: 1;\"\r\n\t\t\tclass=\"negative-button margin-right\"\r\n\t\t\t(click)=\"removeWeek()\"\r\n\t\t\t[disabled]=\"staff.WorkPeriod <= 1\">\r\n\t\t\t{{l.staff.removeWeek}}\r\n\t\t</button>\r\n\t\t<button type=\"button\"\r\n\t\t\tstyle=\"flex: 1;\"\r\n\t\t\tclass=\"positive-button margin-right\"\r\n\t\t\t(click)=\"addWeek()\"\r\n\t\t\t[disabled]=\"staff.WorkPeriod >= 4\">\r\n\t\t\t{{l.staff.addWeek}}\r\n\t\t</button>\r\n\t</div>\r\n\r\n\t<div class=\"week-navigation-panel\">\r\n\t\t<div *ngFor=\"let week of weeksToShow()\"\r\n\t\t\tclass=\"week-label\"\r\n\t\t\t[class.selected-week]=\"week === selectedWeek\"\r\n\t\t\t[class.not-selected-week]=\"week !== selectedWeek\"\r\n\t\t\t(click)=\"changeWeek(week)\">\r\n\t\t\t{{l.date.week}} {{week}}\r\n\t\t</div>\r\n\t</div>\r\n\r\n</idun-calendar>\r\n"
 
 /***/ }),
 
@@ -22028,11 +22027,26 @@ var StaffWorkHoursComponent = /** @class */ (function (_super) {
         _this.selectedWeek = 1;
         return _this;
     }
+    Object.defineProperty(StaffWorkHoursComponent.prototype, "staff", {
+        get: function () {
+            return this._staff;
+        },
+        set: function (value) {
+            if (this._staff === value)
+                return;
+            this._staff = value;
+            this.updateProviders();
+        },
+        enumerable: true,
+        configurable: true
+    });
     StaffWorkHoursComponent.prototype.ngOnInit = function () {
         this.updateProviders();
     };
     StaffWorkHoursComponent.prototype.updateProviders = function () {
         var _this = this;
+        if (!this.staff)
+            return;
         var entries = this.staff.WorkTimes
             .map(function (x) { return _this.calendarEntryFrom(x); });
         this.entryProviders = [new idun_calendar_basic_calendar_provider__WEBPACK_IMPORTED_MODULE_4__["BasicCalendarProvider"]({
@@ -22065,19 +22079,34 @@ var StaffWorkHoursComponent = /** @class */ (function (_super) {
             }
         });
     };
+    StaffWorkHoursComponent.prototype.removeWeek = function () {
+        this.staff.WorkPeriod--;
+    };
+    StaffWorkHoursComponent.prototype.addWeek = function () {
+        this.staff.WorkPeriod++;
+    };
+    StaffWorkHoursComponent.prototype.weeksToShow = function () {
+        var weeks = [];
+        for (var i = 1; i <= this.staff.WorkPeriod; i++)
+            weeks.push(i);
+        return weeks;
+    };
     StaffWorkHoursComponent.prototype.addEntry = function (data) {
+        if (this.display)
+            return;
         var interval = idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_8__["TimeInterval"].fromDuration(data.time, { hours: 1 });
         idun_common_models_time_interval_series__WEBPACK_IMPORTED_MODULE_11__["TimeIntervalSeries"].mergeIntervalIntoList(interval, this.staff.WorkTimes);
         this.updateProviders();
     };
     StaffWorkHoursComponent.prototype.changeWeek = function (week) {
         this.selectedWeek = week;
-        this.date = Object(utility_date_helper__WEBPACK_IMPORTED_MODULE_7__["newDateFrom"])({ days: week * 7 }, new Date(1900, 0));
+        this.date = Object(utility_date_helper__WEBPACK_IMPORTED_MODULE_7__["newDateFrom"])({ days: (week - 1) * 7 }, new Date(1900, 0));
     };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", idun_common_models_staff__WEBPACK_IMPORTED_MODULE_3__["Staff"])
-    ], StaffWorkHoursComponent.prototype, "staff", void 0);
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", idun_common_models_staff__WEBPACK_IMPORTED_MODULE_3__["Staff"]),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [idun_common_models_staff__WEBPACK_IMPORTED_MODULE_3__["Staff"]])
+    ], StaffWorkHoursComponent.prototype, "staff", null);
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
@@ -22939,7 +22968,6 @@ var JournalTemplateService = /** @class */ (function (_super) {
             rows: [
                 new idun_layout_form_form_text_component__WEBPACK_IMPORTED_MODULE_7__["FormTextRow"]("Title", {
                     label: function () { return l.common.title; },
-                    hint: function () { return l.journalTemplate.titleHint; },
                     requirements: [idun_layout_validation_validation_requirement__WEBPACK_IMPORTED_MODULE_12__["ValidationRequirement"].ValueRequired(l)],
                 }),
                 new idun_layout_form_form_textarea_component__WEBPACK_IMPORTED_MODULE_6__["FormTextareaRow"]("Content", {
@@ -23008,19 +23036,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var idun_common_extended_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! idun-common/extended-service */ "../src/idun-common/extended-service.ts");
 /* harmony import */ var idun_layout_language_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! idun-layout/language.service */ "../src/idun-layout/language.service.ts");
 /* harmony import */ var idun_common_models_partner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! idun-common/models/partner */ "../src/idun-common/models/partner.ts");
-/* harmony import */ var _procedure_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./procedure.service */ "../src/idun-main/model-services/procedure.service.ts");
-/* harmony import */ var idun_layout_form_form_text_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! idun-layout/form/form-text.component */ "../src/idun-layout/form/form-text.component.ts");
-/* harmony import */ var idun_layout_form_form_number_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! idun-layout/form/form-number.component */ "../src/idun-layout/form/form-number.component.ts");
-/* harmony import */ var idun_layout_form_form_textarea_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! idun-layout/form/form-textarea.component */ "../src/idun-layout/form/form-textarea.component.ts");
-/* harmony import */ var idun_common_form_form_procedure_changes_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! idun-common/form/form-procedure-changes.component */ "../src/idun-common/form/form-procedure-changes.component.ts");
-/* harmony import */ var _procedure_type_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./procedure-type.service */ "../src/idun-main/model-services/procedure-type.service.ts");
-/* harmony import */ var _treatment_code_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./treatment-code.service */ "../src/idun-main/model-services/treatment-code.service.ts");
-/* harmony import */ var idun_main_user_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! idun-main/user.service */ "../src/idun-main/user.service.ts");
-/* harmony import */ var idun_common_models_staff_group__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! idun-common/models/staff-group */ "../src/idun-common/models/staff-group.ts");
-/* harmony import */ var idun_layout_validation_validation_requirement__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! idun-layout/validation/validation-requirement */ "../src/idun-layout/validation/validation-requirement.ts");
-
-
-
+/* harmony import */ var idun_layout_form_form_text_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! idun-layout/form/form-text.component */ "../src/idun-layout/form/form-text.component.ts");
+/* harmony import */ var idun_layout_form_form_number_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! idun-layout/form/form-number.component */ "../src/idun-layout/form/form-number.component.ts");
+/* harmony import */ var idun_layout_form_form_textarea_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! idun-layout/form/form-textarea.component */ "../src/idun-layout/form/form-textarea.component.ts");
+/* harmony import */ var idun_common_form_form_procedure_changes_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! idun-common/form/form-procedure-changes.component */ "../src/idun-common/form/form-procedure-changes.component.ts");
+/* harmony import */ var idun_main_user_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! idun-main/user.service */ "../src/idun-main/user.service.ts");
+/* harmony import */ var idun_common_models_staff_group__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! idun-common/models/staff-group */ "../src/idun-common/models/staff-group.ts");
+/* harmony import */ var idun_layout_validation_validation_requirement__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! idun-layout/validation/validation-requirement */ "../src/idun-layout/validation/validation-requirement.ts");
 
 
 
@@ -23036,28 +23058,28 @@ __webpack_require__.r(__webpack_exports__);
 
 var PartnerService = /** @class */ (function (_super) {
     tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](PartnerService, _super);
-    function PartnerService(http, procedureService, procedureTypeService, treatmentCodeService, userService, l) {
+    function PartnerService(http, userService, l) {
         var _this = _super.call(this, http, l, idun_common_models_partner__WEBPACK_IMPORTED_MODULE_5__["Partner"], "api/Partner", "partner", function () { return l.partner; }) || this;
-        _this.hasEditPermission = function () { return userService.hasPermission(idun_common_models_staff_group__WEBPACK_IMPORTED_MODULE_14__["Permission"].EditPartners); };
+        _this.hasEditPermission = function () { return userService.hasPermission(idun_common_models_staff_group__WEBPACK_IMPORTED_MODULE_11__["Permission"].EditPartners); };
         _this.icon = "Fundamental";
         _this.color = "var(--color-economics)";
         _this.setupForm({
             getHeader: function (model) { return l.partner.nameSingular + (model.Name ? ": " + model.Name : ""); },
             rows: [
-                new idun_layout_form_form_text_component__WEBPACK_IMPORTED_MODULE_7__["FormTextRow"]("Name", {
+                new idun_layout_form_form_text_component__WEBPACK_IMPORTED_MODULE_6__["FormTextRow"]("Name", {
                     label: function () { return l.common.name; },
-                    requirements: [idun_layout_validation_validation_requirement__WEBPACK_IMPORTED_MODULE_15__["ValidationRequirement"].ValueRequired(l)]
+                    requirements: [idun_layout_validation_validation_requirement__WEBPACK_IMPORTED_MODULE_12__["ValidationRequirement"].ValueRequired(l)]
                 }),
-                new idun_layout_form_form_number_component__WEBPACK_IMPORTED_MODULE_8__["FormNumberRow"]("PercentageDiscount", {
+                new idun_layout_form_form_number_component__WEBPACK_IMPORTED_MODULE_7__["FormNumberRow"]("PercentageDiscount", {
                     label: function () { return l.partner.discount; },
                     hint: function () { return l.partner.discountHint; },
-                    requirements: [idun_layout_validation_validation_requirement__WEBPACK_IMPORTED_MODULE_15__["ValidationRequirement"].ValueRequired(l)],
+                    requirements: [idun_layout_validation_validation_requirement__WEBPACK_IMPORTED_MODULE_12__["ValidationRequirement"].ValueRequired(l)],
                     endLabel: function () { return "%"; }
                 }),
-                new idun_layout_form_form_textarea_component__WEBPACK_IMPORTED_MODULE_9__["FormTextareaRow"]("Notes", {
-                    label: function () { return l.patient.notes; }
+                new idun_layout_form_form_textarea_component__WEBPACK_IMPORTED_MODULE_8__["FormTextareaRow"]("Notes", {
+                    label: function () { return l.partner.agreementNotes; }
                 }),
-                new idun_common_form_form_procedure_changes_component__WEBPACK_IMPORTED_MODULE_10__["FormProcedureChangesRow"]("ProcedureChanges", {
+                new idun_common_form_form_procedure_changes_component__WEBPACK_IMPORTED_MODULE_9__["FormProcedureChangesRow"]("ProcedureChanges", {
                     label: function () { return l.partner.procedureChanges; },
                     hint: function () { return l.partner.procedureChangesHint; }
                 })
@@ -23074,10 +23096,7 @@ var PartnerService = /** @class */ (function (_super) {
     PartnerService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_2__["Http"],
-            _procedure_service__WEBPACK_IMPORTED_MODULE_6__["ProcedureService"],
-            _procedure_type_service__WEBPACK_IMPORTED_MODULE_11__["ProcedureTypeService"],
-            _treatment_code_service__WEBPACK_IMPORTED_MODULE_12__["TreatmentCodeService"],
-            idun_main_user_service__WEBPACK_IMPORTED_MODULE_13__["UserService"],
+            idun_main_user_service__WEBPACK_IMPORTED_MODULE_10__["UserService"],
             idun_layout_language_service__WEBPACK_IMPORTED_MODULE_4__["LanguageService"]])
     ], PartnerService);
     return PartnerService;
@@ -23262,6 +23281,7 @@ var PatientNoteService = /** @class */ (function (_super) {
                     })
                 ]
             }], {
+            helpText: function () { return _this.translations().formHelpText; },
             parameterHandlers: {
                 "id": function (id, params) { params.id = id; },
                 "patient": function (patient, params) { params.patientID = +patient; }
@@ -23626,6 +23646,7 @@ var PatientService = /** @class */ (function (_super) {
                 ]
             }
         ], {
+            helpText: function () { return _this.translations().formHelpText; },
             onSubmit: function (model, component) {
                 var latestEntry = model.Cave[model.Cave.length - 1];
                 var previousEntry = model.Cave.length > 1
@@ -24559,7 +24580,7 @@ var StaffService = /** @class */ (function (_super) {
                         label: function () { return l.staff.salaryBankAccount; },
                         hint: function () { return l.staff.salaryBankAccountHint; }
                     }),
-                    new idun_layout_form_form_text_component__WEBPACK_IMPORTED_MODULE_7__["FormTextRow"]("PensionInfo", {
+                    new idun_layout_form_form_textarea_component__WEBPACK_IMPORTED_MODULE_17__["FormTextareaRow"]("PensionInfo", {
                         label: function () { return l.staff.pensionInfo; },
                         hint: function () { return l.staff.pensionInfoHint; }
                     }),
@@ -24605,6 +24626,7 @@ var StaffService = /** @class */ (function (_super) {
                     })
                 ]
             }], {
+            helpText: function () { return _this.translations().formHelpText; },
             onSubmit: function (model, component) { return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](_this, void 0, void 0, function () {
                 return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
                     switch (_a.label) {
@@ -25010,6 +25032,7 @@ var TreatmentCodeService = /** @class */ (function (_super) {
             rows: [
                 new idun_layout_form_form_text_component__WEBPACK_IMPORTED_MODULE_7__["FormTextRow"]("Title", {
                     label: function () { return l.common.title; },
+                    hint: function () { return l.treatmentCode.titleHint; },
                     requirements: [idun_layout_validation_validation_requirement__WEBPACK_IMPORTED_MODULE_12__["ValidationRequirement"].ValueRequired(l)],
                     width: 60,
                     cssClasses: "padding-right"
@@ -25225,8 +25248,8 @@ var PatientEventCreationService = /** @class */ (function () {
         this.patientEventCreation = {
             patientEvent: new idun_common_models_patient_event__WEBPACK_IMPORTED_MODULE_3__["PatientEvent"](this.patientEventService.patientEvent$.value),
             warnings: {
-                noAvailableStaff: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_9__["Warning"](function () { return _this.l.booking.noAvailableStaffWarning; }),
-                noAvailableResources: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_9__["Warning"](function () { return _this.l.booking.noAvailableResourcesWarning; }),
+                noAvailableStaff: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_9__["Warning"](function () { return _this.l.patientEvent.noAvailableStaffWarning; }),
+                noAvailableResources: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_9__["Warning"](function () { return _this.l.patientEvent.noAvailableResourcesWarning; }),
             },
             onStaffComplete: function () { },
             onResourcesComplete: function () { },
@@ -25680,14 +25703,14 @@ var ProcedureEventAnalysis = /** @class */ (function () {
     function ProcedureEventAnalysis(l, isSupported, staffWarnings, resourceWarnings) {
         if (isSupported === void 0) { isSupported = true; }
         if (staffWarnings === void 0) { staffWarnings = {
-            missingStaff: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.booking.missingStaffWarning; }),
-            missingRightCompetence: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.booking.missingRightCompetenceWarning; }),
-            selectedStaffUnavailable: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.booking.selectedStaffIsNotAvailableWarning; }),
+            missingStaff: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.patientEvent.missingStaffWarning; }),
+            missingRightCompetence: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.patientEvent.missingRightCompetenceWarning; }),
+            selectedStaffUnavailable: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.patientEvent.selectedStaffIsNotAvailableWarning; }),
         }; }
         if (resourceWarnings === void 0) { resourceWarnings = {
-            missingResource: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.booking.missingResourceWarning; }),
-            missingRightResource: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.booking.missingRightResourceWarning; }),
-            selectedResourceUnavailable: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.booking.selectedResourceIsNotAvailableWarning; }),
+            missingResource: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.patientEvent.missingResourceWarning; }),
+            missingRightResource: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.patientEvent.missingRightResourceWarning; }),
+            selectedResourceUnavailable: new idun_layout_components_warning_box_component__WEBPACK_IMPORTED_MODULE_5__["Warning"](function () { return l.patientEvent.selectedResourceIsNotAvailableWarning; }),
         }; }
         this.isSupported = isSupported;
         this.staffWarnings = staffWarnings;
@@ -25881,7 +25904,7 @@ var BookPatientEventComponent = /** @class */ (function (_super) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-calendar icon=\"CalendarBooking\"\r\n\t[color]=\"0.09\"\r\n\t[date]=\"date\"\r\n\tmode=\"week\"\r\n\t[loading]=\"loading\"\r\n\t[title]=\"l.common.booking\"\r\n\t[subtitle]=\"subtitle\"\r\n\t[helpText]=\"l.booking.helpText\"\r\n\t[entryProviders]=\"entryProviders\"\r\n\t[showPopup]=\"selectedInterval || showMissingPatientEventMessage\"\r\n\t[showMaximised]=\"layoutService.maximised\"\r\n\t(navigate)=\"navigate($event)\"\r\n\t(addEntry)=\"addEntry($event)\"\r\n\t(selectEntry)=\"selectInterval($event.entry.source.Interval)\"\r\n\t(closeEntry)=\"closePopup()\">\r\n\r\n\t<div data-navigation-box>\r\n\t\t<div class=\"idun-form-row\">\r\n\t\t\t<idun-link [destination]=\"'booking'\"\r\n\t\t\t\tstyle=\"width: 100%;\">\r\n\t\t\t\t{{l.booking.editBooking}}\r\n\t\t\t</idun-link>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<idun-book-patient-event *ngIf=\"selectedInterval\"\r\n\t\tstyle=\"display: flow-root; max-width: 50rem; margin: 0 auto;\"\r\n\t\t[interval]=\"selectedInterval\"\r\n\t\t(close)=\"closePopup()\"\r\n\t\tdata-popup>\r\n\t</idun-book-patient-event>\r\n\r\n\t<idun-content-box *ngIf=\"showMissingPatientEventMessage\"\r\n\t\tstyle=\"display: flow-root; max-width: 50rem; margin: 0 auto;\"\r\n\t\t(close)=\"closePopup()\"\r\n\t\tdata-popup>\r\n\t\t<header>{{l.booking.bookingHasNotBeenSetUp}}</header>\r\n\t\t<div class=\"idun-form-row\"\r\n\t\t\tstyle=\"text-align: center;\">\r\n\t\t\t<label style=\"width: 100%;\">\r\n\t\t\t\t{{l.booking.proceduresAndOtherDetailsMustBeSetUpBeforeBooking}}\r\n\t\t\t</label>\r\n\t\t</div>\r\n\t\t<div class=\"idun-form-row\">\r\n\t\t\t<idun-link destination=\"booking\"\r\n\t\t\t\tstyle=\"margin: auto;\">\r\n\t\t\t\t{{l.booking.goToBookingSetup}}\r\n\t\t\t</idun-link>\r\n\t\t</div>\r\n\t</idun-content-box>\r\n</idun-calendar>\r\n"
+module.exports = "<idun-calendar icon=\"CalendarBooking\"\r\n\t[color]=\"0.09\"\r\n\t[date]=\"date\"\r\n\tmode=\"week\"\r\n\t[loading]=\"loading\"\r\n\t[title]=\"l.common.booking\"\r\n\t[subtitle]=\"subtitle\"\r\n\t[helpText]=\"l.booking.calendarHelpText\"\r\n\t[entryProviders]=\"entryProviders\"\r\n\t[showPopup]=\"selectedInterval || showMissingPatientEventMessage\"\r\n\t[showMaximised]=\"layoutService.maximised\"\r\n\t(navigate)=\"navigate($event)\"\r\n\t(addEntry)=\"addEntry($event)\"\r\n\t(selectEntry)=\"selectInterval($event.entry.source.Interval)\"\r\n\t(closeEntry)=\"closePopup()\">\r\n\r\n\t<div data-navigation-box>\r\n\t\t<div class=\"idun-form-row\">\r\n\t\t\t<idun-link [destination]=\"'booking'\"\r\n\t\t\t\tstyle=\"width: 100%;\">\r\n\t\t\t\t{{l.booking.editBooking}}\r\n\t\t\t</idun-link>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<idun-book-patient-event *ngIf=\"selectedInterval\"\r\n\t\tstyle=\"display: flow-root; max-width: 50rem; margin: 0 auto;\"\r\n\t\t[interval]=\"selectedInterval\"\r\n\t\t(close)=\"closePopup()\"\r\n\t\tdata-popup>\r\n\t</idun-book-patient-event>\r\n\r\n\t<idun-content-box *ngIf=\"showMissingPatientEventMessage\"\r\n\t\tstyle=\"display: flow-root; max-width: 50rem; margin: 0 auto;\"\r\n\t\t(close)=\"closePopup()\"\r\n\t\tdata-popup>\r\n\t\t<header>{{l.booking.bookingHasNotBeenSetUp}}</header>\r\n\t\t<div class=\"idun-form-row\"\r\n\t\t\tstyle=\"text-align: center;\">\r\n\t\t\t<label style=\"width: 100%;\">\r\n\t\t\t\t{{l.booking.proceduresAndOtherDetailsMustBeSetUpBeforeBooking}}\r\n\t\t\t</label>\r\n\t\t</div>\r\n\t\t<div class=\"idun-form-row\">\r\n\t\t\t<idun-link destination=\"booking\"\r\n\t\t\t\tstyle=\"margin: auto;\">\r\n\t\t\t\t{{l.booking.goToBookingSetup}}\r\n\t\t\t</idun-link>\r\n\t\t</div>\r\n\t</idun-content-box>\r\n</idun-calendar>\r\n"
 
 /***/ }),
 
@@ -26068,7 +26091,7 @@ var BookingEventProvider = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-content-box *ngIf=\"!patient\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"true\">\r\n\t<header>{{l.patientEvent.nameSingular}}</header>\r\n\r\n\t<div class=\"idun-form-row\">\r\n\t\t<label>\r\n\t\t\t{{l.booking.youMustChoosePatientBeforeBooking}}\r\n\t\t</label>\r\n\t</div>\r\n</idun-content-box>\r\n\r\n<idun-content-box *ngIf=\"showMainBox()\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"true\">\r\n\t<header>{{l.patientEvent.nameSingular}} - {{patient.Name}}</header>\r\n\r\n\t<div class=\"flex-row\">\r\n\t\t<div style=\"width: calc(50% - 0.5rem);\">\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.procedure.namePlural}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div *ngFor=\"let procedureEvent of patientEvent.ProcedureEvents\"\r\n\t\t\t\tclass=\"idun-form-row\">\r\n\t\t\t\t<idun-icon-button (click)=\"selectProcedureEvent(procedureEvent)\">\r\n\t\t\t\t\t{{procedureEvent.ProcedureId\r\n\t\t\t\t\t\t? titleFor(procedureEvent)\r\n\t\t\t\t\t\t: l.patientEvent.missingProcedure\r\n\t\t\t\t\t}}\r\n\t\t\t\t</idun-icon-button>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<button type=\"button\"\r\n\t\t\t\t\tclass=\"positive-button\"\r\n\t\t\t\t\tstyle=\"width: 100%;\"\r\n\t\t\t\t\t(click)=\"addProcedureEvent()\">\r\n\t\t\t\t\t{{l.procedureEvent.addModel}}\r\n\t\t\t\t</button>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<div style=\"width: calc(50% - 0.5rem);\">\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.patientEvent.totalDuration}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label style=\"font-weight: unset;\">{{timeText()}}</label>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.patientEvent.totalPrice}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label style=\"font-weight: unset;\">{{priceText()}}</label>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div *ngIf=\"patient.isFemale()\"\r\n\t\t\t\tclass=\"idun-form-row\">\r\n\t\t\t\t<idun-form-select [(ngModel)]=\"patientEvent.Pregnant\"\r\n\t\t\t\t\tstyle=\"flex: 1; margin: 0 4rem;\"\r\n\t\t\t\t\t[label]=\"l.patientEvent.patientIsPregnant\">\r\n\t\t\t\t\t<option value=\"0\">{{l.common.yes}}</option>\r\n\t\t\t\t\t<option value=\"1\">{{l.common.maybe}}</option>\r\n\t\t\t\t\t<option value=\"2\">{{l.common.no}}</option>\r\n\t\t\t\t</idun-form-select>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<div class=\"idun-form-row\">\r\n\t\t<idun-link *ngIf=\"readyToFindTimes()\"\r\n\t\t\tstyle=\"width: 100%;\"\r\n\t\t\tcolouring=\"positive\"\r\n\t\t\tdestination=\"booking-calendar\"\r\n\t\t\t(click)=\"emitPatientEvent()\">\r\n\t\t\t{{l.booking.findAvailableTimes}}\r\n\t\t</idun-link>\r\n\t\t<button *ngIf=\"!readyToFindTimes()\"\r\n\t\t\tstyle=\"width: 100%;\"\r\n\t\t\tdisabled>\r\n\t\t\t{{l.booking.findAvailableTimes}}\r\n\t\t</button>\r\n\t</div>\r\n</idun-content-box>\r\n\r\n<idun-procedure-event-box [procedureEvent]=\"selectedProcedureEvent\"\r\n\t[showNavigation]=\"!showMainBox()\"\r\n\t[allowDelete]=\"patientEvent.ProcedureEvents.length > 1\"\r\n\t(accept)=\"acceptProcedureEvent()\"\r\n\t(delete)=\"removeProcedureEvent()\"\r\n\trequirementsArea=\"hide\"\r\n\tprocedureArea=\"edit\"\r\n\tpriceArea=\"edit\">\r\n</idun-procedure-event-box>\r\n"
+module.exports = "<idun-content-box *ngIf=\"!patient\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"true\">\r\n\t<header>{{l.patientEvent.nameSingular}}</header>\r\n\r\n\t<div class=\"idun-form-row\">\r\n\t\t<label>\r\n\t\t\t{{l.booking.youMustChoosePatientBeforeBooking}}\r\n\t\t</label>\r\n\t</div>\r\n</idun-content-box>\r\n\r\n<idun-content-box *ngIf=\"showMainBox()\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"true\"\r\n\t[helpText]=\"l.booking.newHelpText\">\r\n\t<header>{{l.patientEvent.nameSingular}} - {{patient.Name}}</header>\r\n\r\n\t<div class=\"flex-row\">\r\n\t\t<div style=\"width: calc(50% - 0.5rem);\">\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.procedure.namePlural}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div *ngFor=\"let procedureEvent of patientEvent.ProcedureEvents\"\r\n\t\t\t\tclass=\"idun-form-row\">\r\n\t\t\t\t<idun-icon-button (click)=\"selectProcedureEvent(procedureEvent)\">\r\n\t\t\t\t\t{{procedureEvent.ProcedureId\r\n\t\t\t\t\t\t? titleFor(procedureEvent)\r\n\t\t\t\t\t\t: l.patientEvent.missingProcedure\r\n\t\t\t\t\t}}\r\n\t\t\t\t</idun-icon-button>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<button type=\"button\"\r\n\t\t\t\t\tclass=\"positive-button\"\r\n\t\t\t\t\tstyle=\"width: 100%;\"\r\n\t\t\t\t\t(click)=\"addProcedureEvent()\">\r\n\t\t\t\t\t{{l.procedureEvent.addModel}}\r\n\t\t\t\t</button>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<div style=\"width: calc(50% - 0.5rem);\">\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.patientEvent.totalDuration}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label style=\"font-weight: unset;\">{{timeText()}}</label>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.patientEvent.totalPrice}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label style=\"font-weight: unset;\">{{priceText()}}</label>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div *ngIf=\"patient.isFemale()\"\r\n\t\t\t\tclass=\"idun-form-row\">\r\n\t\t\t\t<idun-form-select [(ngModel)]=\"patientEvent.Pregnant\"\r\n\t\t\t\t\tstyle=\"flex: 1; margin: 0 4rem;\"\r\n\t\t\t\t\t[label]=\"l.patientEvent.patientIsPregnant\">\r\n\t\t\t\t\t<option value=\"0\">{{l.common.yes}}</option>\r\n\t\t\t\t\t<option value=\"1\">{{l.common.maybe}}</option>\r\n\t\t\t\t\t<option value=\"2\">{{l.common.no}}</option>\r\n\t\t\t\t</idun-form-select>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<div class=\"idun-form-row\">\r\n\t\t<idun-link *ngIf=\"readyToFindTimes()\"\r\n\t\t\tstyle=\"width: 100%;\"\r\n\t\t\tcolouring=\"positive\"\r\n\t\t\tdestination=\"booking-calendar\"\r\n\t\t\t(click)=\"emitPatientEvent()\">\r\n\t\t\t{{l.booking.findAvailableTimes}}\r\n\t\t</idun-link>\r\n\t\t<button *ngIf=\"!readyToFindTimes()\"\r\n\t\t\tstyle=\"width: 100%;\"\r\n\t\t\tdisabled>\r\n\t\t\t{{l.booking.findAvailableTimes}}\r\n\t\t</button>\r\n\t</div>\r\n</idun-content-box>\r\n\r\n<idun-procedure-event-box [procedureEvent]=\"selectedProcedureEvent\"\r\n\t[showNavigation]=\"!showMainBox()\"\r\n\t[allowDelete]=\"patientEvent.ProcedureEvents.length > 1\"\r\n\t(accept)=\"acceptProcedureEvent()\"\r\n\t(delete)=\"removeProcedureEvent()\"\r\n\trequirementsArea=\"hide\"\r\n\tprocedureArea=\"edit\"\r\n\tpriceArea=\"edit\">\r\n</idun-procedure-event-box>\r\n"
 
 /***/ }),
 
@@ -26321,7 +26344,7 @@ var bookingRoutes = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-content-box *ngIf=\"patientEvent && patient\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"showNavigation\"\r\n\t[buttons]=\"buttons\"\r\n\t[hideClose]=\"showNavigation\"\r\n\t(close)=\"close.emit()\">\r\n\t<header>{{l.patientEvent.nameSingular}} - {{patient.Name}}</header>\r\n\r\n\t<idun-warning-box [warnings]=\"warnings\"></idun-warning-box>\r\n\r\n\t<div class=\"flex-row\">\r\n\t\t<div style=\"flex: 1;\">\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.patientEvent.totalDuration}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label style=\"font-weight: unset;\">{{timeText()}}</label>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<div style=\"flex: 1;\">\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.patientEvent.totalPrice}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label style=\"font-weight: unset;\">{{priceText()}}</label>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<ng-content select=\"[data-upper-section]\"></ng-content>\r\n\t</div>\r\n\r\n\t<div class=\"idun-form-row\">\r\n\t\t<label>{{l.procedure.namePlural}}</label>\r\n\t</div>\r\n\t<div *ngFor=\"let procedureEvent of patientEvent.ProcedureEvents\"\r\n\t\tclass=\"idun-form-row procedure-entry\"\r\n\t\t[class.has-problems]=\"hasProblems(procedureEvent)\">\r\n\t\t<idun-icon-button (click)=\"selectProcedureEvent.emit(procedureEvent)\"\r\n\t\t\tstyle=\"text-align: left;\">\r\n\t\t\t<span class=\"margin-right\"\r\n\t\t\t\tstyle=\"opacity: 0.7;\">\r\n\t\t\t\t{{timesFor(procedureEvent)}}\r\n\t\t\t</span>\r\n\t\t\t{{titleFor(procedureEvent)}}\r\n\t\t\t<span style=\"opacity: 0.7; float: right;\">{{staffFor(procedureEvent)}}</span>\r\n\t\t</idun-icon-button>\r\n\t\t<!--div class=\"flex-row\">\r\n\t\t\tTODO: Show statuses #1868\r\n\t\t\t<span class=\"margin-right\" style=\"opacity: 0.7;\">\r\n\t\t\t\t{{l.patientEvent.completionStatus}}:\r\n\t\t\t</span>\r\n\t\t\t{{completionStatusFor(procedureEvent)}}\r\n\t\t\t<span class=\"margin-right\" style=\"opacity: 0.7; margin-left: auto;\">\r\n\t\t\t\t{{l.patientEvent.paymentStatus}}:\r\n\t\t\t</span>\r\n\t\t\t{{paymentStatusFor(procedureEvent)}}\r\n\t\t</div-->\r\n\t\t<div *ngIf=\"hasProblems(procedureEvent)\">\r\n\t\t\t{{l.booking.procedureHasProblems}}\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<ng-content></ng-content>\r\n</idun-content-box>\r\n"
+module.exports = "<idun-content-box *ngIf=\"patientEvent && patient\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"showNavigation\"\r\n\t[helpText]=\"l.patientEvent.formHelpText\"\r\n\t[buttons]=\"buttons\"\r\n\t[hideClose]=\"showNavigation\"\r\n\t(close)=\"close.emit()\">\r\n\t<header>{{l.patientEvent.nameSingular}} - {{patient.Name}}</header>\r\n\r\n\t<idun-warning-box [warnings]=\"warnings\"></idun-warning-box>\r\n\r\n\t<div class=\"flex-row\">\r\n\t\t<div style=\"flex: 1;\">\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.patientEvent.totalDuration}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label style=\"font-weight: unset;\">{{timeText()}}</label>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<div style=\"flex: 1;\">\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label>{{l.patientEvent.totalPrice}}</label>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"idun-form-row\">\r\n\t\t\t\t<label style=\"font-weight: unset;\">{{priceText()}}</label>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<ng-content select=\"[data-upper-section]\"></ng-content>\r\n\t</div>\r\n\r\n\t<div class=\"idun-form-row\">\r\n\t\t<label>{{l.procedure.namePlural}}</label>\r\n\t</div>\r\n\t<div *ngFor=\"let procedureEvent of patientEvent.ProcedureEvents\"\r\n\t\tclass=\"idun-form-row procedure-entry\"\r\n\t\t[class.has-problems]=\"hasProblems(procedureEvent)\">\r\n\t\t<idun-icon-button (click)=\"selectProcedureEvent.emit(procedureEvent)\"\r\n\t\t\tstyle=\"text-align: left;\">\r\n\t\t\t<span class=\"margin-right\"\r\n\t\t\t\tstyle=\"opacity: 0.7;\">\r\n\t\t\t\t{{timesFor(procedureEvent)}}\r\n\t\t\t</span>\r\n\t\t\t{{titleFor(procedureEvent)}}\r\n\t\t\t<span style=\"opacity: 0.7; float: right;\">{{staffFor(procedureEvent)}}</span>\r\n\t\t</idun-icon-button>\r\n\t\t<!--div class=\"flex-row\">\r\n\t\t\tTODO: Show statuses #1868\r\n\t\t\t<span class=\"margin-right\" style=\"opacity: 0.7;\">\r\n\t\t\t\t{{l.patientEvent.completionStatus}}:\r\n\t\t\t</span>\r\n\t\t\t{{completionStatusFor(procedureEvent)}}\r\n\t\t\t<span class=\"margin-right\" style=\"opacity: 0.7; margin-left: auto;\">\r\n\t\t\t\t{{l.patientEvent.paymentStatus}}:\r\n\t\t\t</span>\r\n\t\t\t{{paymentStatusFor(procedureEvent)}}\r\n\t\t</div-->\r\n\t\t<div *ngIf=\"hasProblems(procedureEvent)\">\r\n\t\t\t{{l.patientEvent.procedureHasProblems}}\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<ng-content></ng-content>\r\n</idun-content-box>\r\n"
 
 /***/ }),
 
@@ -26562,7 +26585,7 @@ var PatientEventBoxComponent = /** @class */ (function (_super) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-content-box *ngIf=\"procedureEvent && !procedureEvent.ProcedureId\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"showNavigation\">\r\n\t<header>{{l.patientEvent.chooseProcedure}}</header>\r\n\r\n\t<div class=\"flex-row\">\r\n\t\t<div style=\"width: 60%;\">\r\n\t\t\t<idun-figure-selector [(selectedParts)]=\"procedureEvent.Placements\"\r\n\t\t\t\t[showSelectedText]=\"false\"\r\n\t\t\t\t[showCurrentText]=\"false\">\r\n\t\t\t</idun-figure-selector>\r\n\t\t</div>\r\n\r\n\t\t<idun-select-variant-by-placement style=\"width: 40%;\"\r\n\t\t\t[placement]=\"procedureEvent.Placements\"\r\n\t\t\t(selectProcedureVariation)=\"selectProcedureVariation($event)\">\r\n\t\t</idun-select-variant-by-placement>\r\n\t</div>\r\n\r\n\t<idun-submit-cancel-delete [showSubmit]=\"false\"\r\n\t\t[showCancel]=\"false\"\r\n\t\t[showDelete]=\"!display && allowDelete\"\r\n\t\t(delete)=\"removeProcedureEvent()\">\r\n\t</idun-submit-cancel-delete>\r\n\r\n</idun-content-box>\r\n\r\n<idun-content-box *ngIf=\"procedureEvent && procedureEvent.ProcedureId\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"showNavigation\">\r\n\t<header>{{title}}</header>\r\n\r\n\t<ng-container *ngIf=\"showArea(requirementsArea)\">\r\n\t\t<idun-form-list-select-model [(ngModel)]=\"procedureEvent.OccupiedStaff\"\r\n\t\t\t[label]=\"l.staff.namePlural\"\r\n\t\t\t[display]=\"displayFor(requirementsArea)\"\r\n\t\t\t[service]=\"staffService\"\r\n\t\t\t(change)=\"updateAnalysis()\">\r\n\t\t</idun-form-list-select-model>\r\n\r\n\t\t<idun-warning-box [warnings]=\"analysis.staffWarnings\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-warning-box *ngIf=\"analysis.isMissingStaff || analysis.isMissingRightCompetence\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t\t<ng-container *ngIf=\"analysis.isMissingStaff\">\r\n\t\t\t\t{{l.booking.missingStaffWarning}}\r\n\t\t\t</ng-container>\r\n\t\t\t<ng-container *ngIf=\"!analysis.isMissingStaff && analysis.isMissingRightCompetence\">\r\n\t\t\t\t{{l.booking.missingRightCompetenceWarning}}\r\n\t\t\t</ng-container>\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-form-list-select-model [(ngModel)]=\"procedureEvent.OccupiedResources\"\r\n\t\t\t[label]=\"l.resource.namePlural\"\r\n\t\t\t[display]=\"displayFor(requirementsArea)\"\r\n\t\t\t[service]=\"resourceService\"\r\n\t\t\t(change)=\"updateAnalysis()\">\r\n\t\t</idun-form-list-select-model>\r\n\r\n\t\t<idun-warning-box [warnings]=\"analysis.resourceWarnings\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-warning-box *ngIf=\"analysis.isMissingResource || analysis.isMissingRightResource\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t\t<ng-container *ngIf=\"analysis.isMissingResource\">\r\n\t\t\t\t{{l.booking.missingResourcesWarning}}\r\n\t\t\t</ng-container>\r\n\t\t\t<ng-container *ngIf=\"!analysis.isMissingResource && analysis.isMissingRightResource\">\r\n\t\t\t\t{{l.booking.missingRightResourcesWarning}}\r\n\t\t\t</ng-container>\r\n\t\t</idun-warning-box>\r\n\t</ng-container>\r\n\r\n\t<ng-container *ngIf=\"showArea(procedureArea)\">\r\n\t\t<h2 class=\"filling-inner-header\"\r\n\t\t\tstyle=\"background-color: var(--color-booking);\">\r\n\t\t\t{{l.procedure.nameSingular}}\r\n\t\t</h2>\r\n\r\n\t\t<idun-form-input-container [label]=\"l.figure.placements\"\r\n\t\t\t[display]=\"displayFor(priceArea)\">\r\n\t\t\t<button *ngIf=\"!displayFor(priceArea)\"\r\n\t\t\t\ttype=\"button\"\r\n\t\t\t\t(click)=\"procedureEvent.ProcedureId = 0\"\r\n\t\t\t\tdata-post-label>\r\n\t\t\t\t{{l.patientEvent.changePlacementAndProcedure}}\r\n\t\t\t</button>\r\n\t\t\t<div class=\"flex-row\"\r\n\t\t\t\tstyle=\"margin-top: var(--border-small);\">\r\n\t\t\t\t<idun-list-tag *ngFor=\"let placement of procedureEvent.Placements\">\r\n\t\t\t\t\t{{placement}}\r\n\t\t\t\t</idun-list-tag>\r\n\t\t\t\t<label *ngIf=\"procedureEvent.Placements.length === 0\"\r\n\t\t\t\t\t[style.color]=\"displayFor(priceArea) ? 'white' : 'black'\">\r\n\t\t\t\t\t{{l.patientEvent.noPlacementSelected}}\r\n\t\t\t\t</label>\r\n\t\t\t</div>\r\n\t\t</idun-form-input-container>\r\n\r\n\t\t<idun-form-list-select-model [(ngModel)]=\"procedureEvent.TreatmentCodeIds\"\r\n\t\t\t[label]=\"l.patientEvent.procedureCodes\"\r\n\t\t\t[display]=\"displayFor(priceArea)\"\r\n\t\t\t[service]=\"treatmentCodeService\">\r\n\t\t</idun-form-list-select-model>\r\n\t</ng-container>\r\n\r\n\t<ng-container *ngIf=\"showArea(priceArea)\">\r\n\t\t<h2 class=\"filling-inner-header\"\r\n\t\t\tstyle=\"background-color: var(--color-booking);\">\r\n\t\t\t{{l.common.price}}\r\n\t\t</h2>\r\n\r\n\t\t<div class=\"flex-row\">\r\n\t\t\t<idun-form-select-model [(ngModel)]=\"procedureEvent.PartnerId\"\r\n\t\t\t\t[label]=\"l.partner.nameSingular\"\r\n\t\t\t\t[display]=\"displayFor(priceArea)\"\r\n\t\t\t\t[service]=\"partnerService\"\r\n\t\t\t\t[emptyText]=\"l.partner.basePrices\"\r\n\t\t\t\t(change)=\"updatePartner($event)\"\r\n\t\t\t\tclass=\"margin-right\"\r\n\t\t\t\tstyle=\"width: 70%;\">\r\n\t\t\t</idun-form-select-model>\r\n\r\n\t\t\t<idun-form-number [(ngModel)]=\"procedureEvent.Price\"\r\n\t\t\t\t[label]=\"l.common.price\"\r\n\t\t\t\t[display]=\"displayFor(priceArea)\"\r\n\t\t\t\t[endLabel]=\"currency\"\r\n\t\t\t\tstyle=\"width: 30%;\">\r\n\t\t\t</idun-form-number>\r\n\t\t</div>\r\n\r\n\t\t<idun-warning-box *ngIf=\"!analysis.isSupported\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t\t{{l.patientEvent.thisProcedureIsNotAllowedUnderThisAgreement}}\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-form-list-select-model [(ngModel)]=\"procedureEvent.PaymentCodeIds\"\r\n\t\t\t[label]=\"l.patientEvent.priceCodes\"\r\n\t\t\t[display]=\"displayFor(priceArea)\"\r\n\t\t\t[service]=\"treatmentCodeService\">\r\n\t\t</idun-form-list-select-model>\r\n\t</ng-container>\r\n\r\n\t<idun-submit-cancel-delete [submitText]=\"l.common.accept\"\r\n\t\t[cancelText]=\"l.common.close\"\r\n\t\t[showSubmit]=\"!display\"\r\n\t\t[showCancel]=\"display\"\r\n\t\t[showDelete]=\"!display && allowDelete\"\r\n\t\t(submit)=\"acceptProcedureEvent()\"\r\n\t\t(cancel)=\"acceptProcedureEvent()\"\r\n\t\t(delete)=\"removeProcedureEvent()\">\r\n\t</idun-submit-cancel-delete>\r\n\r\n</idun-content-box>\r\n"
+module.exports = "<idun-content-box *ngIf=\"procedureEvent && !procedureEvent.ProcedureId\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"showNavigation\"\r\n\t[helpText]=\"l.patientEvent.chooseProcedureHelpText\">\r\n\t<header>{{l.patientEvent.chooseProcedure}}</header>\r\n\r\n\t<div class=\"flex-row\">\r\n\t\t<div style=\"width: 60%;\">\r\n\t\t\t<idun-figure-selector [(selectedParts)]=\"procedureEvent.Placements\"\r\n\t\t\t\t[showSelectedText]=\"false\"\r\n\t\t\t\t[showCurrentText]=\"false\">\r\n\t\t\t</idun-figure-selector>\r\n\t\t</div>\r\n\r\n\t\t<idun-select-variant-by-placement style=\"width: 40%;\"\r\n\t\t\t[placement]=\"procedureEvent.Placements\"\r\n\t\t\t(selectProcedureVariation)=\"selectProcedureVariation($event)\">\r\n\t\t</idun-select-variant-by-placement>\r\n\t</div>\r\n\r\n\t<idun-submit-cancel-delete [showSubmit]=\"false\"\r\n\t\t[showCancel]=\"false\"\r\n\t\t[showDelete]=\"!display && allowDelete\"\r\n\t\t(delete)=\"removeProcedureEvent()\">\r\n\t</idun-submit-cancel-delete>\r\n\r\n</idun-content-box>\r\n\r\n<idun-content-box *ngIf=\"procedureEvent && procedureEvent.ProcedureId\"\r\n\tcolor=\"var(--color-booking)\"\r\n\t[showNavigation]=\"showNavigation\"\r\n\t[helpText]=\"l.patientEvent.procedureEventHelpText\">\r\n\t<header>{{title}}</header>\r\n\r\n\t<ng-container *ngIf=\"showArea(requirementsArea)\">\r\n\t\t<idun-form-list-select-model [(ngModel)]=\"procedureEvent.OccupiedStaff\"\r\n\t\t\t[label]=\"l.staff.namePlural\"\r\n\t\t\t[display]=\"displayFor(requirementsArea)\"\r\n\t\t\t[service]=\"staffService\"\r\n\t\t\t(change)=\"updateAnalysis()\">\r\n\t\t</idun-form-list-select-model>\r\n\r\n\t\t<idun-warning-box [warnings]=\"analysis.staffWarnings\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-warning-box *ngIf=\"analysis.isMissingStaff || analysis.isMissingRightCompetence\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t\t<ng-container *ngIf=\"analysis.isMissingStaff\">\r\n\t\t\t\t{{l.patientEvent.missingStaffWarning}}\r\n\t\t\t</ng-container>\r\n\t\t\t<ng-container *ngIf=\"!analysis.isMissingStaff && analysis.isMissingRightCompetence\">\r\n\t\t\t\t{{l.patientEvent.missingRightCompetenceWarning}}\r\n\t\t\t</ng-container>\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-form-list-select-model [(ngModel)]=\"procedureEvent.OccupiedResources\"\r\n\t\t\t[label]=\"l.resource.namePlural\"\r\n\t\t\t[display]=\"displayFor(requirementsArea)\"\r\n\t\t\t[service]=\"resourceService\"\r\n\t\t\t(change)=\"updateAnalysis()\">\r\n\t\t</idun-form-list-select-model>\r\n\r\n\t\t<idun-warning-box [warnings]=\"analysis.resourceWarnings\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-warning-box *ngIf=\"analysis.isMissingResource || analysis.isMissingRightResource\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t\t<ng-container *ngIf=\"analysis.isMissingResource\">\r\n\t\t\t\t{{l.patientEvent.missingResourcesWarning}}\r\n\t\t\t</ng-container>\r\n\t\t\t<ng-container *ngIf=\"!analysis.isMissingResource && analysis.isMissingRightResource\">\r\n\t\t\t\t{{l.patientEvent.missingRightResourcesWarning}}\r\n\t\t\t</ng-container>\r\n\t\t</idun-warning-box>\r\n\t</ng-container>\r\n\r\n\t<ng-container *ngIf=\"showArea(procedureArea)\">\r\n\t\t<h2 class=\"filling-inner-header\"\r\n\t\t\tstyle=\"background-color: var(--color-booking);\">\r\n\t\t\t{{l.procedure.nameSingular}}\r\n\t\t</h2>\r\n\r\n\t\t<idun-form-input-container [label]=\"l.figure.placements\"\r\n\t\t\t[display]=\"displayFor(priceArea)\">\r\n\t\t\t<button *ngIf=\"!displayFor(priceArea)\"\r\n\t\t\t\ttype=\"button\"\r\n\t\t\t\t(click)=\"procedureEvent.ProcedureId = 0\"\r\n\t\t\t\tdata-post-label>\r\n\t\t\t\t{{l.patientEvent.changePlacementAndProcedure}}\r\n\t\t\t</button>\r\n\t\t\t<div class=\"flex-row\"\r\n\t\t\t\tstyle=\"margin-top: var(--border-small);\">\r\n\t\t\t\t<idun-list-tag *ngFor=\"let placement of procedureEvent.Placements\">\r\n\t\t\t\t\t{{placement}}\r\n\t\t\t\t</idun-list-tag>\r\n\t\t\t\t<label *ngIf=\"procedureEvent.Placements.length === 0\"\r\n\t\t\t\t\t[style.color]=\"displayFor(priceArea) ? 'white' : 'black'\">\r\n\t\t\t\t\t{{l.patientEvent.noPlacementSelected}}\r\n\t\t\t\t</label>\r\n\t\t\t</div>\r\n\t\t</idun-form-input-container>\r\n\r\n\t\t<idun-form-list-select-model [(ngModel)]=\"procedureEvent.TreatmentCodeIds\"\r\n\t\t\t[label]=\"l.patientEvent.procedureCodes\"\r\n\t\t\t[display]=\"displayFor(priceArea)\"\r\n\t\t\t[service]=\"treatmentCodeService\">\r\n\t\t</idun-form-list-select-model>\r\n\t</ng-container>\r\n\r\n\t<ng-container *ngIf=\"showArea(priceArea)\">\r\n\t\t<h2 class=\"filling-inner-header\"\r\n\t\t\tstyle=\"background-color: var(--color-booking);\">\r\n\t\t\t{{l.common.price}}\r\n\t\t</h2>\r\n\r\n\t\t<div class=\"flex-row\">\r\n\t\t\t<idun-form-select-model [(ngModel)]=\"procedureEvent.PartnerId\"\r\n\t\t\t\t[label]=\"l.partner.nameSingular\"\r\n\t\t\t\t[display]=\"displayFor(priceArea)\"\r\n\t\t\t\t[service]=\"partnerService\"\r\n\t\t\t\t[emptyText]=\"l.partner.basePrices\"\r\n\t\t\t\t(change)=\"updatePartner($event)\"\r\n\t\t\t\tclass=\"margin-right\"\r\n\t\t\t\tstyle=\"width: 70%;\">\r\n\t\t\t</idun-form-select-model>\r\n\r\n\t\t\t<idun-form-number [(ngModel)]=\"procedureEvent.Price\"\r\n\t\t\t\t[label]=\"l.common.price\"\r\n\t\t\t\t[display]=\"displayFor(priceArea)\"\r\n\t\t\t\t[endLabel]=\"currency\"\r\n\t\t\t\tstyle=\"width: 30%;\">\r\n\t\t\t</idun-form-number>\r\n\t\t</div>\r\n\r\n\t\t<idun-warning-box *ngIf=\"!analysis.isSupported\"\r\n\t\t\t[showHeader]=\"false\">\r\n\t\t\t{{l.patientEvent.thisProcedureIsNotAllowedUnderThisAgreement}}\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-warning-box *ngIf=\"partnerNotes\"\r\n\t\t\t[headerText]=\"l.partner.agreementNotes\">\r\n\t\t\t{{partnerNotes}}\r\n\t\t</idun-warning-box>\r\n\r\n\t\t<idun-form-list-select-model [(ngModel)]=\"procedureEvent.PaymentCodeIds\"\r\n\t\t\t[label]=\"l.patientEvent.priceCodes\"\r\n\t\t\t[display]=\"displayFor(priceArea)\"\r\n\t\t\t[service]=\"treatmentCodeService\">\r\n\t\t</idun-form-list-select-model>\r\n\t</ng-container>\r\n\r\n\t<idun-submit-cancel-delete [submitText]=\"l.common.accept\"\r\n\t\t[cancelText]=\"l.common.close\"\r\n\t\t[showSubmit]=\"!display\"\r\n\t\t[showCancel]=\"display\"\r\n\t\t[showDelete]=\"!display && allowDelete\"\r\n\t\t(submit)=\"acceptProcedureEvent()\"\r\n\t\t(cancel)=\"acceptProcedureEvent()\"\r\n\t\t(delete)=\"removeProcedureEvent()\">\r\n\t</idun-submit-cancel-delete>\r\n\r\n</idun-content-box>\r\n"
 
 /***/ }),
 
@@ -26643,6 +26666,7 @@ var ProcedureEventBoxComponent = /** @class */ (function (_super) {
                 return;
             this._procedureEvent = value;
             this.updateTitle();
+            this.updatePartnerNotes();
             this.updateAnalysis();
         },
         enumerable: true,
@@ -26674,7 +26698,25 @@ var ProcedureEventBoxComponent = /** @class */ (function (_super) {
     ProcedureEventBoxComponent.prototype.updatePartner = function (newPartnerId) {
         this.procedureEvent.PartnerId = newPartnerId;
         this.patientEventCreationService.updatePriceAndCodesOf(this.procedureEvent);
+        this.updatePartnerNotes();
         this.updateAnalysis();
+    };
+    ProcedureEventBoxComponent.prototype.updatePartnerNotes = function () {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
+            var partner;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        if (!this.procedureEvent || !this.procedureEvent.PartnerId)
+                            return [2 /*return*/, this.partnerNotes = ""];
+                        return [4 /*yield*/, this.partnerService.model(this.procedureEvent.PartnerId)];
+                    case 1:
+                        partner = _a.sent();
+                        this.partnerNotes = partner.Notes;
+                        return [2 /*return*/];
+                }
+            });
+        });
     };
     ProcedureEventBoxComponent.prototype.updateTitle = function () {
         return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
@@ -30454,7 +30496,7 @@ var TranslationComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-content-box showNavigation=\"true\"\r\n\ticon=\"Fundamental\"\r\n\tcolor=\"var(--color-fundamental)\"\r\n\t[helpText]=\"l.resource.listHelpText\"\r\n\t[showContent]=\"false\">\r\n\t<header>{{l.resource.namePlural}}</header>\r\n\t<idun-auto-list [modelType]=\"'resource'\"></idun-auto-list>\r\n</idun-content-box>\r\n\r\n<idun-procedure-list [isSubPage]=\"true\">\r\n\t<idun-link destination=\"procedure/list\"\r\n\t\tdata-inner>{{l.common.list}}</idun-link>\r\n</idun-procedure-list>\r\n\r\n<idun-treatment-code-list [isSubPage]=\"true\"></idun-treatment-code-list>\r\n\r\n<idun-staff-list [isSubPage]=\"true\"></idun-staff-list>\r\n\r\n<idun-content-box [noPadding]=\"true\"\r\n\ticon=\"Fundamental\"\r\n\tcolor=\"var(--color-economics)\"\r\n\t[helpText]=\"l.clinic.helpSetupBasePrices\"\r\n\t[showContent]=\"false\">\r\n\t<header>{{l.partner.basePrices}}</header>\r\n\r\n\t<ng-template #listEntryTemplate\r\n\t\tlet-procedure=\"model\">\r\n\t\t<idun-list-entry *ngFor=\"let variation of procedure.Variations\"\r\n\t\t\t[destination]=\"'procedure/' + procedure.DBID\">\r\n\t\t\t<span data-title>{{procedure.getShortTitle()}}</span>\r\n\t\t\t<span *ngIf=\"procedure.Variations.length>1\"\r\n\t\t\t\tstyle=\"flex-grow: 1; text-align: left; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  opacity: 0.7;\"\r\n\t\t\t\t[title]=\"variation.Title\">\r\n\t\t\t\t{{variation.Title}}\r\n\t\t\t</span>\r\n\t\t\t<span style=\"flex-grow: 1; text-align: right; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;\">\r\n\t\t\t\t{{priceString(variation)}}\r\n\t\t\t</span>\r\n\t\t</idun-list-entry>\r\n\t</ng-template>\r\n\r\n\t<idun-filter-list [displaySetup]=\"listDisplaySetup\"\r\n\t\t[entries]=\"procedures\"\r\n\t\t[groups]=\"listGroups\"\r\n\t\t[showHeader]=\"false\"\r\n\t\t[listEntryTemplate]=\"listEntryTemplate\">\r\n\t</idun-filter-list>\r\n</idun-content-box>\r\n\r\n<idun-content-box icon=\"Fundamental\"\r\n\tcolor=\"var(--color-economics)\"\r\n\t[helpText]=\"l.clinic.helpSetupPartners\"\r\n\t[showContent]=\"false\">\r\n\t<header>{{l.partner.namePlural}}</header>\r\n\t<idun-auto-list [modelType]=\"'partner'\"></idun-auto-list>\r\n</idun-content-box>\r\n\r\n<idun-content-box icon=\"Patient\"\r\n\tcolor=\"var(--color-patient)\"\r\n\t[helpText]=\"l.clinic.helpSetupTemplates\"\r\n\t[showContent]=\"false\">\r\n\t<header>{{l.journalTemplate.namePlural}}</header>\r\n\t<idun-auto-list [modelType]=\"'journal-template'\"></idun-auto-list>\r\n</idun-content-box>\r\n"
+module.exports = "<idun-content-box showNavigation=\"true\"\r\n\ticon=\"Fundamental\"\r\n\tcolor=\"var(--color-fundamental)\"\r\n\t[helpText]=\"l.resource.listHelpText\"\r\n\t[showContent]=\"false\">\r\n\t<header>{{l.resource.namePlural}}</header>\r\n\t<idun-auto-list [modelType]=\"'resource'\"></idun-auto-list>\r\n</idun-content-box>\r\n\r\n<idun-procedure-list [isSubPage]=\"true\">\r\n\t<idun-link destination=\"procedure/list\"\r\n\t\tdata-inner>{{l.common.list}}</idun-link>\r\n</idun-procedure-list>\r\n\r\n<idun-treatment-code-list [isSubPage]=\"true\"></idun-treatment-code-list>\r\n\r\n<idun-staff-list [isSubPage]=\"true\"></idun-staff-list>\r\n\r\n<idun-content-box [noPadding]=\"true\"\r\n\ticon=\"Fundamental\"\r\n\tcolor=\"var(--color-economics)\"\r\n\t[helpText]=\"l.clinic.helpSetupBasePrices\"\r\n\t[showContent]=\"false\">\r\n\t<header>{{l.partner.basePrices}}</header>\r\n\r\n\t<ng-template #listEntryTemplate\r\n\t\tlet-procedure=\"model\">\r\n\t\t<idun-list-entry *ngFor=\"let variation of procedure.Variations\"\r\n\t\t\t[destination]=\"'procedure/' + procedure.DBID\">\r\n\t\t\t<span data-title>{{procedure.getShortTitle()}}</span>\r\n\t\t\t<span *ngIf=\"procedure.Variations.length>1\"\r\n\t\t\t\tstyle=\"flex-grow: 1; text-align: left; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  opacity: 0.7;\"\r\n\t\t\t\t[title]=\"variation.Title\">\r\n\t\t\t\t{{variation.Title}}\r\n\t\t\t</span>\r\n\t\t\t<span style=\"flex-grow: 1; text-align: right; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;\">\r\n\t\t\t\t{{priceString(variation)}}\r\n\t\t\t</span>\r\n\t\t</idun-list-entry>\r\n\t</ng-template>\r\n\r\n\t<idun-filter-list [displaySetup]=\"listDisplaySetup\"\r\n\t\t[entries]=\"procedures\"\r\n\t\t[groups]=\"listGroups\"\r\n\t\t[showHeader]=\"false\"\r\n\t\t[listEntryTemplate]=\"listEntryTemplate\">\r\n\t</idun-filter-list>\r\n</idun-content-box>\r\n\r\n<idun-content-box icon=\"Fundamental\"\r\n\tcolor=\"var(--color-economics)\"\r\n\t[helpText]=\"l.partner.listHelpText\"\r\n\t[showContent]=\"false\">\r\n\t<header>{{l.partner.namePlural}}</header>\r\n\t<idun-auto-list [modelType]=\"'partner'\"></idun-auto-list>\r\n</idun-content-box>\r\n\r\n<idun-content-box icon=\"Patient\"\r\n\tcolor=\"var(--color-patient)\"\r\n\t[helpText]=\"l.journalTemplate.listHelpText\"\r\n\t[showContent]=\"false\">\r\n\t<header>{{l.journalTemplate.namePlural}}</header>\r\n\t<idun-auto-list [modelType]=\"'journal-template'\"></idun-auto-list>\r\n</idun-content-box>\r\n"
 
 /***/ }),
 
@@ -31056,7 +31098,7 @@ var StatisticsOverviewComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-content-box showNavigation=\"true\"\r\n\t[buttons]=\"editButton\"\r\n\ticon=\"Settings\"\r\n\tcolor=\"var(--color-fundamental)\"\r\n\t[helpText]=\"l.clinic.helpClinicSettings\">\r\n\t<header>{{l.clinic.clinicSettings}}</header>\r\n\r\n\t<idun-form-text [(ngModel)]=\"settings.ClinicName\"\r\n\t\t[display]=\"display\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsName\"\r\n\t\t[label]=\"l.clinic.clinicName\"></idun-form-text>\r\n\t<idun-form-text [(ngModel)]=\"settings.Location\"\r\n\t\t[display]=\"display\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsLocation\"\r\n\t\t(change)=\"getLocation($event)\"\r\n\t\t[label]=\"l.clinic.location\">\r\n\t\t<button *ngIf=\"!display\"\r\n\t\t\ttype=\"button\"\r\n\t\t\tstyle=\"margin: 0.5rem;\"\r\n\t\t\t(click)=\"getLocation($event)\">\r\n\t\t\t{{l.clinic.updateLocation}}\r\n\t\t</button>\r\n\t\t<div #map\r\n\t\t\tclass=\"margin-left-half\"\r\n\t\t\tstyle=\"position: relative; overflow: hidden; width: calc(100% - 1rem); height: 20rem;\"\r\n\t\t\tdata-below></div>\r\n\t</idun-form-text>\r\n\t<idun-form-text [(ngModel)]=\"settings.Timezone\"\r\n\t\t[display]=\"true\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsTimezone\"\r\n\t\t[label]=\"l.clinic.timezone\"></idun-form-text>\r\n\t<idun-form-text [(ngModel)]=\"settings.Website\"\r\n\t\t[display]=\"display\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsWebsite\"\r\n\t\t[label]=\"l.clinic.website\"></idun-form-text>\r\n\t<idun-form-select [(ngModel)]=\"settings.Currency\"\r\n\t\t[display]=\"display\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsCurrency\"\r\n\t\t[label]=\"l.clinic.currency\">\r\n\t\t<option *ngFor=\"let option of currencyOptions\">\r\n\t\t\t{{option}}\r\n\t\t</option>\r\n\t</idun-form-select>\r\n\r\n\t<idun-submit-cancel-delete *ngIf=\"!display\"\r\n\t\t(cancel)=\"cancel()\"\r\n\t\t(submit)=\"submit()\"\r\n\t\t[showDelete]=\"false\"></idun-submit-cancel-delete>\r\n\r\n</idun-content-box>\r\n\r\n<idun-content-box icon=\"Settings\"\r\n\tcolor=\"var(--color-fundamental)\"\r\n\t[helpText]=\"l.cardReaderToken.helpText\">\r\n\t<header>{{l.cardReaderToken.cardReaderTokens}}</header>\r\n\r\n\t<div *ngFor=\"let token of cardReaderTokens\"\r\n\t\tclass=\"idun-form-row\">\r\n\t\t<label style=\"flex: 1; text-align: center;\">\r\n\t\t\t{{token.Token}}\r\n\t\t</label>\r\n\t\t<button *ngIf=\"!display\"\r\n\t\t\ttype=\"button\"\r\n\t\t\tclass=\"negative-button\"\r\n\t\t\tstyle=\"flex: 1;\"\r\n\t\t\t(click)=\"deleteToken(token)\">\r\n\t\t\t{{l.common.delete}}\r\n\t\t</button>\r\n\t</div>\r\n\r\n\t<button *ngIf=\"!display\"\r\n\t\ttype=\"button\"\r\n\t\tclass=\"positive-button\"\r\n\t\tstyle=\"width: 100%;\"\r\n\t\t(click)=\"addNewToken()\">\r\n\t\t{{l.cardReaderToken.addNewToken}}\r\n\t</button>\r\n</idun-content-box>\r\n"
+module.exports = "<idun-content-box showNavigation=\"true\"\r\n\t[buttons]=\"editButton\"\r\n\ticon=\"Settings\"\r\n\tcolor=\"var(--color-fundamental)\">\r\n\t<header>{{l.clinic.clinicSettings}}</header>\r\n\r\n\t<idun-form-text [(ngModel)]=\"settings.ClinicName\"\r\n\t\t[display]=\"display\"\r\n\t\t[label]=\"l.clinic.clinicName\"></idun-form-text>\r\n\t<idun-form-text [(ngModel)]=\"settings.Location\"\r\n\t\t[display]=\"display\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsLocation\"\r\n\t\t(change)=\"getLocation($event)\"\r\n\t\t[label]=\"l.clinic.location\">\r\n\t\t<button *ngIf=\"!display\"\r\n\t\t\ttype=\"button\"\r\n\t\t\tstyle=\"margin: 0.5rem;\"\r\n\t\t\t(click)=\"getLocation($event)\">\r\n\t\t\t{{l.clinic.updateLocation}}\r\n\t\t</button>\r\n\t\t<div #map\r\n\t\t\tclass=\"margin-left-half\"\r\n\t\t\tstyle=\"position: relative; overflow: hidden; width: calc(100% - 1rem); height: 20rem;\"\r\n\t\t\tdata-below></div>\r\n\t</idun-form-text>\r\n\t<idun-form-text [(ngModel)]=\"settings.Timezone\"\r\n\t\t[display]=\"true\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsTimezone\"\r\n\t\t[label]=\"l.clinic.timezone\"></idun-form-text>\r\n\t<idun-form-text [(ngModel)]=\"settings.Website\"\r\n\t\t[display]=\"display\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsWebsite\"\r\n\t\t[label]=\"l.clinic.website\"></idun-form-text>\r\n\t<idun-form-select [(ngModel)]=\"settings.Currency\"\r\n\t\t[display]=\"display\"\r\n\t\t[hint]=\"l.clinic.hintClinicSettingsCurrency\"\r\n\t\t[label]=\"l.clinic.currency\">\r\n\t\t<option *ngFor=\"let option of currencyOptions\">\r\n\t\t\t{{option}}\r\n\t\t</option>\r\n\t</idun-form-select>\r\n\r\n\t<idun-submit-cancel-delete *ngIf=\"!display\"\r\n\t\t(cancel)=\"cancel()\"\r\n\t\t(submit)=\"submit()\"\r\n\t\t[showDelete]=\"false\"></idun-submit-cancel-delete>\r\n\r\n</idun-content-box>\r\n\r\n<idun-content-box icon=\"Settings\"\r\n\tcolor=\"var(--color-fundamental)\"\r\n\t[helpText]=\"l.cardReaderToken.helpText\">\r\n\t<header>{{l.cardReaderToken.cardReaderTokens}}</header>\r\n\r\n\t<div *ngFor=\"let token of cardReaderTokens\"\r\n\t\tclass=\"idun-form-row\">\r\n\t\t<label style=\"flex: 1; text-align: center;\">\r\n\t\t\t{{token.Token}}\r\n\t\t</label>\r\n\t\t<button *ngIf=\"!display\"\r\n\t\t\ttype=\"button\"\r\n\t\t\tclass=\"negative-button\"\r\n\t\t\tstyle=\"flex: 1;\"\r\n\t\t\t(click)=\"deleteToken(token)\">\r\n\t\t\t{{l.common.delete}}\r\n\t\t</button>\r\n\t</div>\r\n\r\n\t<button *ngIf=\"!display\"\r\n\t\ttype=\"button\"\r\n\t\tclass=\"positive-button\"\r\n\t\tstyle=\"width: 100%;\"\r\n\t\t(click)=\"addNewToken()\">\r\n\t\t{{l.cardReaderToken.addNewToken}}\r\n\t</button>\r\n</idun-content-box>\r\n"
 
 /***/ }),
 
@@ -31242,7 +31284,7 @@ var ClinicSettingsComponent = /** @class */ (function (_super) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<idun-content-box *ngIf=\"user\"\r\n\ticon=\"Settings\"\r\n\tcolor=\"var(--color-staff)\"\r\n\t[showNavigation]=\"true\"\r\n\t[helpText]=\"l.settings.helpSettings\">\r\n\t<header>{{l.settings.namePlural}}</header>\r\n\r\n\t<idun-form-select-model *ngIf=\"!user.StaffID\"\r\n\t\t[(ngModel)]=\"user.PatientID\"\r\n\t\t[service]=\"patientSummaryService\"\r\n\t\t[display]=\"true\"\r\n\t\t[label]=\"l.settings.currentUser\">\r\n\t</idun-form-select-model>\r\n\t<idun-form-select-model *ngIf=\"user.StaffID\"\r\n\t\t[(ngModel)]=\"user.StaffID\"\r\n\t\t[service]=\"staffService\"\r\n\t\t[display]=\"true\"\r\n\t\t[label]=\"l.settings.currentUser\">\r\n\t</idun-form-select-model>\r\n\r\n\t<h2 class=\"filling-inner-header\">{{l.settings.changePassword}}</h2>\r\n\t<idun-form-password [(ngModel)]=\"oldPassword\"\r\n\t\t[label]=\"l.settings.oldPassword\">\r\n\t</idun-form-password>\r\n\t<idun-form-password [(ngModel)]=\"newPassword\"\r\n\t\t[label]=\"l.settings.newPassword\">\r\n\t</idun-form-password>\r\n\t<idun-form-password [(ngModel)]=\"repeatPassword\"\r\n\t\t[label]=\"l.common.repeatNewPassword\">\r\n\t</idun-form-password>\r\n\t<div class=\"idun-form-row\">\r\n\t\t<button type=\"button\"\r\n\t\t\tstyle=\"flex: 1;\"\r\n\t\t\t(click)=\"changePasswords()\"\r\n\t\t\t[disabled]=\"!confirmPasswordIsReady()\">\r\n\t\t\t{{l.settings.confirmPasswordChange}}\r\n\t\t</button>\r\n\t</div>\r\n\t<div class=\"idun-form-row\" *ngIf=\"passwordChangeState === 'success'\">\r\n\t\t<label>{{l.settings.passwordChangeSucceeded}}</label>\r\n\t</div>\r\n\t<div class=\"idun-form-row\" *ngIf=\"passwordChangeState === 'failure'\">\r\n\t\t<label>{{l.settings.passwordChangeFailed}}</label>\r\n\t</div>\r\n\r\n\t<h2 class=\"filling-inner-header\">{{l.settings.changeBackground}}</h2>\r\n\t<div class=\"flex-row\">\r\n\t\t<div style=\"flex-grow:1\"></div>\r\n\t\t<idun-icon icon=\"ArrowLeft\"\r\n\t\t\t(click)=\"changeBackgroundPreview(-1)\"></idun-icon>\r\n\t\t<div\r\n\t\t\tstyle=\"background-color: white; width: 16rem; height: 9rem; overflow-y:hidden; margin-left: auto; margin-right: auto; display: block;\">\r\n\t\t\t<img style=\"opacity: 0.6;\"\r\n\t\t\t\tsrc=\"{{image}}\">\r\n\t\t</div>\r\n\t\t<idun-icon icon=\"ArrowRight\"\r\n\t\t\t(click)=\"changeBackgroundPreview(1)\"></idun-icon>\r\n\t\t<div style=\"flex-grow:1\"></div>\r\n\t</div>\r\n\r\n</idun-content-box>\r\n"
+module.exports = "<idun-content-box *ngIf=\"user\"\r\n\ticon=\"Settings\"\r\n\tcolor=\"var(--color-staff)\"\r\n\t[showNavigation]=\"true\">\r\n\t<header>{{l.settings.namePlural}}</header>\r\n\r\n\t<idun-form-select-model *ngIf=\"!user.StaffID\"\r\n\t\t[(ngModel)]=\"user.PatientID\"\r\n\t\t[service]=\"patientSummaryService\"\r\n\t\t[display]=\"true\"\r\n\t\t[label]=\"l.settings.currentUser\">\r\n\t</idun-form-select-model>\r\n\t<idun-form-select-model *ngIf=\"user.StaffID\"\r\n\t\t[(ngModel)]=\"user.StaffID\"\r\n\t\t[service]=\"staffService\"\r\n\t\t[display]=\"true\"\r\n\t\t[label]=\"l.settings.currentUser\">\r\n\t</idun-form-select-model>\r\n\r\n\t<h2 class=\"filling-inner-header\">{{l.settings.changePassword}}</h2>\r\n\t<idun-form-password [(ngModel)]=\"oldPassword\"\r\n\t\t[label]=\"l.settings.oldPassword\">\r\n\t</idun-form-password>\r\n\t<idun-form-password [(ngModel)]=\"newPassword\"\r\n\t\t[label]=\"l.settings.newPassword\">\r\n\t</idun-form-password>\r\n\t<idun-form-password [(ngModel)]=\"repeatPassword\"\r\n\t\t[label]=\"l.common.repeatNewPassword\">\r\n\t</idun-form-password>\r\n\t<div class=\"idun-form-row\">\r\n\t\t<button type=\"button\"\r\n\t\t\tstyle=\"flex: 1;\"\r\n\t\t\t(click)=\"changePasswords()\"\r\n\t\t\t[disabled]=\"!confirmPasswordIsReady()\">\r\n\t\t\t{{l.settings.confirmPasswordChange}}\r\n\t\t</button>\r\n\t</div>\r\n\t<div class=\"idun-form-row\" *ngIf=\"passwordChangeState === 'success'\">\r\n\t\t<label>{{l.settings.passwordChangeSucceeded}}</label>\r\n\t</div>\r\n\t<div class=\"idun-form-row\" *ngIf=\"passwordChangeState === 'failure'\">\r\n\t\t<label>{{l.settings.passwordChangeFailed}}</label>\r\n\t</div>\r\n\r\n\t<h2 class=\"filling-inner-header\">{{l.settings.changeBackground}}</h2>\r\n\t<div class=\"flex-row\">\r\n\t\t<div style=\"flex-grow:1\"></div>\r\n\t\t<idun-icon icon=\"ArrowLeft\"\r\n\t\t\t(click)=\"changeBackgroundPreview(-1)\"></idun-icon>\r\n\t\t<div\r\n\t\t\tstyle=\"background-color: white; width: 16rem; height: 9rem; overflow-y:hidden; margin-left: auto; margin-right: auto; display: block;\">\r\n\t\t\t<img style=\"opacity: 0.6;\"\r\n\t\t\t\tsrc=\"{{image}}\">\r\n\t\t</div>\r\n\t\t<idun-icon icon=\"ArrowRight\"\r\n\t\t\t(click)=\"changeBackgroundPreview(1)\"></idun-icon>\r\n\t\t<div style=\"flex-grow:1\"></div>\r\n\t</div>\r\n\r\n</idun-content-box>\r\n"
 
 /***/ }),
 
@@ -31312,10 +31354,10 @@ var SettingsComponent = /** @class */ (function (_super) {
             "IdunDevBuild/assets/images/Backgrounds/17.jpg",
             "IdunDevBuild/assets/images/Backgrounds/18.jpg",
             "IdunDevBuild/assets/images/Backgrounds/19.jpg",
-            "IdunDevBuild/assets/images/Backgrounds/background_1.png",
-            "IdunDevBuild/assets/images/Backgrounds/background_2.png",
-            "IdunDevBuild/assets/images/Backgrounds/background_3.png",
-            "IdunDevBuild/assets/images/Backgrounds/background_4.png"
+            "IdunDevBuild/assets/images/Backgrounds/background_1.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/background_2.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/background_3.jpg",
+            "IdunDevBuild/assets/images/Backgrounds/background_4.jpg"
         ];
         return _this;
     }
@@ -34551,6 +34593,24 @@ var list = [
         Content: "The patient has a headache",
         Placements: ["areas/head"]
     }),
+    new idun_common_models_journal_template__WEBPACK_IMPORTED_MODULE_1__["JournalTemplate"]({
+        DBID: 2,
+        Title: "Journal test area",
+        Content: "The patient has a area-ache",
+        Placements: ["areas"]
+    }),
+    new idun_common_models_journal_template__WEBPACK_IMPORTED_MODULE_1__["JournalTemplate"]({
+        DBID: 3,
+        Title: "Journal test bone",
+        Content: "The patient has a bone-ache",
+        Placements: ["bones"]
+    }),
+    new idun_common_models_journal_template__WEBPACK_IMPORTED_MODULE_1__["JournalTemplate"]({
+        DBID: 4,
+        Title: "Journal test finger",
+        Content: "The patient has a finger-ache",
+        Placements: ["bones/hand/index finger"]
+    })
 ];
 _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].loadFromLocalStorage(baseUrl, list, idun_common_models_journal_template__WEBPACK_IMPORTED_MODULE_1__["JournalTemplate"]);
 function JournalTemplateResponses() {
@@ -34744,7 +34804,40 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var baseUrl = "api/partner/";
-var list = [];
+var list = [
+    new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["Partner"]({
+        DBID: 1,
+        Name: "Tryg",
+        PercentageDiscount: 10,
+        ProcedureChanges: [
+            { ProcedureID: 1, Supported: true, Variations: [new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["PriceVariation"]({ Title: "basic", Price: 10 })] }
+        ],
+        Notes: "Uha nej",
+    }),
+    new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["Partner"]({
+        DBID: 2,
+        Name: "Herlev Hospital",
+        PercentageDiscount: 10,
+        ProcedureChanges: [
+            { ProcedureID: 3, Supported: false, Variations: [new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["PriceVariation"]({ Title: "Mammografi", Price: 100 })] },
+            {
+                ProcedureID: 5, Supported: true, Variations: [
+                    new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["PriceVariation"]({ Title: "Højre", Price: 24, TreatmentCodeIDs: [1, 9] }),
+                    new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["PriceVariation"]({ Title: "Venstre", Price: 24, TreatmentCodeIDs: [1, 9] }),
+                    new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["PriceVariation"]({ Title: "Dobbeltsidig", Price: 24, TreatmentCodeIDs: [2, 9] })
+                ]
+            },
+            {
+                ProcedureID: 6, Supported: true, Variations: [
+                    new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["PriceVariation"]({ Title: "Højre", Price: 24, TreatmentCodeIDs: [1, 7, 14] }),
+                    new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["PriceVariation"]({ Title: "Venstre", Price: 24, TreatmentCodeIDs: [1, 7, 14] }),
+                    new idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["PriceVariation"]({ Title: "Dobbeltsidig", Price: 24, TreatmentCodeIDs: [2, 7, 14] })
+                ]
+            }
+        ],
+        Notes: "",
+    })
+];
 _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].loadFromLocalStorage(baseUrl, list, idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["Partner"]);
 function PartnerResponses() {
     return tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].commonLocalStorageResponses(idun_common_models_partner__WEBPACK_IMPORTED_MODULE_1__["Partner"], baseUrl, list));
@@ -35603,11 +35696,115 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 /* harmony import */ var idun_common_models_period_plan__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! idun-common/models/period-plan */ "../src/idun-common/models/period-plan.ts");
 /* harmony import */ var _model_test_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./model-test-data */ "../src/utility/test-data/model-test-data.ts");
+/* harmony import */ var idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! idun-common/models/time-interval */ "../src/idun-common/models/time-interval.ts");
+/* harmony import */ var idun_common_models_calendar_event__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! idun-common/models/calendar-event */ "../src/idun-common/models/calendar-event.ts");
+
+
 
 
 
 var baseUrl = "api/periodplan/";
-var list = [];
+var list = [
+    new idun_common_models_period_plan__WEBPACK_IMPORTED_MODULE_1__["PeriodPlan"]({
+        DBID: 1,
+        Title: "Standard",
+        Weeks: 2,
+        StaffRoles: [
+            new idun_common_models_period_plan__WEBPACK_IMPORTED_MODULE_1__["PlanningRole"]({
+                Index: 0,
+                Title: "Radiograf",
+                Competences: { AllowedProcedureTypes: [3] },
+                Intervals: [
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T08:00:00", EndTime: "1900-01-01T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-02T08:00:00", EndTime: "1900-01-02T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-03T08:00:00", EndTime: "1900-01-03T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-04T08:00:00", EndTime: "1900-01-04T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-05T08:00:00", EndTime: "1900-01-05T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-09T11:00:00", EndTime: "1900-01-09T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-12T08:00:00", EndTime: "1900-01-12T12:00:00" }),
+                ]
+            }),
+            new idun_common_models_period_plan__WEBPACK_IMPORTED_MODULE_1__["PlanningRole"]({
+                Index: 1,
+                Title: "Radiograf/ultralyd",
+                Competences: { AllowedProcedureTypes: [2, 3] },
+                Intervals: [
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T08:00:00", EndTime: "1900-01-01T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-02T08:00:00", EndTime: "1900-01-02T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-03T08:00:00", EndTime: "1900-01-03T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-04T08:00:00", EndTime: "1900-01-04T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-05T08:00:00", EndTime: "1900-01-05T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-08T11:00:00", EndTime: "1900-01-08T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-10T12:00:00", EndTime: "1900-01-10T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-11T08:00:00", EndTime: "1900-01-11T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-12T10:00:00", EndTime: "1900-01-12T12:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-12T14:00:00", EndTime: "1900-01-12T16:00:00" }),
+                ]
+            }),
+            new idun_common_models_period_plan__WEBPACK_IMPORTED_MODULE_1__["PlanningRole"]({
+                Index: 2,
+                Title: "Ultralyd",
+                Competences: { AllowedProcedureTypes: [2] },
+                Intervals: [
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T08:00:00", EndTime: "1900-01-01T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-02T08:00:00", EndTime: "1900-01-02T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-03T08:00:00", EndTime: "1900-01-03T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-04T08:00:00", EndTime: "1900-01-04T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-05T08:00:00", EndTime: "1900-01-05T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-08T08:00:00", EndTime: "1900-01-08T13:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-09T08:00:00", EndTime: "1900-01-09T13:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-11T08:00:00", EndTime: "1900-01-11T16:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-12T09:00:00", EndTime: "1900-01-12T10:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-12T11:00:00", EndTime: "1900-01-12T12:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-12T13:00:00", EndTime: "1900-01-12T14:00:00" }),
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-12T15:00:00", EndTime: "1900-01-12T16:00:00" }),
+                ]
+            }),
+            new idun_common_models_period_plan__WEBPACK_IMPORTED_MODULE_1__["PlanningRole"]({
+                Index: 3,
+                Title: "Rtg Hånd",
+                Competences: { AllowedProcedures: [5] },
+                Intervals: [
+                    new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-12T16:00:00", EndTime: "1900-01-12T17:00:00" }),
+                ]
+            })
+        ],
+        Events: [
+            new idun_common_models_calendar_event__WEBPACK_IMPORTED_MODULE_4__["CalendarEvent"]({
+                Title: "Frokost",
+                OccupiedStaff: [0, 1, 2],
+                Times: new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T12:00:00", EndTime: "1900-01-01T12:45:00" })
+            }),
+            new idun_common_models_calendar_event__WEBPACK_IMPORTED_MODULE_4__["CalendarEvent"]({
+                Title: "Frokost",
+                OccupiedStaff: [0, 1, 2],
+                Times: new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-02-01T12:00:00", EndTime: "1900-02-01T12:45:00" })
+            }),
+            new idun_common_models_calendar_event__WEBPACK_IMPORTED_MODULE_4__["CalendarEvent"]({
+                Title: "Frokost",
+                OccupiedStaff: [0, 1, 2],
+                Times: new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-03T12:00:00", EndTime: "1900-01-03T12:45:00" })
+            }),
+            new idun_common_models_calendar_event__WEBPACK_IMPORTED_MODULE_4__["CalendarEvent"]({
+                Title: "Frokost",
+                OccupiedStaff: [0, 1, 2],
+                Times: new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-04T12:00:00", EndTime: "1900-01-04T12:45:00" })
+            }),
+            new idun_common_models_calendar_event__WEBPACK_IMPORTED_MODULE_4__["CalendarEvent"]({
+                Title: "Frokost",
+                OccupiedStaff: [0, 1, 2],
+                Times: new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-05T12:00:00", EndTime: "1900-01-05T12:45:00" })
+            })
+        ]
+    }),
+    new idun_common_models_period_plan__WEBPACK_IMPORTED_MODULE_1__["PeriodPlan"]({
+        DBID: 2,
+        Title: "Noget andet",
+        Weeks: 1,
+        StaffRoles: [],
+        RestrictedResourceInterval: []
+    })
+];
 _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].loadFromLocalStorage(baseUrl, list, idun_common_models_period_plan__WEBPACK_IMPORTED_MODULE_1__["PeriodPlan"]);
 var otherResponses = {};
 otherResponses[baseUrl + "implementplan"] = function (parameters) {
@@ -35810,7 +36007,69 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var baseUrl = "api/procedure/";
-var procedureTestData = [];
+var procedureTestData = [
+    new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["Procedure"]({
+        DBID: 1,
+        Title: "Ultralyd - nedre abdomen",
+        Abbreviation: "UL-NA",
+        ProcedureTypeID: 2,
+        Description: "The things will be examined",
+        Variations: [new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "basic", ModelIDs: [13], Placements: ["areas/bladder"], Price: 20 })],
+        Duration: 20,
+        ResourceRequirements: [2, 3]
+    }),
+    new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["Procedure"]({
+        DBID: 2,
+        Title: "Mammografi screening",
+        Abbreviation: "MS",
+        ProcedureTypeID: 1,
+        Description: "To projektioner bilateralt",
+        Variations: [new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "Screening", ModelIDs: [13], Placements: ["areas/middle chest"], Price: 20 })],
+        Duration: 15,
+        ResourceRequirements: []
+    }),
+    new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["Procedure"]({
+        DBID: 3,
+        Title: "Klinisk Mammografi",
+        Abbreviation: "MK",
+        ProcedureTypeID: 1,
+        Description: "Klinisk Mammografi med lægeundersøgelse",
+        Variations: [new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "Mammografi", ModelIDs: [11, 12], Placements: ["areas/middle chest"], Price: 20 })],
+        BodyPlacement: "",
+        Duration: 15,
+        ResourceRequirements: []
+    }),
+    new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["Procedure"]({
+        DBID: 5,
+        Title: "Rtg - hånd",
+        Abbreviation: "Rtg-H",
+        ProcedureTypeID: 3,
+        Description: "",
+        Price: 200,
+        Variations: [
+            new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "Højre", ModelIDs: [9, 14], Placements: ["areas/right hand"], Price: 20 }),
+            new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "Venstre", ModelIDs: [9, 15], Placements: ["areas/left hand"], Price: 20 }),
+            new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "Dobbeltsidig", ModelIDs: [9, 16], Placements: ["areas/right hand", "areas/left hand"], Price: 30 })
+        ],
+        Duration: 10,
+        ResourceRequirements: [1]
+    }),
+    new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["Procedure"]({
+        DBID: 6,
+        Title: "Rtg - håndled",
+        Abbreviation: "Rtg-Hl",
+        ProcedureTypeID: 3,
+        Description: "",
+        Price: 200,
+        Variations: [
+            new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "Højre", ModelIDs: [7, 14], Placements: ["areas/right hand"], Price: 20 }),
+            new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "Venstre", ModelIDs: [7, 15], Placements: ["areas/left hand"], Price: 20 }),
+            new idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["ProcedureVariation"]({ Title: "Dobbeltsidig", ModelIDs: [7, 16], Placements: ["areas/right hand", "areas/left hand"], Price: 30 })
+        ],
+        Duration: 10,
+        ResourceRequirements: [1]
+    })
+];
 _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].loadFromLocalStorage(baseUrl, procedureTestData, idun_common_models_procedure__WEBPACK_IMPORTED_MODULE_1__["Procedure"]);
 function findAvailableStaff(interval) {
     return staffAtWork(interval)
@@ -35951,9 +36210,21 @@ var resourceTestData = [
     new idun_common_models_resource__WEBPACK_IMPORTED_MODULE_1__["Resource"]({
         DBID: 1,
         Title: "Røntgenrum",
-        Abbreviation: "Rø",
-        Description: ""
+        Abbreviation: "RR",
+        Description: "blub"
     }),
+    new idun_common_models_resource__WEBPACK_IMPORTED_MODULE_1__["Resource"]({
+        DBID: 2,
+        Title: "Ultralydsrum A",
+        Abbreviation: "URA",
+        Description: "blub"
+    }),
+    new idun_common_models_resource__WEBPACK_IMPORTED_MODULE_1__["Resource"]({
+        DBID: 3,
+        Title: "Ultralydsrum B",
+        Abbreviation: "URB",
+        Description: "blub 2"
+    })
 ];
 _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].loadFromLocalStorage(baseUrl, resourceTestData, idun_common_models_resource__WEBPACK_IMPORTED_MODULE_1__["Resource"]);
 var testResourceCompetences = {};
@@ -36171,13 +36442,13 @@ var i = 1;
 var staffTestData = [
     new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
         DBID: i++,
-        ID: "1",
-        Name: "Leslie Christensen",
-        Abbreviation: "LC",
+        ID: "220676-2759",
+        Name: "Frederik Sune Sørensen",
+        Abbreviation: "FSS",
         Gender: 0,
-        Email: "leslie@idun.dk",
+        Email: "FrederikSSrensen@jourrapide.com",
         TelephoneNumbers: [{ Number: "51410392", Type: "home", Primary: true }],
-        Address: "Gaden 1\nDanmark",
+        Address: "Hundslevgyden 69\nDanmark",
         StaffRoleID: 1,
         Competences: { AllowedProcedureTypes: [], AllowedProcedures: [], DisallowedProcedures: [] },
         WorkPeriod: 4,
@@ -36228,6 +36499,266 @@ var staffTestData = [
             new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 26 1900 12:30:00 GMT+0100", EndTime: "Fri Jan 26 1900 16:00:00 GMT+0100" }),
         ]
     }),
+    new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
+        DBID: i++,
+        ID: "291256-1170",
+        Name: "Natasja Laura Svendsen",
+        Abbreviation: "NLS",
+        Gender: 1,
+        Email: "s1@clinic.dk",
+        TelephoneNumbers: [{ Number: "87654321", Type: "home", Primary: true }],
+        Address: "Skovvej 65\nDanmark",
+        StaffRoleID: 2,
+        Competences: { AllowedProcedureTypes: [1, 2, 3], AllowedProcedures: [], DisallowedProcedures: [] },
+        WorkPeriod: 4,
+        WorkTimes: [
+            // Week 1 - Mon
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 01 1900 08:15:00 GMT+0100", EndTime: "Mon Jan 01 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 01 1900 10:15:00 GMT+0100", EndTime: "Mon Jan 01 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 01 1900 12:15:00 GMT+0100", EndTime: "Mon Jan 01 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 01 1900 14:15:00 GMT+0100", EndTime: "Mon Jan 01 1900 16:00:00 GMT+0100" }),
+            // Week 1 - Tue
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 08:15:00 GMT+0100", EndTime: "Tue Jan 02 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 10:15:00 GMT+0100", EndTime: "Tue Jan 02 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 12:15:00 GMT+0100", EndTime: "Tue Jan 02 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 14:15:00 GMT+0100", EndTime: "Tue Jan 02 1900 16:00:00 GMT+0100" }),
+            // Week 1 - Wed
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 08:15:00 GMT+0100", EndTime: "Wed Jan 03 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 10:15:00 GMT+0100", EndTime: "Wed Jan 03 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 12:15:00 GMT+0100", EndTime: "Wed Jan 03 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 14:15:00 GMT+0100", EndTime: "Wed Jan 03 1900 16:00:00 GMT+0100" }),
+            // Week 1 - Thu
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 08:15:00 GMT+0100", EndTime: "Thu Jan 04 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 10:15:00 GMT+0100", EndTime: "Thu Jan 04 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 12:15:00 GMT+0100", EndTime: "Thu Jan 04 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 14:15:00 GMT+0100", EndTime: "Thu Jan 04 1900 16:00:00 GMT+0100" }),
+            // Week 1 - Fri
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 08:15:00 GMT+0100", EndTime: "Fri Jan 05 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 10:15:00 GMT+0100", EndTime: "Fri Jan 05 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 12:15:00 GMT+0100", EndTime: "Fri Jan 05 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 14:15:00 GMT+0100", EndTime: "Fri Jan 05 1900 16:00:00 GMT+0100" }),
+            // Week 2 - Mon
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 08 1900 08:15:00 GMT+0100", EndTime: "Mon Jan 08 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 08 1900 10:15:00 GMT+0100", EndTime: "Mon Jan 08 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 08 1900 12:15:00 GMT+0100", EndTime: "Mon Jan 08 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 08 1900 14:15:00 GMT+0100", EndTime: "Mon Jan 08 1900 16:00:00 GMT+0100" }),
+            // Week 2 - Tue
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 09 1900 08:15:00 GMT+0100", EndTime: "Tue Jan 09 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 09 1900 10:15:00 GMT+0100", EndTime: "Tue Jan 09 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 09 1900 12:15:00 GMT+0100", EndTime: "Tue Jan 09 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 09 1900 14:15:00 GMT+0100", EndTime: "Tue Jan 09 1900 16:00:00 GMT+0100" }),
+            // Week 2 - Wed
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 10 1900 08:15:00 GMT+0100", EndTime: "Wed Jan 10 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 10 1900 10:15:00 GMT+0100", EndTime: "Wed Jan 10 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 10 1900 12:15:00 GMT+0100", EndTime: "Wed Jan 10 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 10 1900 14:15:00 GMT+0100", EndTime: "Wed Jan 10 1900 16:00:00 GMT+0100" }),
+            // Week 2 - Thu
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 11 1900 08:15:00 GMT+0100", EndTime: "Thu Jan 11 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 11 1900 10:15:00 GMT+0100", EndTime: "Thu Jan 11 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 11 1900 12:15:00 GMT+0100", EndTime: "Thu Jan 11 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 11 1900 14:15:00 GMT+0100", EndTime: "Thu Jan 11 1900 16:00:00 GMT+0100" }),
+            // Week 2 - Fri
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 12 1900 08:15:00 GMT+0100", EndTime: "Fri Jan 12 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 12 1900 10:15:00 GMT+0100", EndTime: "Fri Jan 12 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 12 1900 12:15:00 GMT+0100", EndTime: "Fri Jan 12 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 12 1900 14:15:00 GMT+0100", EndTime: "Fri Jan 12 1900 16:00:00 GMT+0100" }),
+            // Week 3 - Mon
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 15 1900 08:15:00 GMT+0100", EndTime: "Mon Jan 15 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 15 1900 10:15:00 GMT+0100", EndTime: "Mon Jan 15 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 15 1900 12:15:00 GMT+0100", EndTime: "Mon Jan 15 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 15 1900 14:15:00 GMT+0100", EndTime: "Mon Jan 15 1900 16:00:00 GMT+0100" }),
+            // Week 3 - Tue
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 16 1900 08:15:00 GMT+0100", EndTime: "Tue Jan 16 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 16 1900 10:15:00 GMT+0100", EndTime: "Tue Jan 16 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 16 1900 12:15:00 GMT+0100", EndTime: "Tue Jan 16 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 16 1900 14:15:00 GMT+0100", EndTime: "Tue Jan 16 1900 16:00:00 GMT+0100" }),
+            // Week 3 - Wed
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 17 1900 08:15:00 GMT+0100", EndTime: "Wed Jan 17 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 17 1900 10:15:00 GMT+0100", EndTime: "Wed Jan 17 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 17 1900 12:15:00 GMT+0100", EndTime: "Wed Jan 17 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 17 1900 14:15:00 GMT+0100", EndTime: "Wed Jan 17 1900 16:00:00 GMT+0100" }),
+            // Week 3 - Thu
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 18 1900 08:15:00 GMT+0100", EndTime: "Thu Jan 18 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 18 1900 10:15:00 GMT+0100", EndTime: "Thu Jan 18 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 18 1900 12:15:00 GMT+0100", EndTime: "Thu Jan 18 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 18 1900 14:15:00 GMT+0100", EndTime: "Thu Jan 18 1900 16:00:00 GMT+0100" }),
+            // Week 3 - Fri
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 19 1900 08:15:00 GMT+0100", EndTime: "Fri Jan 19 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 19 1900 10:15:00 GMT+0100", EndTime: "Fri Jan 19 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 19 1900 12:15:00 GMT+0100", EndTime: "Fri Jan 19 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 19 1900 14:15:00 GMT+0100", EndTime: "Fri Jan 19 1900 16:00:00 GMT+0100" }),
+            // Week 4 - Mon
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 22 1900 08:15:00 GMT+0100", EndTime: "Mon Jan 22 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 22 1900 10:15:00 GMT+0100", EndTime: "Mon Jan 22 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 22 1900 12:15:00 GMT+0100", EndTime: "Mon Jan 22 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 22 1900 14:15:00 GMT+0100", EndTime: "Mon Jan 22 1900 16:00:00 GMT+0100" }),
+            // Week 4 - Tue
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 23 1900 08:15:00 GMT+0100", EndTime: "Tue Jan 23 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 23 1900 10:15:00 GMT+0100", EndTime: "Tue Jan 23 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 23 1900 12:15:00 GMT+0100", EndTime: "Tue Jan 23 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 23 1900 14:15:00 GMT+0100", EndTime: "Tue Jan 23 1900 16:00:00 GMT+0100" }),
+            // Week 4 - Wed
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 24 1900 08:15:00 GMT+0100", EndTime: "Wed Jan 24 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 24 1900 10:15:00 GMT+0100", EndTime: "Wed Jan 24 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 24 1900 12:15:00 GMT+0100", EndTime: "Wed Jan 24 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 24 1900 14:15:00 GMT+0100", EndTime: "Wed Jan 24 1900 16:00:00 GMT+0100" }),
+            // Week 4 - Thu
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 25 1900 08:15:00 GMT+0100", EndTime: "Thu Jan 25 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 25 1900 10:15:00 GMT+0100", EndTime: "Thu Jan 25 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 25 1900 12:15:00 GMT+0100", EndTime: "Thu Jan 25 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 25 1900 14:15:00 GMT+0100", EndTime: "Thu Jan 25 1900 16:00:00 GMT+0100" }),
+            // Week 4 - Fri
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 26 1900 08:15:00 GMT+0100", EndTime: "Fri Jan 26 1900 10:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 26 1900 10:15:00 GMT+0100", EndTime: "Fri Jan 26 1900 12:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 26 1900 12:15:00 GMT+0100", EndTime: "Fri Jan 26 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 26 1900 14:15:00 GMT+0100", EndTime: "Fri Jan 26 1900 16:00:00 GMT+0100" })
+        ]
+    }),
+    new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
+        DBID: i++,
+        ID: "220689-3217",
+        Name: "Torben Jespersen",
+        Abbreviation: "TJ",
+        Gender: 0,
+        Email: "s2@clinic.dk",
+        TelephoneNumbers: [{ Number: "29606877", Type: "home", Primary: true }],
+        Address: "Sønderstræde 35\nDanmark",
+        StaffRoleID: 2,
+        Competences: { AllowedProcedureTypes: [], AllowedProcedures: [2, 5], DisallowedProcedures: [] },
+        WorkPeriod: 4,
+        WorkTimes: [
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T08:00:00", EndTime: "1900-01-01T14:00:00" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 08:00:00 GMT+0100", EndTime: "Tue Jan 02 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 08:00:00 GMT+0100", EndTime: "Wed Jan 03 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 08:00:00 GMT+0100", EndTime: "Thu Jan 04 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 08:00:00 GMT+0100", EndTime: "Fri Jan 05 1900 14:00:00 GMT+0100" })
+        ]
+    }),
+    new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
+        DBID: i++,
+        ID: "220335-4188",
+        Name: "Matilda Lawlor Schonell",
+        Abbreviation: "MLS",
+        Gender: 1,
+        Email: "MatildaSchonell@dayrep.com",
+        TelephoneNumbers: [{ Number: "60770641", Type: "home", Primary: true }],
+        Address: "Nørrebrovænget 51\nDanmark",
+        StaffRoleID: 2,
+        Competences: { AllowedProcedureTypes: [3], AllowedProcedures: [], DisallowedProcedures: [] },
+        WorkPeriod: 4,
+        WorkTimes: [
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T08:00:00", EndTime: "1900-01-01T16:00:00" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 08:00:00 GMT+0100", EndTime: "Tue Jan 02 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 08:00:00 GMT+0100", EndTime: "Wed Jan 03 1900 20:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 08:00:00 GMT+0100", EndTime: "Thu Jan 04 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 08:00:00 GMT+0100", EndTime: "Fri Jan 05 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Mon Jan 08 1900 08:00:00 GMT+0100", EndTime: "Mon Jan 08 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 09 1900 08:00:00 GMT+0100", EndTime: "Tue Jan 09 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 10 1900 08:00:00 GMT+0100", EndTime: "Wed Jan 10 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 11 1900 08:00:00 GMT+0100", EndTime: "Thu Jan 11 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 12 1900 08:00:00 GMT+0100", EndTime: "Fri Jan 12 1900 16:00:00 GMT+0100" })
+        ]
+    }),
+    new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
+        DBID: i++,
+        ID: "160499-2741",
+        Name: "Mike Hedegaard Johansen",
+        Abbreviation: "MHJ",
+        Gender: 0,
+        Email: "MikeHJohansen@jourrapide.com",
+        TelephoneNumbers: [{ Number: "24956560", Type: "mobile", Primary: true }],
+        Address: "Jomfrustien 48\nDanmark",
+        StaffRoleID: 2,
+        Competences: { AllowedProcedureTypes: [3], AllowedProcedures: [], DisallowedProcedures: [] },
+        WorkPeriod: 4,
+        WorkTimes: [
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T16:00:00", EndTime: "1900-01-01T22:00:00" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 16:00:00 GMT+0100", EndTime: "Tue Jan 02 1900 22:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 16:00:00 GMT+0100", EndTime: "Wed Jan 03 1900 22:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 16:00:00 GMT+0100", EndTime: "Thu Jan 04 1900 22:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 16:00:00 GMT+0100", EndTime: "Fri Jan 05 1900 22:00:00 GMT+0100" })
+        ]
+    }),
+    new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
+        DBID: i++,
+        ID: "130798-1560",
+        Name: "Michelle Johansen",
+        Abbreviation: "MJ",
+        Gender: 1,
+        Email: "MichelleAndreasen@dayrep.com",
+        TelephoneNumbers: [{ Number: "42193880", Type: "mobile", Primary: true }],
+        Address: "Jomfrustien 48\nDanmark",
+        StaffRoleID: 3,
+        Competences: { AllowedProcedureTypes: [], AllowedProcedures: [], DisallowedProcedures: [] },
+        WorkPeriod: 4,
+        WorkTimes: [
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T06:00:00", EndTime: "1900-01-01T20:00:00" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 06:00:00 GMT+0100", EndTime: "Tue Jan 02 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 06:00:00 GMT+0100", EndTime: "Wed Jan 03 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 06:00:00 GMT+0100", EndTime: "Thu Jan 04 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 06:00:00 GMT+0100", EndTime: "Fri Jan 05 1900 14:00:00 GMT+0100" })
+        ]
+    }),
+    new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
+        DBID: i++,
+        ID: "Hersnapvej 35",
+        Name: "Nikolaj Kristiansen",
+        Abbreviation: "NK",
+        Gender: 0,
+        Email: "NikoKrist@clinic.dk",
+        TelephoneNumbers: [{ Number: "27958132", Type: "home", Primary: true }],
+        Address: "Hersnapvej 35\nDanmark",
+        StaffRoleID: 2,
+        Competences: { AllowedProcedureTypes: [1, 2], AllowedProcedures: [], DisallowedProcedures: [] },
+        WorkPeriod: 4,
+        WorkTimes: [
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T06:00:00", EndTime: "1900-01-01T20:00:00" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 06:00:00 GMT+0100", EndTime: "Tue Jan 02 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 06:00:00 GMT+0100", EndTime: "Wed Jan 03 1900 20:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 06:00:00 GMT+0100", EndTime: "Thu Jan 04 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 12:00:00 GMT+0100", EndTime: "Fri Jan 05 1900 20:00:00 GMT+0100" })
+        ]
+    }),
+    new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
+        DBID: i++,
+        ID: "050857-2433",
+        Name: "Sander Steffensen",
+        Abbreviation: "SS",
+        Gender: 0,
+        Email: "SandStef@gmail.com",
+        TelephoneNumbers: [{ Number: "24946909", Type: "mobile", Primary: true }],
+        Address: "Højbovej 47\n1115\nKøbenhavn K\nDanmark",
+        StaffRoleID: 3,
+        Competences: { AllowedProcedureTypes: [], AllowedProcedures: [5], DisallowedProcedures: [] },
+        WorkPeriod: 4,
+        WorkTimes: [
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T08:00:00", EndTime: "1900-01-01T20:00:00" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 08:00:00 GMT+0100", EndTime: "Tue Jan 02 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 08:00:00 GMT+0100", EndTime: "Wed Jan 03 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 08:00:00 GMT+0100", EndTime: "Thu Jan 04 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 08:00:00 GMT+0100", EndTime: "Fri Jan 05 1900 14:00:00 GMT+0100" })
+        ]
+    }),
+    new idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]({
+        DBID: i++,
+        ID: "271258-1606",
+        Name: "Abellona Koch Frederiksen",
+        Abbreviation: "AKF",
+        Gender: 1,
+        Email: "AbellonaKoch23@gmail.com",
+        TelephoneNumbers: [{ Number: "81589492", Type: "mobile", Primary: true }],
+        Address: "Sludevej 67\n1358\nKøbenhavn K\nDanmark",
+        StaffRoleID: 3,
+        Competences: { AllowedProcedureTypes: [], AllowedProcedures: [], DisallowedProcedures: [] },
+        WorkPeriod: 4,
+        WorkTimes: [
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "1900-01-01T08:00:00", EndTime: "1900-01-01T20:00:00" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Tue Jan 02 1900 08:00:00 GMT+0100", EndTime: "Tue Jan 02 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Wed Jan 03 1900 08:00:00 GMT+0100", EndTime: "Wed Jan 03 1900 16:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Thu Jan 04 1900 08:00:00 GMT+0100", EndTime: "Thu Jan 04 1900 14:00:00 GMT+0100" }),
+            new idun_common_models_time_interval__WEBPACK_IMPORTED_MODULE_3__["TimeInterval"]({ StartTime: "Fri Jan 05 1900 08:00:00 GMT+0100", EndTime: "Fri Jan 05 1900 14:00:00 GMT+0100" })
+        ]
+    })
 ];
 _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].loadFromLocalStorage(baseUrl, staffTestData, idun_common_models_staff__WEBPACK_IMPORTED_MODULE_1__["Staff"]);
 var otherResponses = {};
@@ -36474,7 +37005,232 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var baseUrl = "api/treatmentcode/";
-var list = [];
+var list = [
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 1,
+        Title: "Hånd/håndled",
+        Code: "2110",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 2,
+        Title: "Hånd/håndled, følgende behandling",
+        Code: "2210",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 3,
+        Title: "Underarm",
+        Code: "2111",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 4,
+        Title: "Underarm, følgende behandling",
+        Code: "2211",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 5,
+        Title: "Mammografi",
+        Code: "2301",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 6,
+        Title: "Udvidet Mammografi",
+        Code: "2302",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 7,
+        Title: "Røntgenundersøgelse af håndled",
+        Code: "UXRF40",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 8,
+        Title: "Røntgenundersøgelse af os scaphoideum",
+        Code: "UXRF45",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 9,
+        Title: "Røntgenundersøgelse af hånd og fingre",
+        Code: "UXRF50",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 10,
+        Title: "Røntgenundersøgelse af begge hænder",
+        Code: "UXRF51",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 11,
+        Title: "Klinisk mammografi",
+        Code: "UXRC40",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 12,
+        Title: "Mamma tomosyntese, klinisk",
+        Code: "UXRC40A",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 13,
+        Title: "Mammografi, screening",
+        Code: "UXRC45",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 14,
+        Title: "Højresidig",
+        Code: "TUL1",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 15,
+        Title: "Venstresidig",
+        Code: "TUL2",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 16,
+        Title: "Dobbeltsidig",
+        Code: "TUL3",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 112,
+        Title: "Hånd/håndled",
+        Code: "2110",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 21,
+        Title: "Hånd/håndled, følgende behandling",
+        Code: "2210",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 31,
+        Title: "Underarm",
+        Code: "2111",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 41,
+        Title: "Underarm, følgende behandling",
+        Code: "2211",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 51,
+        Title: "Mammografi",
+        Code: "2301",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 161,
+        Title: "Udvidet Mammografi",
+        Code: "2302",
+        Description: "",
+        TreatmentCodeTypeID: 2
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 171,
+        Title: "Røntgenundersøgelse af håndled",
+        Code: "UXRF40",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 181,
+        Title: "Røntgenundersøgelse af os scaphoideum",
+        Code: "UXRF45",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 191,
+        Title: "Røntgenundersøgelse af hånd og fingre",
+        Code: "UXRF50",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 110,
+        Title: "Røntgenundersøgelse af begge hænder",
+        Code: "UXRF51",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 111,
+        Title: "Klinisk mammografi",
+        Code: "UXRC40",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 112,
+        Title: "Mamma tomosyntese, klinisk",
+        Code: "UXRC40A",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 113,
+        Title: "Mammografi, screening",
+        Code: "UXRC45",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 114,
+        Title: "Højresidig",
+        Code: "TUL1",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 31,
+        Title: "Venstresidig",
+        Code: "TUL2",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    }),
+    new idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]({
+        DBID: 32,
+        Title: "Dobbeltsidig",
+        Code: "TUL3",
+        Description: "",
+        TreatmentCodeTypeID: 1
+    })
+];
 _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].loadFromLocalStorage(baseUrl, list, idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"]);
 function TreatmentCodeResponses() {
     return tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, _model_test_data__WEBPACK_IMPORTED_MODULE_2__["ModelTestData"].commonLocalStorageResponses(idun_common_models_treatment_code__WEBPACK_IMPORTED_MODULE_1__["TreatmentCode"], baseUrl, list));
@@ -36536,7 +37292,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var baseUrl = "api/user/";
 var user = {
-    Name: "MISSING_NAME",
+    Name: "Frederik Sun Sørensen",
     FrontendState: JSON.stringify({
         previousPatients: [],
         zoomLevel: 14

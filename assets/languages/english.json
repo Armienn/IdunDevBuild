@@ -391,7 +391,8 @@
 		"refHostButton": "Open RefHost",
 		"webReqButton": "Open WebReq",
 		"sendEdifact": "Send edifact",
-		"cave": "Cave"
+		"cave": "Cave",
+		"filterHistory": "Filter history"
 	},
 	"patientEvent": {},
 	"patientNote": {
